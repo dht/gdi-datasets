@@ -1,0 +1,16 @@
+export const playback = {
+    albumId: '',
+    albumImages: [],
+    albumName: '',
+    albumReleaseDate: '',
+    artistId: '',
+    artistName: '',
+    deviceId: '',
+    isPlaying: false,
+    repeat: 'off',
+    shuffle: false,
+    songId: '',
+    songTitle: '',
+    volume: 75,
+    lastActionTs: 0,
+};

@@ -1,0 +1,80 @@
+export const instances = {
+    'home-userBar-simple-1': {
+        id: 'home-userBar-simple-1',
+        widgetId: 'com.usegdi.templates.basic.userBar-simple',
+        pageInstanceId: 'home',
+        order: 1,
+    },
+    'home-hero-simple-1': {
+        id: 'home-hero-simple-1',
+        widgetId: 'com.usegdi.templates.basic.hero-simple',
+        pageInstanceId: 'home',
+        order: 2,
+    },
+    'home-sectionHeader-simple-1': {
+        id: 'home-sectionHeader-simple-1',
+        widgetId: 'com.usegdi.templates.basic.sectionHeader-simple',
+        pageInstanceId: 'home',
+        order: 3,
+    },
+    'home-installation-simple-1': {
+        id: 'home-installation-simple-1',
+        widgetId: 'com.usegdi.templates.basic.installation-simple',
+        pageInstanceId: 'home',
+        order: 4,
+    },
+    'home-sectionHeader-simple-2': {
+        id: 'home-sectionHeader-simple-2',
+        widgetId: 'com.usegdi.templates.basic.sectionHeader-simple',
+        pageInstanceId: 'home',
+        order: 5,
+    },
+    'home-feature-simple-1': {
+        id: 'home-feature-simple-1',
+        widgetId: 'com.usegdi.templates.basic.feature-simple',
+        pageInstanceId: 'home',
+        order: 6,
+    },
+    'home-feature-simple-2': {
+        id: 'home-feature-simple-2',
+        widgetId: 'com.usegdi.templates.basic.feature-simple',
+        pageInstanceId: 'home',
+        order: 7,
+    },
+    'home-feature-simple-3': {
+        id: 'home-feature-simple-3',
+        widgetId: 'com.usegdi.templates.basic.feature-simple',
+        pageInstanceId: 'home',
+        order: 8,
+    },
+    'home-feature-simple-4': {
+        id: 'home-feature-simple-4',
+        widgetId: 'com.usegdi.templates.basic.feature-simple',
+        pageInstanceId: 'home',
+        order: 9,
+    },
+    'home-lineCta-simple-1': {
+        id: 'home-lineCta-simple-1',
+        widgetId: 'com.usegdi.templates.basic.lineCta-simple',
+        pageInstanceId: 'home',
+        order: 10,
+    },
+    'home-sectionHeader-simple-3': {
+        id: 'home-sectionHeader-simple-3',
+        widgetId: 'com.usegdi.templates.basic.sectionHeader-simple',
+        pageInstanceId: 'home',
+        order: 11,
+    },
+    'home-imageAndText-simple-1': {
+        id: 'home-imageAndText-simple-1',
+        widgetId: 'com.usegdi.templates.basic.imageAndText-simple',
+        pageInstanceId: 'home',
+        order: 12,
+    },
+    'home-footer-simple-1': {
+        id: 'home-footer-simple-1',
+        widgetId: 'com.usegdi.templates.basic.footer-simple',
+        pageInstanceId: 'home',
+        order: 13,
+    },
+};

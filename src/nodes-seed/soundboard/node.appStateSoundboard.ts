@@ -1,0 +1,17 @@
+export const appStateSoundboard = {
+    stateKey: 'soundboard',
+    selectedProjectKey: '',
+    hoverDate: '',
+    hoverWeek: '',
+    periodMode: 'byWeeks',
+    charMode: 'all',
+    startYear: 2022,
+    startWeek: 42,
+    quarter: 1,
+    week: 42,
+    day: 0,
+    year: 2022,
+    dailyHours: 12.75,
+    weeklyHours: 89.25,
+    quarterlyHours: 1160.25,
+};
