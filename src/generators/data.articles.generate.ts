@@ -1,40 +1,30 @@
-const fs = require('fs');
-const { faker } = require('@faker-js/faker');
+import { faker } from '@faker-js/faker';
+import { generateMany } from '../utils/generate';
+import { writeData } from '../utils/code';
 
 const run = async () => {
     let items;
 
-    items = generateMany(300);
+    items = generateMany(3, generateOne);
 
-    fs.writeFileSync(
-        './data.articles.ts',
-        'export const articles = ' + JSON.stringify(items, null, 4)
+    writeData(
+        'articles', //
+        items,
+        '../nodes-seed/factory/node.articles.ts'
     );
 };
 
-const generateMany = (count) => {
-    const items = {};
-
-    [...new Array(count)].map((_i, index) => {
-        const item = generate(index);
-        items[item.id] = item;
-    });
-
-    return items;
-};
-
-const tags = ['nature', 'geek', 'background', 'team', 'friend', 'people'];
-
-const generate = (index) => {
+const generateOne = (index: number) => {
     const id = String(index + 1);
 
-    const width = rnd(800, 1600);
-    const height = rnd(500, 1200);
+    const width = faker.datatype.number({ min: 800, max: 1600 });
+    const height = faker.datatype.number({ min: 500, max: 1200 });
 
     const ratio = width / height;
 
     const widthThumb = 200;
     const heightThumb = Math.floor(200 / ratio);
+    const tags = ['nature', 'geek', 'background', 'team', 'friend', 'people'];
 
     return {
         id,
@@ -44,7 +34,6 @@ const generate = (index) => {
         ratio: width / height,
         imageDescription: faker.lorem.paragraph(),
         imageSource: faker.company.name(),
-        title: faker.lorem.sentence(),
         authorName: faker.name.fullName(),
         publishDate: faker.date.recent(),
         lastPublishDate: faker.date.recent(),
@@ -66,7 +55,5 @@ const generate = (index) => {
         wordCount: faker.datatype.number(1000),
     };
 };
-
-const rnd = (min, max) => Math.floor(min + Math.random() * (max - min));
 
 run();

@@ -5,4 +5,5 @@ export const appStateMixer = {
     paletteId: 'green',
     showImageUploadModal: false,
     showPlayModeMessage: false,
+    showMixerTree: false,
 };

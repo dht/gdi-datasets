@@ -1,35 +1,26 @@
-const fs = require('fs');
-const { faker } = require('@faker-js/faker');
+import { faker } from '@faker-js/faker';
+import { generateMany } from '../utils/generate';
+import { writeData } from '../utils/code';
 
 const run = async () => {
     let items;
 
-    items = generateMany(30);
+    items = generateMany(30, generateOne);
 
-    fs.writeFileSync(
-        './data.images.ts',
-        'export const libraryImages = ' + JSON.stringify(items, null, 4)
+    writeData(
+        'libraryImages',
+        items,
+        '../nodes-seed/mixer/node.libraryImages.ts'
     );
-};
-
-const generateMany = (count) => {
-    const items = {};
-
-    [...new Array(count)].map((_i, index) => {
-        const item = generate(index);
-        items[item.id] = item;
-    });
-
-    return items;
 };
 
 const tags = ['nature', 'geek', 'background', 'team', 'friend', 'people'];
 
-export const generate = (index) => {
+export const generateOne = (index: number) => {
     const id = String(index + 1);
 
-    const width = rnd(800, 1600);
-    const height = rnd(500, 1200);
+    const width = faker.datatype.number({ min: 800, max: 1600 });
+    const height = faker.datatype.number({ min: 500, max: 1200 });
 
     const ratio = width / height;
 
@@ -47,7 +38,5 @@ export const generate = (index) => {
         isTemporary: faker.datatype.number({ min: 0, max: 10 }) < 2,
     };
 };
-
-const rnd = (min, max) => Math.floor(min + Math.random() * (max - min));
 
 run();

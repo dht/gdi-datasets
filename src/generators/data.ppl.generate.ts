@@ -1,32 +1,23 @@
-const fs = require('fs');
-const { faker } = require('@faker-js/faker');
+import { faker } from '@faker-js/faker';
+import { generateMany } from '../utils/generate';
+import { writeData } from '../utils/code';
 
 const run = async () => {
     let items;
 
-    items = generateMany(30);
+    items = generateMany(3, generateOne);
 
-    fs.writeFileSync(
-        './data.images.ts',
-        'export const ppl = ' + JSON.stringify(items, null, 4)
+    writeData(
+        'persons', //
+        items,
+        '../nodes-seed/ppl/node.persons.ts'
     );
 };
 
-const generateMany = (count) => {
-    const items = {};
+export const generateOne = (index: number) => {
+    const url = (domain: string) => `https://${domain}/${faker.datatype.uuid()}`; // prettier-ignore
+    const randomClear = (value: string, percent: number) => percent > Math.random() ? '' : value; // prettier-ignore
 
-    [...new Array(count)].map((_i, index) => {
-        const item = generate(index);
-        items[item.id] = item;
-    });
-
-    return items;
-};
-
-const url = (domain) => `https://${domain}/${faker.datatype.uuid()}`;
-const randomClear = (value, percent) => percent > Math.random() ? '' : value; // prettier-ignore
-
-export const generate = (index) => {
     const id = String(index + 1);
     const number = faker.datatype.number({ min: 1, max: 1000 });
     const firstName = faker.name.firstName();

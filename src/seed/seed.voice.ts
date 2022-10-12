@@ -1,7 +1,11 @@
-import { state } from './state';
+import { appStateVoice } from '../nodes-seed/voice/node.appStateVoice';
 import { seed } from '@gdi/store-seeder';
 
-const nodeTypes = {
+const state = {
+    appStateVoice,
+};
+
+const nodeTypes: Record<string, NodeType> = {
     appStateVoice: 'single',
 };
 

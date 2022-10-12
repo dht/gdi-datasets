@@ -1,7 +1,13 @@
-import { state } from './state';
+import { appStateEvents } from '../nodes-seed/events/node.appStateEvents';
+import { events } from '../nodes-seed/events/node.events';
 import { seed } from '@gdi/store-seeder';
 
-const nodeTypes = {
+const state = {
+    appStateEvents,
+    events,
+};
+
+const nodeTypes: Record<string, NodeType> = {
     appStateEvents: 'single',
     events: 'collection',
 };

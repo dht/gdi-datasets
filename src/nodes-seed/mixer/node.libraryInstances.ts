@@ -1,4 +1,4 @@
-export const instances = {
+export const libraryInstances = {
     'home-userBar-simple-1': {
         id: 'home-userBar-simple-1',
         widgetId: 'com.usegdi.templates.basic.userBar-simple',

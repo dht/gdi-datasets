@@ -1,7 +1,21 @@
-import { state } from './state';
+import { appStateTasks } from '../nodes-seed/tasks/node.appStateTasks';
+import { projects } from '../nodes-seed/tasks/node.projects';
+import { recentSessions } from '../nodes-seed/tasks/node.recentSessions';
+import { sessions } from '../nodes-seed/tasks/node.sessions';
+import { tickets } from '../nodes-seed/tasks/node.tickets';
+import { worklogs } from '../nodes-seed/tasks/node.worklogs';
 import { seed } from '@gdi/store-seeder';
 
-const nodeTypes = {
+const state = {
+    appStateTasks,
+    projects,
+    recentSessions,
+    sessions,
+    tickets,
+    worklogs,
+};
+
+const nodeTypes: Record<String, NodeType> = {
     appStateTasks: 'single',
     worklogs: 'collection',
     recentSessions: 'collection',

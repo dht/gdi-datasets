@@ -1,0 +1,314 @@
+rules_version = '2';
+service cloud.firestore {
+    match /databases/{database}/documents {  	
+
+        // match /{document=**} {
+        //    allow read: if true;
+        //    allow write: if isAdmin();
+        // }
+        
+        // match /{document=**} {
+        //    allow read: if isAdmin();
+        //    allow write: if isAdmin();
+        // }
+
+        function isAdmin() {
+            return get(/databases/$(database)/documents/roles/$(request.auth.uid)).data.role == "admin";
+        }
+        
+        match /singles/{name} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();    
+        }
+
+        match /actualManas/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /articleCategories/{document=**} {
+            allow read: if true;
+            allow write: if isAdmin();
+        }
+
+        match /articles/{document=**} {
+            allow read: if true;
+            allow write: if isAdmin();
+        }
+
+        match /assets/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /boards/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /breakpoints/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /buildings/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /cameras/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /events/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /expectedManas/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /grounds/{document=**} {
+            allow read: if true;
+            allow write: if isAdmin();
+        }
+
+        match /highlights/{document=**} {
+            allow read: if true;
+            allow write: if isAdmin();
+        }
+
+        match /images/{document=**} {
+            allow read: if true;
+            allow write: if isAdmin();
+        }
+
+        match /instancesProps/{document=**} {
+            allow read: if true;
+            allow write: if isAdmin();
+        }
+
+        match /instances/{document=**} {
+            allow read: if true;
+            allow write: if isAdmin();
+        }
+
+        match /interestingReads/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /layouts/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /libraryImages/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /libraryPages/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /libraryPageInstances/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /libraryInstancesProps/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /libraryPalettes/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /libraryTypography/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /libraryWidgets/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /linkCategories/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /links/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /lights/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /locales/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /me/{document=**} {
+            allow read: if true;
+            allow write: if isAdmin();
+        }
+
+        match /moneyBehaviors/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /moneyLines/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /nodes/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /pageInstances/{document=**} {
+            allow read: if true;
+            allow write: if isAdmin();
+        }
+
+        match /pages/{document=**} {
+            allow read: if true;
+            allow write: if isAdmin();
+        }
+
+        match /particles/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /playback/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /persons/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /posts/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /postAuthors/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /projects/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /readCategories/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /recentSessions/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /roles/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /sales/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /scheduleBlocks/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /scheduleItems/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /scheduleSessions/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /sessions/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /stores/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /studioItems/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /things/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /tickets/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /users/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /weatherDailyItems/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /weatherHourlyItems/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /weatherLocations/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /widgets/{document=**} {
+            allow read: if true;
+            allow write: if isAdmin();
+        }
+
+        match /worklogs/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+    }
+}
