@@ -8,6 +8,9 @@ import { lights } from '../nodes-seed/studio/node.lights';
 import { particles } from '../nodes-seed/studio/node.particles';
 import { studioItems } from '../nodes-seed/studio/node.studioItems';
 import { seed } from '@gdi/store-seeder';
+import { initFirebase } from '../utils/firestore';
+
+initFirebase();
 
 const state = {
     appStateStudio,

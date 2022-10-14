@@ -2,6 +2,9 @@ import { appStateSpotify } from '../nodes-seed/spotify/node.appStateSpotify';
 import { playback } from '../nodes-seed/spotify/node.playback';
 import { spotifyMe } from '../nodes-seed/spotify/node.spotifyMe';
 import { seed } from '@gdi/store-seeder';
+import { initFirebase } from '../utils/firestore';
+
+initFirebase();
 
 const state = {
     appStateSpotify,

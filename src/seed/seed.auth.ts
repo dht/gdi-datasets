@@ -3,6 +3,9 @@ import { me } from '../nodes-seed/auth/node.me';
 import { roles } from '../nodes-seed/auth/node.roles';
 import { users } from '../nodes-seed/auth/node.users';
 import { seed } from '@gdi/store-seeder';
+import { initFirebase } from '../utils/firestore';
+
+initFirebase();
 
 const state = {
     authState,

@@ -5,6 +5,9 @@ import { sessions } from '../nodes-seed/tasks/node.sessions';
 import { tickets } from '../nodes-seed/tasks/node.tickets';
 import { worklogs } from '../nodes-seed/tasks/node.worklogs';
 import { seed } from '@gdi/store-seeder';
+import { initFirebase } from '../utils/firestore';
+
+initFirebase();
 
 const state = {
     appStateTasks,

@@ -59,12 +59,12 @@
         "libraryInstanceId": ""
     },
     "libraryWidgets": {
-        "com.usegdi.templates.basic.feature-simple": {
-            "id": "com.usegdi.templates.basic.feature-simple",
+        "com.usegdi.templates.starter.feature-simple": {
+            "id": "com.usegdi.templates.starter.feature-simple",
             "name": "feature-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.feature-simple",
+                "id": "com.usegdi.templates.starter.feature-simple",
                 "schema": {
                     "strings": {
                         "slogan": {
@@ -233,12 +233,12 @@
             },
             "tags": ["type-feature"]
         },
-        "com.usegdi.templates.basic.footer-simple": {
-            "id": "com.usegdi.templates.basic.footer-simple",
+        "com.usegdi.templates.starter.footer-simple": {
+            "id": "com.usegdi.templates.starter.footer-simple",
             "name": "footer-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.footer-simple",
+                "id": "com.usegdi.templates.starter.footer-simple",
                 "schema": {
                     "strings": {
                         "copyright": {
@@ -313,12 +313,12 @@
             },
             "tags": ["type-footer"]
         },
-        "com.usegdi.templates.basic.hero-simple": {
-            "id": "com.usegdi.templates.basic.hero-simple",
+        "com.usegdi.templates.starter.hero-simple": {
+            "id": "com.usegdi.templates.starter.hero-simple",
             "name": "hero-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.hero-simple",
+                "id": "com.usegdi.templates.starter.hero-simple",
                 "schema": {
                     "strings": {
                         "slogan": {
@@ -515,12 +515,12 @@
             },
             "tags": ["type-hero"]
         },
-        "com.usegdi.templates.basic.imageAndText-simple": {
-            "id": "com.usegdi.templates.basic.imageAndText-simple",
+        "com.usegdi.templates.starter.imageAndText-simple": {
+            "id": "com.usegdi.templates.starter.imageAndText-simple",
             "name": "imageAndText-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.imageAndText-simple",
+                "id": "com.usegdi.templates.starter.imageAndText-simple",
                 "schema": {
                     "strings": {
                         "slogan": {
@@ -633,12 +633,12 @@
             },
             "tags": ["type-imageAndText"]
         },
-        "com.usegdi.templates.basic.installation-simple": {
-            "id": "com.usegdi.templates.basic.installation-simple",
+        "com.usegdi.templates.starter.installation-simple": {
+            "id": "com.usegdi.templates.starter.installation-simple",
             "name": "installation-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.installation-simple",
+                "id": "com.usegdi.templates.starter.installation-simple",
                 "schema": {
                     "strings": {
                         "command": {
@@ -744,12 +744,12 @@
             },
             "tags": ["type-installation"]
         },
-        "com.usegdi.templates.basic.lineCta-simple": {
-            "id": "com.usegdi.templates.basic.lineCta-simple",
+        "com.usegdi.templates.starter.lineCta-simple": {
+            "id": "com.usegdi.templates.starter.lineCta-simple",
             "name": "lineCta-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.lineCta-simple",
+                "id": "com.usegdi.templates.starter.lineCta-simple",
                 "schema": {
                     "strings": {
                         "textStrong": {
@@ -852,12 +852,12 @@
             },
             "tags": ["type-lineCta"]
         },
-        "com.usegdi.templates.basic.sectionHeader-simple": {
-            "id": "com.usegdi.templates.basic.sectionHeader-simple",
+        "com.usegdi.templates.starter.sectionHeader-simple": {
+            "id": "com.usegdi.templates.starter.sectionHeader-simple",
             "name": "sectionHeader-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.sectionHeader-simple",
+                "id": "com.usegdi.templates.starter.sectionHeader-simple",
                 "schema": {
                     "strings": {
                         "text": {
@@ -942,12 +942,12 @@
             },
             "tags": ["type-sectionHeader"]
         },
-        "com.usegdi.templates.basic.userBar-simple": {
-            "id": "com.usegdi.templates.basic.userBar-simple",
+        "com.usegdi.templates.starter.userBar-simple": {
+            "id": "com.usegdi.templates.starter.userBar-simple",
             "name": "userBar-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.userBar-simple",
+                "id": "com.usegdi.templates.starter.userBar-simple",
                 "schema": {
                     "strings": {},
                     "colors": {
@@ -1729,79 +1729,79 @@
     "instances": {
         "home-userBar-simple-1": {
             "id": "home-userBar-simple-1",
-            "widgetId": "com.usegdi.templates.basic.userBar-simple",
+            "widgetId": "com.usegdi.templates.starter.userBar-simple",
             "pageId": "home",
             "order": 1
         },
         "home-hero-simple-1": {
             "id": "home-hero-simple-1",
-            "widgetId": "com.usegdi.templates.basic.hero-simple",
+            "widgetId": "com.usegdi.templates.starter.hero-simple",
             "pageId": "home",
             "order": 2
         },
         "home-sectionHeader-simple-1": {
             "id": "home-sectionHeader-simple-1",
-            "widgetId": "com.usegdi.templates.basic.sectionHeader-simple",
+            "widgetId": "com.usegdi.templates.starter.sectionHeader-simple",
             "pageId": "home",
             "order": 3
         },
         "home-installation-simple-1": {
             "id": "home-installation-simple-1",
-            "widgetId": "com.usegdi.templates.basic.installation-simple",
+            "widgetId": "com.usegdi.templates.starter.installation-simple",
             "pageId": "home",
             "order": 4
         },
         "home-sectionHeader-simple-2": {
             "id": "home-sectionHeader-simple-2",
-            "widgetId": "com.usegdi.templates.basic.sectionHeader-simple",
+            "widgetId": "com.usegdi.templates.starter.sectionHeader-simple",
             "pageId": "home",
             "order": 5
         },
         "home-feature-simple-1": {
             "id": "home-feature-simple-1",
-            "widgetId": "com.usegdi.templates.basic.feature-simple",
+            "widgetId": "com.usegdi.templates.starter.feature-simple",
             "pageId": "home",
             "order": 6
         },
         "home-feature-simple-2": {
             "id": "home-feature-simple-2",
-            "widgetId": "com.usegdi.templates.basic.feature-simple",
+            "widgetId": "com.usegdi.templates.starter.feature-simple",
             "pageId": "home",
             "order": 7
         },
         "home-feature-simple-3": {
             "id": "home-feature-simple-3",
-            "widgetId": "com.usegdi.templates.basic.feature-simple",
+            "widgetId": "com.usegdi.templates.starter.feature-simple",
             "pageId": "home",
             "order": 8
         },
         "home-feature-simple-4": {
             "id": "home-feature-simple-4",
-            "widgetId": "com.usegdi.templates.basic.feature-simple",
+            "widgetId": "com.usegdi.templates.starter.feature-simple",
             "pageId": "home",
             "order": 9
         },
         "home-lineCta-simple-1": {
             "id": "home-lineCta-simple-1",
-            "widgetId": "com.usegdi.templates.basic.lineCta-simple",
+            "widgetId": "com.usegdi.templates.starter.lineCta-simple",
             "pageId": "home",
             "order": 10
         },
         "home-sectionHeader-simple-3": {
             "id": "home-sectionHeader-simple-3",
-            "widgetId": "com.usegdi.templates.basic.sectionHeader-simple",
+            "widgetId": "com.usegdi.templates.starter.sectionHeader-simple",
             "pageId": "home",
             "order": 11
         },
         "home-imageAndText-simple-1": {
             "id": "home-imageAndText-simple-1",
-            "widgetId": "com.usegdi.templates.basic.imageAndText-simple",
+            "widgetId": "com.usegdi.templates.starter.imageAndText-simple",
             "pageId": "home",
             "order": 12
         },
         "home-footer-simple-1": {
             "id": "home-footer-simple-1",
-            "widgetId": "com.usegdi.templates.basic.footer-simple",
+            "widgetId": "com.usegdi.templates.starter.footer-simple",
             "pageId": "home",
             "order": 13
         }
@@ -1830,12 +1830,12 @@
         "isRtl": false
     },
     "widgets": {
-        "com.usegdi.templates.basic.feature-simple": {
-            "id": "com.usegdi.templates.basic.feature-simple",
+        "com.usegdi.templates.starter.feature-simple": {
+            "id": "com.usegdi.templates.starter.feature-simple",
             "name": "feature-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.feature-simple",
+                "id": "com.usegdi.templates.starter.feature-simple",
                 "schema": {
                     "strings": {
                         "slogan": {
@@ -2004,12 +2004,12 @@
             },
             "tags": ["type-feature"]
         },
-        "com.usegdi.templates.basic.footer-simple": {
-            "id": "com.usegdi.templates.basic.footer-simple",
+        "com.usegdi.templates.starter.footer-simple": {
+            "id": "com.usegdi.templates.starter.footer-simple",
             "name": "footer-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.footer-simple",
+                "id": "com.usegdi.templates.starter.footer-simple",
                 "schema": {
                     "strings": {
                         "copyright": {
@@ -2084,12 +2084,12 @@
             },
             "tags": ["type-footer"]
         },
-        "com.usegdi.templates.basic.hero-simple": {
-            "id": "com.usegdi.templates.basic.hero-simple",
+        "com.usegdi.templates.starter.hero-simple": {
+            "id": "com.usegdi.templates.starter.hero-simple",
             "name": "hero-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.hero-simple",
+                "id": "com.usegdi.templates.starter.hero-simple",
                 "schema": {
                     "strings": {
                         "slogan": {
@@ -2286,12 +2286,12 @@
             },
             "tags": ["type-hero"]
         },
-        "com.usegdi.templates.basic.imageAndText-simple": {
-            "id": "com.usegdi.templates.basic.imageAndText-simple",
+        "com.usegdi.templates.starter.imageAndText-simple": {
+            "id": "com.usegdi.templates.starter.imageAndText-simple",
             "name": "imageAndText-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.imageAndText-simple",
+                "id": "com.usegdi.templates.starter.imageAndText-simple",
                 "schema": {
                     "strings": {
                         "slogan": {
@@ -2404,12 +2404,12 @@
             },
             "tags": ["type-imageAndText"]
         },
-        "com.usegdi.templates.basic.installation-simple": {
-            "id": "com.usegdi.templates.basic.installation-simple",
+        "com.usegdi.templates.starter.installation-simple": {
+            "id": "com.usegdi.templates.starter.installation-simple",
             "name": "installation-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.installation-simple",
+                "id": "com.usegdi.templates.starter.installation-simple",
                 "schema": {
                     "strings": {
                         "command": {
@@ -2515,12 +2515,12 @@
             },
             "tags": ["type-installation"]
         },
-        "com.usegdi.templates.basic.lineCta-simple": {
-            "id": "com.usegdi.templates.basic.lineCta-simple",
+        "com.usegdi.templates.starter.lineCta-simple": {
+            "id": "com.usegdi.templates.starter.lineCta-simple",
             "name": "lineCta-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.lineCta-simple",
+                "id": "com.usegdi.templates.starter.lineCta-simple",
                 "schema": {
                     "strings": {
                         "textStrong": {
@@ -2623,12 +2623,12 @@
             },
             "tags": ["type-lineCta"]
         },
-        "com.usegdi.templates.basic.sectionHeader-simple": {
-            "id": "com.usegdi.templates.basic.sectionHeader-simple",
+        "com.usegdi.templates.starter.sectionHeader-simple": {
+            "id": "com.usegdi.templates.starter.sectionHeader-simple",
             "name": "sectionHeader-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.sectionHeader-simple",
+                "id": "com.usegdi.templates.starter.sectionHeader-simple",
                 "schema": {
                     "strings": {
                         "text": {
@@ -2713,12 +2713,12 @@
             },
             "tags": ["type-sectionHeader"]
         },
-        "com.usegdi.templates.basic.userBar-simple": {
-            "id": "com.usegdi.templates.basic.userBar-simple",
+        "com.usegdi.templates.starter.userBar-simple": {
+            "id": "com.usegdi.templates.starter.userBar-simple",
             "name": "userBar-simple",
             "description": "",
             "params": {
-                "id": "com.usegdi.templates.basic.userBar-simple",
+                "id": "com.usegdi.templates.starter.userBar-simple",
                 "schema": {
                     "strings": {},
                     "colors": {

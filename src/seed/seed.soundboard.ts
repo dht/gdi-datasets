@@ -5,6 +5,9 @@ import { expectedManas } from '../nodes-seed/soundboard/node.expectedManas';
 import { scheduleBlocks } from '../nodes-seed/soundboard/node.scheduleBlocks';
 import { scheduleSessions } from '../nodes-seed/soundboard/node.scheduleSessions';
 import { seed } from '@gdi/store-seeder';
+import { initFirebase } from '../utils/firestore';
+
+initFirebase();
 
 const state = {
     actualManas,

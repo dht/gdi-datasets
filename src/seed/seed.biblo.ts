@@ -1,8 +1,10 @@
 import { appStateBiblo } from '../nodes-seed/biblo/node.appStateBiblo';
 import { interestingReads } from '../nodes-seed/biblo/node.interestingReads';
 import { readCategories } from '../nodes-seed/biblo/node.readCategories';
-
 import { seed } from '@gdi/store-seeder';
+import { initFirebase } from '../utils/firestore';
+
+initFirebase();
 
 const state = {
     appStateBiblo,

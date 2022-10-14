@@ -61,12 +61,12 @@ export const initialData: Json = {
         fieldId: '',
     },
     libraryWidgets: {
-        'com.usegdi.templates.basic.feature-simple': {
-            id: 'com.usegdi.templates.basic.feature-simple',
-            name: 'feature-simple',
+        'com.usegdi.templates.starter.feature-simple': {
+            id: 'com.usegdi.templates.starter.feature-basic',
+            name: 'feature-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.feature-simple',
+                id: 'com.usegdi.templates.starter.feature-basic',
                 schema: {
                     strings: {
                         slogan: {
@@ -238,12 +238,12 @@ export const initialData: Json = {
             tags: ['type-feature'],
             widgetType: 'feature',
         },
-        'com.usegdi.templates.basic.footer-simple': {
-            id: 'com.usegdi.templates.basic.footer-simple',
-            name: 'footer-simple',
+        'com.usegdi.templates.starter.footer-simple': {
+            id: 'com.usegdi.templates.starter.footer-basic',
+            name: 'footer-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.footer-simple',
+                id: 'com.usegdi.templates.starter.footer-basic',
                 schema: {
                     strings: {
                         copyright: {
@@ -319,12 +319,12 @@ export const initialData: Json = {
             tags: ['type-footer'],
             widgetType: 'footer',
         },
-        'com.usegdi.templates.basic.hero-simple': {
-            id: 'com.usegdi.templates.basic.hero-simple',
-            name: 'hero-simple',
+        'com.usegdi.templates.starter.hero-simple': {
+            id: 'com.usegdi.templates.starter.hero-basic',
+            name: 'hero-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.hero-simple',
+                id: 'com.usegdi.templates.starter.hero-basic',
                 schema: {
                     strings: {
                         slogan: {
@@ -524,12 +524,12 @@ export const initialData: Json = {
             tags: ['type-hero'],
             widgetType: 'hero',
         },
-        'com.usegdi.templates.basic.imageAndText-simple': {
-            id: 'com.usegdi.templates.basic.imageAndText-simple',
-            name: 'imageAndText-simple',
+        'com.usegdi.templates.starter.imageAndText-simple': {
+            id: 'com.usegdi.templates.starter.imageAndText-basic',
+            name: 'imageAndText-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.imageAndText-simple',
+                id: 'com.usegdi.templates.starter.imageAndText-basic',
                 schema: {
                     strings: {
                         slogan: {
@@ -644,12 +644,12 @@ export const initialData: Json = {
             },
             tags: ['type-imageAndText'],
         },
-        'com.usegdi.templates.basic.installation-simple': {
-            id: 'com.usegdi.templates.basic.installation-simple',
-            name: 'installation-simple',
+        'com.usegdi.templates.starter.installation-simple': {
+            id: 'com.usegdi.templates.starter.installation-basic',
+            name: 'installation-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.installation-simple',
+                id: 'com.usegdi.templates.starter.installation-basic',
                 schema: {
                     strings: {
                         command: {
@@ -755,12 +755,12 @@ export const initialData: Json = {
             },
             tags: ['type-installation'],
         },
-        'com.usegdi.templates.basic.lineCta-simple': {
-            id: 'com.usegdi.templates.basic.lineCta-simple',
-            name: 'lineCta-simple',
+        'com.usegdi.templates.starter.lineCta-simple': {
+            id: 'com.usegdi.templates.starter.lineCta-basic',
+            name: 'lineCta-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.lineCta-simple',
+                id: 'com.usegdi.templates.starter.lineCta-basic',
                 schema: {
                     strings: {
                         textStrong: {
@@ -863,12 +863,12 @@ export const initialData: Json = {
             },
             tags: ['type-lineCta'],
         },
-        'com.usegdi.templates.basic.sectionHeader-simple': {
-            id: 'com.usegdi.templates.basic.sectionHeader-simple',
-            name: 'sectionHeader-simple',
+        'com.usegdi.templates.starter.sectionHeader-simple': {
+            id: 'com.usegdi.templates.starter.sectionHeader-basic',
+            name: 'sectionHeader-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.sectionHeader-simple',
+                id: 'com.usegdi.templates.starter.sectionHeader-basic',
                 schema: {
                     strings: {
                         text: {
@@ -953,12 +953,12 @@ export const initialData: Json = {
             },
             tags: ['type-sectionHeader'],
         },
-        'com.usegdi.templates.basic.userBar-simple': {
-            id: 'com.usegdi.templates.basic.userBar-simple',
-            name: 'userBar-simple',
+        'com.usegdi.templates.starter.userBar-simple': {
+            id: 'com.usegdi.templates.starter.userBar-basic',
+            name: 'userBar-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.userBar-simple',
+                id: 'com.usegdi.templates.starter.userBar-basic',
                 schema: {
                     strings: {},
                     colors: {
@@ -1061,11 +1061,11 @@ export const initialData: Json = {
             tags: ['type-userBar'],
         },
         'com.usegdi.templates.minimalist.feature-simple': {
-            id: 'com.usegdi.templates.minimalist.feature-simple',
-            name: 'feature-simple',
+            id: 'com.usegdi.templates.minimalist.feature-basic',
+            name: 'feature-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.minimalist.feature-simple',
+                id: 'com.usegdi.templates.minimalist.feature-basic',
                 schema: {
                     strings: {
                         slogan: {
@@ -1184,11 +1184,11 @@ export const initialData: Json = {
             tags: ['type-feature'],
         },
         'com.usegdi.templates.minimalist.footer-simple': {
-            id: 'com.usegdi.templates.minimalist.footer-simple',
-            name: 'footer-simple',
+            id: 'com.usegdi.templates.minimalist.footer-basic',
+            name: 'footer-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.minimalist.footer-simple',
+                id: 'com.usegdi.templates.minimalist.footer-basic',
                 schema: {
                     strings: {
                         copyright: {
@@ -1264,11 +1264,11 @@ export const initialData: Json = {
             tags: ['type-footer'],
         },
         'com.usegdi.templates.minimalist.hero-simple': {
-            id: 'com.usegdi.templates.minimalist.hero-simple',
-            name: 'hero-simple',
+            id: 'com.usegdi.templates.minimalist.hero-basic',
+            name: 'hero-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.minimalist.hero-simple',
+                id: 'com.usegdi.templates.minimalist.hero-basic',
                 schema: {
                     strings: {
                         slogan: {
@@ -1412,11 +1412,11 @@ export const initialData: Json = {
             tags: ['type-hero'],
         },
         'com.usegdi.templates.minimalist.imageAndText-simple': {
-            id: 'com.usegdi.templates.minimalist.imageAndText-simple',
-            name: 'imageAndText-simple',
+            id: 'com.usegdi.templates.minimalist.imageAndText-basic',
+            name: 'imageAndText-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.minimalist.imageAndText-simple',
+                id: 'com.usegdi.templates.minimalist.imageAndText-basic',
                 schema: {
                     strings: {
                         slogan: {
@@ -1532,11 +1532,11 @@ export const initialData: Json = {
             tags: ['type-imageAndText'],
         },
         'com.usegdi.templates.blog.hero-simple': {
-            id: 'com.usegdi.templates.blog.hero-simple',
-            name: 'hero-simple',
+            id: 'com.usegdi.templates.blog.hero-basic',
+            name: 'hero-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.blog.hero-simple',
+                id: 'com.usegdi.templates.blog.hero-basic',
                 schema: {
                     strings: {
                         slogan: {
@@ -1747,79 +1747,79 @@ export const initialData: Json = {
     instances: {
         'home-userBar-simple-1': {
             id: 'home-userBar-simple-1',
-            widgetId: 'com.usegdi.templates.basic.userBar-simple',
+            widgetId: 'com.usegdi.templates.starter.userBar-basic',
             pageInstanceId: 'home',
             order: 1,
         },
         'home-hero-simple-1': {
             id: 'home-hero-simple-1',
-            widgetId: 'com.usegdi.templates.basic.hero-simple',
+            widgetId: 'com.usegdi.templates.starter.hero-basic',
             pageInstanceId: 'home',
             order: 2,
         },
         'home-sectionHeader-simple-1': {
             id: 'home-sectionHeader-simple-1',
-            widgetId: 'com.usegdi.templates.basic.sectionHeader-simple',
+            widgetId: 'com.usegdi.templates.starter.sectionHeader-basic',
             pageInstanceId: 'home',
             order: 3,
         },
         'home-installation-simple-1': {
             id: 'home-installation-simple-1',
-            widgetId: 'com.usegdi.templates.basic.installation-simple',
+            widgetId: 'com.usegdi.templates.starter.installation-basic',
             pageInstanceId: 'home',
             order: 4,
         },
         'home-sectionHeader-simple-2': {
             id: 'home-sectionHeader-simple-2',
-            widgetId: 'com.usegdi.templates.basic.sectionHeader-simple',
+            widgetId: 'com.usegdi.templates.starter.sectionHeader-basic',
             pageInstanceId: 'home',
             order: 5,
         },
         'home-feature-simple-1': {
             id: 'home-feature-simple-1',
-            widgetId: 'com.usegdi.templates.basic.feature-simple',
+            widgetId: 'com.usegdi.templates.starter.feature-basic',
             pageInstanceId: 'home',
             order: 6,
         },
         'home-feature-simple-2': {
             id: 'home-feature-simple-2',
-            widgetId: 'com.usegdi.templates.basic.feature-simple',
+            widgetId: 'com.usegdi.templates.starter.feature-basic',
             pageInstanceId: 'home',
             order: 7,
         },
         'home-feature-simple-3': {
             id: 'home-feature-simple-3',
-            widgetId: 'com.usegdi.templates.basic.feature-simple',
+            widgetId: 'com.usegdi.templates.starter.feature-basic',
             pageInstanceId: 'home',
             order: 8,
         },
         'home-feature-simple-4': {
             id: 'home-feature-simple-4',
-            widgetId: 'com.usegdi.templates.basic.feature-simple',
+            widgetId: 'com.usegdi.templates.starter.feature-basic',
             pageInstanceId: 'home',
             order: 9,
         },
         'home-lineCta-simple-1': {
             id: 'home-lineCta-simple-1',
-            widgetId: 'com.usegdi.templates.basic.lineCta-simple',
+            widgetId: 'com.usegdi.templates.starter.lineCta-basic',
             pageInstanceId: 'home',
             order: 10,
         },
         'home-sectionHeader-simple-3': {
             id: 'home-sectionHeader-simple-3',
-            widgetId: 'com.usegdi.templates.basic.sectionHeader-simple',
+            widgetId: 'com.usegdi.templates.starter.sectionHeader-basic',
             pageInstanceId: 'home',
             order: 11,
         },
         'home-imageAndText-simple-1': {
             id: 'home-imageAndText-simple-1',
-            widgetId: 'com.usegdi.templates.basic.imageAndText-simple',
+            widgetId: 'com.usegdi.templates.starter.imageAndText-basic',
             pageInstanceId: 'home',
             order: 12,
         },
         'home-footer-simple-1': {
             id: 'home-footer-simple-1',
-            widgetId: 'com.usegdi.templates.basic.footer-simple',
+            widgetId: 'com.usegdi.templates.starter.footer-basic',
             pageInstanceId: 'home',
             order: 13,
         },
@@ -1849,12 +1849,12 @@ export const initialData: Json = {
         isRtl: false,
     },
     widgets: {
-        'com.usegdi.templates.basic.feature-simple': {
-            id: 'com.usegdi.templates.basic.feature-simple',
-            name: 'feature-simple',
+        'com.usegdi.templates.starter.feature-simple': {
+            id: 'com.usegdi.templates.starter.feature-basic',
+            name: 'feature-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.feature-simple',
+                id: 'com.usegdi.templates.starter.feature-basic',
                 schema: {
                     strings: {
                         slogan: {
@@ -2025,12 +2025,12 @@ export const initialData: Json = {
             },
             tags: ['type-feature'],
         },
-        'com.usegdi.templates.basic.footer-simple': {
-            id: 'com.usegdi.templates.basic.footer-simple',
-            name: 'footer-simple',
+        'com.usegdi.templates.starter.footer-simple': {
+            id: 'com.usegdi.templates.starter.footer-basic',
+            name: 'footer-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.footer-simple',
+                id: 'com.usegdi.templates.starter.footer-basic',
                 schema: {
                     strings: {
                         copyright: {
@@ -2105,12 +2105,12 @@ export const initialData: Json = {
             },
             tags: ['type-footer'],
         },
-        'com.usegdi.templates.basic.hero-simple': {
-            id: 'com.usegdi.templates.basic.hero-simple',
-            name: 'hero-simple',
+        'com.usegdi.templates.starter.hero-simple': {
+            id: 'com.usegdi.templates.starter.hero-basic',
+            name: 'hero-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.hero-simple',
+                id: 'com.usegdi.templates.starter.hero-basic',
                 schema: {
                     strings: {
                         slogan: {
@@ -2309,12 +2309,12 @@ export const initialData: Json = {
             },
             tags: ['type-hero'],
         },
-        'com.usegdi.templates.basic.imageAndText-simple': {
-            id: 'com.usegdi.templates.basic.imageAndText-simple',
-            name: 'imageAndText-simple',
+        'com.usegdi.templates.starter.imageAndText-simple': {
+            id: 'com.usegdi.templates.starter.imageAndText-basic',
+            name: 'imageAndText-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.imageAndText-simple',
+                id: 'com.usegdi.templates.starter.imageAndText-basic',
                 schema: {
                     strings: {
                         slogan: {
@@ -2429,12 +2429,12 @@ export const initialData: Json = {
             },
             tags: ['type-imageAndText'],
         },
-        'com.usegdi.templates.basic.installation-simple': {
-            id: 'com.usegdi.templates.basic.installation-simple',
-            name: 'installation-simple',
+        'com.usegdi.templates.starter.installation-simple': {
+            id: 'com.usegdi.templates.starter.installation-basic',
+            name: 'installation-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.installation-simple',
+                id: 'com.usegdi.templates.starter.installation-basic',
                 schema: {
                     strings: {
                         command: {
@@ -2540,12 +2540,12 @@ export const initialData: Json = {
             },
             tags: ['type-installation'],
         },
-        'com.usegdi.templates.basic.lineCta-simple': {
-            id: 'com.usegdi.templates.basic.lineCta-simple',
-            name: 'lineCta-simple',
+        'com.usegdi.templates.starter.lineCta-simple': {
+            id: 'com.usegdi.templates.starter.lineCta-basic',
+            name: 'lineCta-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.lineCta-simple',
+                id: 'com.usegdi.templates.starter.lineCta-basic',
                 schema: {
                     strings: {
                         textStrong: {
@@ -2648,12 +2648,12 @@ export const initialData: Json = {
             },
             tags: ['type-lineCta'],
         },
-        'com.usegdi.templates.basic.sectionHeader-simple': {
-            id: 'com.usegdi.templates.basic.sectionHeader-simple',
-            name: 'sectionHeader-simple',
+        'com.usegdi.templates.starter.sectionHeader-simple': {
+            id: 'com.usegdi.templates.starter.sectionHeader-basic',
+            name: 'sectionHeader-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.sectionHeader-simple',
+                id: 'com.usegdi.templates.starter.sectionHeader-basic',
                 schema: {
                     strings: {
                         text: {
@@ -2738,12 +2738,12 @@ export const initialData: Json = {
             },
             tags: ['type-sectionHeader'],
         },
-        'com.usegdi.templates.basic.userBar-simple': {
-            id: 'com.usegdi.templates.basic.userBar-simple',
-            name: 'userBar-simple',
+        'com.usegdi.templates.starter.userBar-simple': {
+            id: 'com.usegdi.templates.starter.userBar-basic',
+            name: 'userBar-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.basic.userBar-simple',
+                id: 'com.usegdi.templates.starter.userBar-basic',
                 schema: {
                     strings: {},
                     colors: {
@@ -2846,11 +2846,11 @@ export const initialData: Json = {
             tags: ['type-userBar'],
         },
         'com.usegdi.templates.minimalist.feature-simple': {
-            id: 'com.usegdi.templates.minimalist.feature-simple',
-            name: 'feature-simple',
+            id: 'com.usegdi.templates.minimalist.feature-basic',
+            name: 'feature-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.minimalist.feature-simple',
+                id: 'com.usegdi.templates.minimalist.feature-basic',
                 schema: {
                     strings: {
                         slogan: {
@@ -2969,11 +2969,11 @@ export const initialData: Json = {
             tags: ['type-feature'],
         },
         'com.usegdi.templates.minimalist.footer-simple': {
-            id: 'com.usegdi.templates.minimalist.footer-simple',
-            name: 'footer-simple',
+            id: 'com.usegdi.templates.minimalist.footer-basic',
+            name: 'footer-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.minimalist.footer-simple',
+                id: 'com.usegdi.templates.minimalist.footer-basic',
                 schema: {
                     strings: {
                         copyright: {
@@ -3049,11 +3049,11 @@ export const initialData: Json = {
             tags: ['type-footer'],
         },
         'com.usegdi.templates.minimalist.hero-simple': {
-            id: 'com.usegdi.templates.minimalist.hero-simple',
-            name: 'hero-simple',
+            id: 'com.usegdi.templates.minimalist.hero-basic',
+            name: 'hero-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.minimalist.hero-simple',
+                id: 'com.usegdi.templates.minimalist.hero-basic',
                 schema: {
                     strings: {
                         slogan: {
@@ -3197,11 +3197,11 @@ export const initialData: Json = {
             tags: ['type-hero'],
         },
         'com.usegdi.templates.minimalist.imageAndText-simple': {
-            id: 'com.usegdi.templates.minimalist.imageAndText-simple',
-            name: 'imageAndText-simple',
+            id: 'com.usegdi.templates.minimalist.imageAndText-basic',
+            name: 'imageAndText-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.minimalist.imageAndText-simple',
+                id: 'com.usegdi.templates.minimalist.imageAndText-basic',
                 schema: {
                     strings: {
                         slogan: {
@@ -3317,11 +3317,11 @@ export const initialData: Json = {
             tags: ['type-imageAndText'],
         },
         'com.usegdi.templates.blog.hero-simple': {
-            id: 'com.usegdi.templates.blog.hero-simple',
-            name: 'hero-simple',
+            id: 'com.usegdi.templates.blog.hero-basic',
+            name: 'hero-basic',
             description: '',
             params: {
-                id: 'com.usegdi.templates.blog.hero-simple',
+                id: 'com.usegdi.templates.blog.hero-basic',
                 schema: {
                     strings: {
                         slogan: {

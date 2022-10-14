@@ -1,6 +1,6 @@
 export const libraryInstancesProps = {
-    'home-hero-simple-1': {
-        id: 'home-hero-simple-1',
+    'home-hero-basic-1': {
+        id: 'home-hero-basic-1',
         strings_header: 'gDI',
         strings_description:
             'An open-source & extendable content management system (CMS) written in ReactJS, hosted on Firebase //',
@@ -16,8 +16,8 @@ export const libraryInstancesProps = {
         extra_imageUrl: 'https://appofthebox.web.app/6.webp',
         extra_showBeta: true,
     },
-    'home-userBar-simple-1': {
-        id: 'home-userBar-simple-1',
+    'home-userBar-basic-1': {
+        id: 'home-userBar-basic-1',
         extra_logoImageUrl: '',
         extra_githubLink: 'https://github.com/dht/gdi',
         extra_items: [
@@ -35,28 +35,28 @@ export const libraryInstancesProps = {
             },
         ],
     },
-    'home-sectionHeader-simple-1': {
-        id: 'home-sectionHeader-simple-1',
+    'home-sectionHeader-basic-1': {
+        id: 'home-sectionHeader-basic-1',
         strings_text: 'Installation',
         extra_id: 'installation',
         extra_isHidden: true,
     },
-    'home-installation-simple-1': {
-        id: 'home-installation-simple-1',
+    'home-installation-basic-1': {
+        id: 'home-installation-basic-1',
         strings_command: 'npm install -g @gdi/cli',
         strings_nextStage: 'After which follow the ',
         strings_nextStageLink: 'Getting Started Guide',
         colors_text: '#fff',
         extra_hrefNextStage: 'https://github.com/dht/gdi',
     },
-    'home-sectionHeader-simple-2': {
-        id: 'home-sectionHeader-simple-2',
+    'home-sectionHeader-basic-2': {
+        id: 'home-sectionHeader-basic-2',
         strings_text: 'Features',
         extra_id: 'features',
         extra_isHidden: true,
     },
-    'home-feature-simple-1': {
-        id: 'home-feature-simple-1',
+    'home-feature-basic-1': {
+        id: 'home-feature-basic-1',
         strings_slogan: 'Move blocks around',
         strings_header: 'Structured',
         strings_description:
@@ -65,8 +65,8 @@ export const libraryInstancesProps = {
         extra_imageUrl: 'https://appofthebox.web.app/s1.webp',
         extra_animated: true,
     },
-    'home-feature-simple-2': {
-        id: 'home-feature-simple-2',
+    'home-feature-basic-2': {
+        id: 'home-feature-basic-2',
         strings_slogan: 'Find new blocks',
         strings_header: 'Extendable',
         strings_description:
@@ -75,8 +75,8 @@ export const libraryInstancesProps = {
         extra_imageUrl: 'https://appofthebox.web.app/s2.webp',
         extra_animated: true,
     },
-    'home-feature-simple-3': {
-        id: 'home-feature-simple-3',
+    'home-feature-basic-3': {
+        id: 'home-feature-basic-3',
         strings_slogan: 'Admin permissions',
         strings_header: 'Manageable',
         strings_description:
@@ -85,8 +85,8 @@ export const libraryInstancesProps = {
         extra_imageUrl: 'https://appofthebox.web.app/s3.webp',
         extra_animated: true,
     },
-    'home-feature-simple-4': {
-        id: 'home-feature-simple-4',
+    'home-feature-basic-4': {
+        id: 'home-feature-basic-4',
         strings_slogan: 'See preview',
         strings_header: 'Visual',
         strings_description:
@@ -95,22 +95,22 @@ export const libraryInstancesProps = {
         extra_imageUrl: 'https://appofthebox.web.app/s4.webp',
         extra_animated: true,
     },
-    'home-lineCta-simple-1': {
-        id: 'home-lineCta-simple-1',
+    'home-lineCta-basic-1': {
+        id: 'home-lineCta-basic-1',
         strings_textStrong: 'Unleash',
         strings_text: 'the power of Firebase ©',
         strings_ctaButtonText: 'Visit Github',
         extra_href: 'https://github.com/dht/gdi',
         extra_imageUrl: 'https://appofthebox.web.app/6.webp',
     },
-    'home-sectionHeader-simple-3': {
-        id: 'home-sectionHeader-simple-3',
+    'home-sectionHeader-basic-3': {
+        id: 'home-sectionHeader-basic-3',
         strings_text: 'Community',
         extra_id: 'community',
         extra_isHidden: true,
     },
-    'home-imageAndText-simple-1': {
-        id: 'home-imageAndText-simple-1',
+    'home-imageAndText-basic-1': {
+        id: 'home-imageAndText-basic-1',
         strings_slogan: 'community',
         strings_ctaButtonText: 'How to join?',
         strings_header: 'People who joined recently',
@@ -119,8 +119,8 @@ export const libraryInstancesProps = {
         extra_href: 'https://github.com/dht/gdi',
         extra_backgroundImageUrl: 'https://appofthebox.web.app/1.webp',
     },
-    'home-footer-simple-1': {
-        id: 'home-footer-simple-1',
+    'home-footer-basic-1': {
+        id: 'home-footer-basic-1',
         strings_copyright: 'Copyright 2022 ©',
     },
 };

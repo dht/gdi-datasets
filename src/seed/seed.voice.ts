@@ -1,5 +1,8 @@
 import { appStateVoice } from '../nodes-seed/voice/node.appStateVoice';
 import { seed } from '@gdi/store-seeder';
+import { initFirebase } from '../utils/firestore';
+
+initFirebase();
 
 const state = {
     appStateVoice,

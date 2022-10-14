@@ -2,6 +2,9 @@ import { appStateDevtools } from '../nodes-seed/devtools/node.appStateDevtools';
 import { nodes } from '../nodes-seed/devtools/node.nodes';
 import { stores } from '../nodes-seed/devtools/node.stores';
 import { seed } from '@gdi/store-seeder';
+import { initFirebase } from '../utils/firestore';
+
+initFirebase();
 
 const state = {
     appStateDevtools,
