@@ -8,8 +8,8 @@ import { meta } from '../nodes-seed/site/node.meta';
 import { pageInstances } from '../nodes-seed/site/node.pageInstances';
 import { pages } from '../nodes-seed/site/node.pages';
 import { palette } from '../nodes-seed/site/node.palette';
-import { seed } from '@gdi/store-seeder';
 import { widgets } from '../nodes-seed/site/node.widgets';
+import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
 initFirebase();

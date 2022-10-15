@@ -7,8 +7,8 @@ import { locales } from '../nodes-seed/mixer/node.locales';
 import { libraryPageInstances } from '../nodes-seed/mixer/node.libraryPageInstances';
 import { libraryInstances } from '../nodes-seed/mixer/node.libraryInstances';
 import { libraryInstancesProps } from '../nodes-seed/mixer/node.libraryInstancesProps';
-import { packages } from '../nodes-seed/mixer/node.packages';
 import { libraryPages } from '../nodes-seed/mixer/node.libraryPages';
+import { packages } from '../nodes-seed/mixer/node.packages';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 

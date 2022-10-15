@@ -5,8 +5,8 @@ export const persons = {
         firstName: 'Dante',
         lastName: 'Stark',
         dateOfBirth: '1967-08-10T14:21:25.511Z',
-        imageUrl: 'https://i.pravatar.cc/600?u=0',
-        thumbUrl: 'https://i.pravatar.cc/150?u=0',
+        imageUrl: 'https://i.pravatar.cc/600?u=200',
+        imageimageThumbUrl: 'https://i.pravatar.cc/150?u=200',
         shortDescription:
             'Voluptatem veniam occaecati illum illum atque id iusto quibusdam.',
         socialTwitterUrl: '',
@@ -38,7 +38,7 @@ export const persons = {
         lastName: 'Ondricka',
         dateOfBirth: '1977-06-15T22:35:01.124Z',
         imageUrl: 'https://i.pravatar.cc/600?u=1',
-        thumbUrl: 'https://i.pravatar.cc/150?u=1',
+        imageThumbUrl: 'https://i.pravatar.cc/150?u=1',
         shortDescription: 'Voluptatem fuga ipsum ut expedita quae.',
         socialTwitterUrl:
             'https://twitter.com/727a9dd1-d5dc-462f-b7da-9f9b18eb342f',
@@ -69,7 +69,7 @@ export const persons = {
         lastName: 'Hilll',
         dateOfBirth: '1993-05-13T02:19:00.123Z',
         imageUrl: 'https://i.pravatar.cc/600?u=2',
-        thumbUrl: 'https://i.pravatar.cc/150?u=2',
+        imageThumbUrl: 'https://i.pravatar.cc/150?u=2',
         shortDescription: 'Consequuntur incidunt aut assumenda non.',
         socialTwitterUrl: '',
         socialFacebookUrl:

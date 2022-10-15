@@ -25,7 +25,7 @@ export const generateOne = (index: number) => {
     const ratio = width / height;
 
     const widthThumb = 200;
-    const heightThumb = Math.floor(200 / ratio);
+    const heightThumb = Math.round(200 / ratio);
 
     return {
         id,

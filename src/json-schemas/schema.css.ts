@@ -1,8 +1,12 @@
-import { Schema } from '../Code';
-
 // source: https://github.com/rcorp/css-schema
 
-export const schema: Schema = {
+type IJsonSchema = {
+    uri: string;
+    fileMatch?: string[];
+    schema?: Json;
+};
+
+export const schema: IJsonSchema = {
     uri: 'http://myserver/foo-schema.json', // id of the first schema
     fileMatch: ['*'], // associate with our model
     schema: {
