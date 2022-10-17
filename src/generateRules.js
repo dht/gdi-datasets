@@ -40,6 +40,7 @@ const singles = [
     'locale',
     'meta',
     'packages',
+    'settings',
     'spotifyMe',
 ];
 
