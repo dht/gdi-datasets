@@ -5,7 +5,7 @@ import { writeData } from '../utils/code';
 const run = async () => {
     let items;
 
-    items = generateMany(3, generateOne);
+    items = generateMany(100, generateOne);
 
     writeData(
         'persons', //
@@ -66,6 +66,7 @@ export const generateOne = (index: number) => {
         dateOfBirth,
         imageUrl,
         thumbUrl,
+        imageThumbUrl: imageUrl,
         shortDescription,
         socialTwitterUrl,
         socialFacebookUrl,

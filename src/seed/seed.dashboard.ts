@@ -1,21 +1,27 @@
-import { dashboard } from '../nodes-seed/dashboard/node.dashboard';
+import { appStateDashboard } from '../nodes-seed/dashboard/node.appStateDashboard';
+import { currentIdsDashboard } from '../nodes-seed/dashboard/node.currentIdsDashboard';
+import { inboxMessages } from '../nodes-seed/dashboard/node.inboxMessages';
 import { stats } from '../nodes-seed/dashboard/node.stats';
 import { statsJourneys } from '../nodes-seed/dashboard/node.statsJourneys';
-import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
+import { seed } from '@gdi/store-seeder';
 
 initFirebase();
 
 const state = {
-    dashboard,
+    currentIdsDashboard,
+    appStateDashboard,
     stats,
     statsJourneys,
+    inboxMessages,
 };
 
 const nodeTypes: Record<string, NodeType> = {
-    dashboard: 'single',
+    currentIdsDashboard: 'single',
+    appStateDashboard: 'single',
     stats: 'collection',
     statsJourneys: 'collection',
+    inboxMessages: 'collection',
 };
 
 seed(state, nodeTypes);
