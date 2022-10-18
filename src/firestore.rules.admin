@@ -3,8 +3,8 @@ service cloud.firestore {
     match /databases/{database}/documents {  	
 
         // match /{document=**} {
-        //    allow read: if true;
-        //    allow write: if isAdmin();
+        //    allow read: if isAdmin();
+        //    allow write: if true;
         // }
         
         // match /{document=**} {
@@ -22,6 +22,11 @@ service cloud.firestore {
         }
 
         match /actualManas/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /appStateDashboard/{document=**} {
             allow read: if isAdmin();
             allow write: if isAdmin();
         }
@@ -83,6 +88,11 @@ service cloud.firestore {
 
         match /images/{document=**} {
             allow read: if true;
+            allow write: if isAdmin();
+        }
+
+        match /inboxMessages/{document=**} {
+            allow read: if isAdmin();
             allow write: if isAdmin();
         }
 
@@ -232,6 +242,16 @@ service cloud.firestore {
         }
 
         match /roles/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /stats/{document=**} {
+            allow read: if isAdmin();
+            allow write: if isAdmin();
+        }
+
+        match /statsJourneys/{document=**} {
             allow read: if isAdmin();
             allow write: if isAdmin();
         }

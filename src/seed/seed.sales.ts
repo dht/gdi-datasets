@@ -12,7 +12,7 @@ const state = {
 
 const nodeTypes: Record<string, NodeType> = {
     appStateSales: 'single',
-    persons: 'collection',
+    sales: 'collection',
 };
 
 seed(state, nodeTypes);
