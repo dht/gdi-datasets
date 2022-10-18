@@ -12,7 +12,7 @@ export const stats = {
     leadsInbox: {
         id: 'leadsInbox',
         title: 'Leads Inbox',
-        value: 5,
+        value: 0,
         mode: 'manual',
         clickEffect: 'nudge',
         unit: 'number',
@@ -22,7 +22,7 @@ export const stats = {
     totalSites: {
         id: 'totalSites',
         title: 'Total Sites',
-        value: 10,
+        value: 0,
         mode: 'manual',
         unit: 'number',
         clickEffect: 'nudge',
@@ -32,7 +32,7 @@ export const stats = {
     payingCustomers: {
         id: 'payingCustomers',
         title: 'Paying Customers',
-        value: 10,
+        value: 0,
         mode: 'manual',
         unit: 'number',
         clickEffect: 'nudge',
@@ -53,7 +53,7 @@ export const stats = {
     openTasks: {
         id: 'openTasks',
         title: 'Open Tasks',
-        value: 10,
+        value: 0,
         mode: 'manual',
         unit: 'number',
         clickEffect: 'nudge',
@@ -63,7 +63,7 @@ export const stats = {
     closedTasks: {
         id: 'closedTasks',
         title: 'Closed Tasks',
-        value: 10,
+        value: 0,
         mode: 'manual',
         unit: 'number',
         clickEffect: 'nudge',
@@ -73,7 +73,7 @@ export const stats = {
     totalSales: {
         id: 'totalSales',
         title: 'Total Sales',
-        value: 1000,
+        value: 0,
         mode: 'manual',
         unit: 'currency',
         clickEffect: 'value',
@@ -83,7 +83,7 @@ export const stats = {
     knowledgeInbox: {
         id: 'knowledgeInbox',
         title: 'Knowledge Inbox',
-        value: 1,
+        value: 0,
         mode: 'manual',
         unit: 'number',
         clickEffect: 'value',
@@ -93,7 +93,7 @@ export const stats = {
     eventsToday: {
         id: 'eventsToday',
         title: 'Events',
-        value: 5,
+        value: 0,
         suffix: 'today',
         mode: 'manual',
         unit: 'number',
@@ -104,7 +104,7 @@ export const stats = {
     scheduleItems: {
         id: 'scheduleItems',
         title: 'Schedule',
-        value: 5,
+        value: 0,
         suffix: 'items',
         mode: 'manual',
         unit: 'number',
@@ -115,7 +115,7 @@ export const stats = {
     monthlySales: {
         id: 'monthlySales',
         title: 'Monthly Sales',
-        value: 1000,
+        value: 0,
         mode: 'manual',
         unit: 'currency',
         clickEffect: 'value',
@@ -125,7 +125,7 @@ export const stats = {
     marketingSpent: {
         id: 'marketingSpent',
         title: 'Marketing spent',
-        value: 1000,
+        value: 0,
         mode: 'manual',
         unit: 'currency',
         clickEffect: 'value',
@@ -135,7 +135,7 @@ export const stats = {
     marketingLeads: {
         id: 'marketingLeads',
         title: 'Marketing leads',
-        value: 100,
+        value: 0,
         mode: 'manual',
         unit: 'number',
         clickEffect: 'value',
@@ -145,7 +145,7 @@ export const stats = {
     salesActions: {
         id: 'salesActions',
         title: 'Sales Actions',
-        value: 80,
+        value: 0,
         mode: 'manual',
         unit: 'number',
         clickEffect: 'nudge',
@@ -155,7 +155,7 @@ export const stats = {
     breaksTaken: {
         id: 'breaksTaken',
         title: 'Breaks taken',
-        value: 20,
+        value: 0,
         suffix: 'min',
         mode: 'manual',
         unit: 'time',
@@ -166,7 +166,7 @@ export const stats = {
     siteVisitors: {
         id: 'siteVisitors',
         title: 'Visitors',
-        value: 20,
+        value: 0,
         mode: 'manual',
         unit: 'number',
         clickEffect: 'value',
@@ -176,7 +176,7 @@ export const stats = {
     siteVisitorsMeaningful: {
         id: 'siteVisitorsMeaningful',
         title: 'Visitors > 20s',
-        value: 20,
+        value: 0,
         mode: 'manual',
         unit: 'number',
         clickEffect: 'value',
@@ -186,7 +186,7 @@ export const stats = {
     githubVisitors: {
         id: 'githubVisitors',
         title: 'Github Visitors',
-        value: 20,
+        value: 0,
         mode: 'manual',
         unit: 'number',
         clickEffect: 'value',
@@ -196,7 +196,7 @@ export const stats = {
     totalStars: {
         id: 'totalStars',
         title: 'Total Stars',
-        value: 10,
+        value: 0,
         mode: 'manual',
         unit: 'number',
         clickEffect: 'nudge',
