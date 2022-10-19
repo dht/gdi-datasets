@@ -1,6 +1,6 @@
 const fs = require('fs');
 const globby = require('globby');
-const { SimpleDate } = require('shared-base');
+const { SimpleDate } = require('@gdi/language');
 const path = require('path');
 const prettier = require('prettier');
 const { concat } = require('lodash');
