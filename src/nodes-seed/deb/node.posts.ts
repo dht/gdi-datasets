@@ -11,6 +11,7 @@ export const posts = {
         sourceId: 'facebook',
         sourceUrl: '',
         tags: [],
+        dataTags: [],
         items: [
             {
                 id: '1',

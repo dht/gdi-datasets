@@ -11,6 +11,7 @@ export const events = {
         imageUrl: 'https://picsum.photos/seed/1/1593/948',
         imageThumbUrl: 'https://picsum.photos/seed/1/200/119',
         tags: ['social'],
+        dataTags: [],
     },
     '2': {
         id: '2',
@@ -24,6 +25,7 @@ export const events = {
         imageUrl: 'https://picsum.photos/seed/2/1593/948',
         imageThumbUrl: 'https://picsum.photos/seed/2/200/119',
         tags: ['social'],
+        dataTags: [],
     },
     '3': {
         id: '3',
@@ -37,5 +39,6 @@ export const events = {
         imageUrl: 'https://picsum.photos/seed/3/1593/948',
         imageThumbUrl: 'https://picsum.photos/seed/3/200/119',
         tags: ['social'],
+        dataTags: [],
     },
 };

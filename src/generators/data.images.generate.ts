@@ -15,6 +15,7 @@ const run = async () => {
 };
 
 const tags = ['nature', 'geek', 'background', 'team', 'friend', 'people'];
+const dataTags = ['thisWeek'];
 
 export const generateOne = (index: number) => {
     const id = String(index + 1);
@@ -33,6 +34,7 @@ export const generateOne = (index: number) => {
         imageUrl: `https://picsum.photos/seed/${id}/${width}/${height}`,
         imageThumbUrl: `https://picsum.photos/seed/${id}/${widthThumb}/${heightThumb}`,
         tags: faker.helpers.arrayElements(tags),
+        dataTags: faker.helpers.arrayElements(dataTags),
         ratio: width / height,
         isFavorite: faker.datatype.number({ min: 0, max: 10 }) < 4,
         isTemporary: faker.datatype.number({ min: 0, max: 10 }) < 2,

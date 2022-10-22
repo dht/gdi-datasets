@@ -5,6 +5,7 @@ export const libraryImages = {
         imageUrl: 'https://picsum.photos/seed/1/1593/948',
         imageThumbUrl: 'https://picsum.photos/seed/1/200/119',
         tags: ['people', 'friend'],
+        dataTags: [],
         ratio: 1.6803797468354431,
     },
 };

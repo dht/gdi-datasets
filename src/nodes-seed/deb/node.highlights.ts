@@ -11,5 +11,6 @@ export const highlights = {
         startIndex: 0,
         endIndex: 0,
         tags: [],
+        dataTags: [],
     },
 };

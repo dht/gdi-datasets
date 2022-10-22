@@ -58,6 +58,8 @@ export const generateOne = (index: number) => {
         'entrepreneur',
     ]);
 
+    const dataTags = ['thisWeek'];
+
     return {
         id,
         key,
@@ -85,6 +87,7 @@ export const generateOne = (index: number) => {
         notes,
         email,
         tags,
+        dataTags,
         tier,
         gender,
         category,

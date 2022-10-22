@@ -4,5 +4,6 @@ export const things = {
         name: '',
         description: '',
         tags: [],
+        dataTags: [],
     },
 };

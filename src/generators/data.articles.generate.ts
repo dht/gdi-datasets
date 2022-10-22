@@ -25,6 +25,7 @@ const generateOne = (index: number) => {
     const widthThumb = 200;
     const heightThumb = Math.floor(200 / ratio);
     const tags = ['nature', 'geek', 'background', 'team', 'friend', 'people'];
+    const dataTags = ['2085-10-10'];
 
     return {
         id,
@@ -51,6 +52,7 @@ const generateOne = (index: number) => {
         slogan: faker.lorem.sentence(),
         status: faker.helpers.arrayElement(['draft', 'published', 'archived']),
         tags: faker.helpers.arrayElements(tags),
+        dataTags: faker.helpers.arrayElements(dataTags),
         minutesSpentEditing: faker.datatype.number(10),
         wordCount: faker.datatype.number(1000),
     };
