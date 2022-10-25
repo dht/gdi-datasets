@@ -1,6 +1,5 @@
 export const appStateSoundboard = {
     stateKey: 'soundboard',
-    selectedProjectKey: '',
     hoverDate: '',
     hoverWeek: '',
     periodMode: 'byWeeks',
