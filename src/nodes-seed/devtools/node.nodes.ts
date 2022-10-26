@@ -386,20 +386,6 @@ export const nodes = {
         fieldTypes: {},
         isHidden: true,
     },
-    playback: {
-        id: 'playback',
-        store: 'spotify',
-        nodeType: 'single',
-        fieldTypes: {},
-        isHidden: true,
-    },
-    spotifyMe: {
-        id: 'spotifyMe',
-        store: 'spotify',
-        nodeType: 'single',
-        fieldTypes: {},
-        isHidden: true,
-    },
     appStateBiblo: {
         id: 'appStateBiblo',
         store: 'biblo',
@@ -496,13 +482,6 @@ export const nodes = {
     appStateSoundboard: {
         id: 'appStateSoundboard',
         store: 'soundboard',
-        nodeType: 'appState',
-        fieldTypes: {},
-        isHidden: true,
-    },
-    appStateSpotify: {
-        id: 'appStateSpotify',
-        store: 'spotify',
         nodeType: 'appState',
         fieldTypes: {},
         isHidden: true,

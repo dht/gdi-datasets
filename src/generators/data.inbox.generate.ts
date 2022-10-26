@@ -2,6 +2,7 @@ import { faker } from '@faker-js/faker';
 import { generateMany } from '../utils/generate';
 import { writeData } from '../utils/code';
 import icons from '../resources/icons.json';
+import { formatDateWithTime } from '../utils/date';
 
 const run = async () => {
     let items;
@@ -17,7 +18,7 @@ const run = async () => {
 
 export const generateOne = (index: number) => {
     const id = String(index + 1);
-    const date = faker.date.recent();
+    const date = formatDateWithTime(faker.date.recent());
     const title = faker.lorem.sentence();
     const description = faker.lorem.paragraphs(3);
     const color = faker.color.rgb();

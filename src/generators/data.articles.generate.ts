@@ -1,6 +1,7 @@
 import { faker } from '@faker-js/faker';
 import { generateMany } from '../utils/generate';
 import { writeData } from '../utils/code';
+import { formatDateWithTime } from '../utils/date';
 
 const run = async () => {
     let items;
@@ -36,9 +37,9 @@ const generateOne = (index: number) => {
         imageDescription: faker.lorem.paragraph(),
         imageSource: faker.company.name(),
         authorName: faker.name.fullName(),
-        publishDate: faker.date.recent(),
-        lastPublishDate: faker.date.recent(),
-        lastSaveDate: faker.date.recent(),
+        publishDate: formatDateWithTime(faker.date.recent()),
+        lastPublishDate: formatDateWithTime(faker.date.recent()),
+        lastSaveDate: formatDateWithTime(faker.date.recent()),
         categoryBreadcrumbs: [
             faker.commerce.department(),
             faker.commerce.department(),

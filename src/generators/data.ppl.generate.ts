@@ -1,6 +1,7 @@
 import { faker } from '@faker-js/faker';
-import { generateMany } from '../utils/generate';
+import { generateAvatar, generateMany } from '../utils/generate';
 import { writeData } from '../utils/code';
+import { formatDateWithTime } from '../utils/date';
 
 const run = async () => {
     let items;
@@ -23,10 +24,8 @@ export const generateOne = (index: number) => {
     const firstName = faker.name.firstName();
     const lastName = faker.name.lastName();
     const key = `${firstName}_${lastName}_${number}`;
-    const imageUrl = `https://i.pravatar.cc/600?u=${index}`;
-    const thumbUrl = `https://i.pravatar.cc/150?u=${index}`;
-    const images = [`https://i.pravatar.cc/600?u=${index}`];
-    const dateOfBirth = faker.date.birthdate();
+    const image = generateAvatar(index);
+    const dateOfBirth = formatDateWithTime(faker.date.birthdate());
     const socialTwitterUrl = randomClear(url('twitter.com'), 0.5);
     const socialFacebookUrl = randomClear(url('facebook.com'), 0.6);
     const socialInstagramUrl = randomClear(url('instagram.com'), 0.7);
@@ -66,15 +65,15 @@ export const generateOne = (index: number) => {
         firstName,
         lastName,
         dateOfBirth,
-        imageUrl,
-        thumbUrl,
-        imageThumbUrl: imageUrl,
+        imageUrl: image.imageUrl,
+        imageThumbUrl: image.imageThumbUrl,
+        ratio: image.ratio,
         shortDescription,
         socialTwitterUrl,
         socialFacebookUrl,
         socialInstagramUrl,
         socialLinkedInUrl,
-        images,
+        items: [],
         website,
         pinterestUrl,
         phoneNumber,

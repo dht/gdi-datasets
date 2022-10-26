@@ -7,6 +7,10 @@ export const stores = {
         id: 'biblo',
         color: '#f58231',
     },
+    carts: {
+        id: 'carts',
+        color: '#ffe119',
+    },
     deb: {
         id: 'deb',
         color: '#ffe119',
@@ -31,6 +35,14 @@ export const stores = {
         id: 'money',
         color: '#911eb4',
     },
+    orders: {
+        id: 'orders',
+        color: '#911eb4',
+    },
+    products: {
+        id: 'products',
+        color: '#911eb4',
+    },
     ppl: {
         id: 'ppl',
         color: '#f032e6',
@@ -42,10 +54,6 @@ export const stores = {
     soundboard: {
         id: 'soundboard',
         color: '#000000',
-    },
-    spotify: {
-        id: 'spotify',
-        color: '#000075',
     },
     studio: {
         id: 'studio',

@@ -36,8 +36,6 @@ export const generateOne = (index: number) => {
         tags: faker.helpers.arrayElements(tags),
         dataTags: faker.helpers.arrayElements(dataTags),
         ratio: width / height,
-        isFavorite: faker.datatype.number({ min: 0, max: 10 }) < 4,
-        isTemporary: faker.datatype.number({ min: 0, max: 10 }) < 2,
     };
 };
 
