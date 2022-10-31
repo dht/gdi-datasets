@@ -1,18 +1,7 @@
 const fs = require('fs');
 const globby = require('globby');
-const { SimpleDate } = require('@gdi/language');
 const path = require('path');
 const prettier = require('prettier');
-const { concat } = require('lodash');
-
-const now = new SimpleDate();
-const year = now.toInfo().year;
-const week = now.toInfo().week;
-const dayOfWeek = now.toInfo().dayOfWeek;
-
-const start = now.addWeeks(-2);
-const startYear = start.toInfo().year;
-const startWeek = start.toInfo().week;
 
 const run = async () => {
     const files = globby.sync('**/state*.ts');
