@@ -13,7 +13,15 @@ import { siteProperties } from '../nodes-seed/site/node.siteProperties';
 import { widgets } from '../nodes-seed/site/node.widgets';
 import { seed } from '@gdi/store-seeder';
 
-initFirebase();
+import { config } from 'dotenv-flow';
+
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     breakpoints,
@@ -44,4 +52,4 @@ const nodeTypes: Record<string, NodeType> = {
     instancesProps: 'collection',
 };
 
-seed(state, nodeTypes);
+seed(state, nodeTypes, destination);

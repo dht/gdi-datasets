@@ -20,5 +20,6 @@ export const layouts = {
                 order: 1,
             },
         ],
+        tags: [],
     },
 };

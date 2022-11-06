@@ -2,8 +2,15 @@ import { appStatePpl } from '../nodes-seed/ppl/node.appStatePpl';
 import { persons } from '../nodes-seed/ppl/node.persons';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
+import { config } from 'dotenv-flow';
 
-initFirebase();
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     appStatePpl,
@@ -15,4 +22,6 @@ const nodeTypes: Record<string, NodeType> = {
     persons: 'collection',
 };
 
-seed(state, nodeTypes);
+console.log('destination ->', destination);
+
+seed(state, nodeTypes, destination);

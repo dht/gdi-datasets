@@ -2,7 +2,6 @@ ts-node seed.auth.ts
 ts-node seed.biblo.ts
 ts-node seed.carts.ts
 ts-node seed.dashboard.ts
-ts-node seed.deb.ts
 ts-node seed.devtools.ts
 ts-node seed.events.ts
 ts-node seed.factory.ts

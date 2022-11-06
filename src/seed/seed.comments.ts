@@ -4,7 +4,15 @@ import { pendingComments } from '../nodes-seed/comments/node.pendingComments';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
-initFirebase();
+import { config } from 'dotenv-flow';
+
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     appStateComments,
@@ -18,4 +26,4 @@ const nodeTypes: Record<string, NodeType> = {
     pendingComments: 'groupedList',
 };
 
-seed(state, nodeTypes);
+seed(state, nodeTypes, destination);

@@ -4,7 +4,15 @@ import { weatherLocations } from '../nodes-seed/weather/node.weatherLocations';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
-initFirebase();
+import { config } from 'dotenv-flow';
+
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     weatherDailyItems,
@@ -18,4 +26,4 @@ const nodeTypes: Record<string, NodeType> = {
     weatherDailyItems: 'collection',
 };
 
-seed(state, nodeTypes);
+seed(state, nodeTypes, destination);

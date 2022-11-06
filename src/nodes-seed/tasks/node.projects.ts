@@ -10,6 +10,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '2': {
         id: '2',
@@ -22,6 +23,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '3': {
         id: '3',
@@ -34,6 +36,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '4': {
         id: '4',
@@ -46,6 +49,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '5': {
         id: '5',
@@ -58,6 +62,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '6': {
         id: '6',
@@ -70,6 +75,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '7': {
         id: '7',
@@ -82,6 +88,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '8': {
         id: '8',
@@ -94,6 +101,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '9': {
         id: '9',
@@ -106,6 +114,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '10': {
         id: '10',
@@ -118,6 +127,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '11': {
         id: '11',
@@ -130,6 +140,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '12': {
         id: '12',
@@ -142,6 +153,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '13': {
         id: '13',
@@ -154,6 +166,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '14': {
         id: '14',
@@ -166,6 +179,7 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
     '15': {
         id: '15',
@@ -178,5 +192,6 @@ export const projects = {
             thumb24: '',
             thumb16: '',
         },
+        tags: [],
     },
 };

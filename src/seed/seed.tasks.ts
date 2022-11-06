@@ -7,7 +7,15 @@ import { worklogs } from '../nodes-seed/tasks/node.worklogs';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
-initFirebase();
+import { config } from 'dotenv-flow';
+
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     appStateTasks,
@@ -27,4 +35,4 @@ const nodeTypes: Record<String, NodeType> = {
     sessions: 'collection',
 };
 
-seed(state, nodeTypes);
+seed(state, nodeTypes, destination);

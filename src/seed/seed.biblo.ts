@@ -4,7 +4,15 @@ import { readCategories } from '../nodes-seed/biblo/node.readCategories';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
-initFirebase();
+import { config } from 'dotenv-flow';
+
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     appStateBiblo,
@@ -18,4 +26,4 @@ const nodeTypes: Record<string, NodeType> = {
     readCategories: 'collection',
 };
 
-seed(state, nodeTypes);
+seed(state, nodeTypes, destination);

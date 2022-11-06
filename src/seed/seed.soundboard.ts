@@ -7,7 +7,15 @@ import { scheduleSessions } from '../nodes-seed/soundboard/node.scheduleSessions
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
-initFirebase();
+import { config } from 'dotenv-flow';
+
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     actualManas,
@@ -27,4 +35,4 @@ const nodeTypes: Record<string, NodeType> = {
     scheduleSessions: 'collection',
 };
 
-seed(state, nodeTypes);
+seed(state, nodeTypes, destination);

@@ -6,7 +6,15 @@ import { statsJourneys } from '../nodes-seed/dashboard/node.statsJourneys';
 import { initFirebase } from '../utils/firestore';
 import { seed } from '@gdi/store-seeder';
 
-initFirebase();
+import { config } from 'dotenv-flow';
+
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     currentIdsDashboard,
@@ -24,4 +32,4 @@ const nodeTypes: Record<string, NodeType> = {
     inboxMessages: 'collection',
 };
 
-seed(state, nodeTypes);
+seed(state, nodeTypes, destination);

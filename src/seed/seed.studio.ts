@@ -10,7 +10,15 @@ import { studioItems } from '../nodes-seed/studio/node.studioItems';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
-initFirebase();
+import { config } from 'dotenv-flow';
+
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     appStateStudio,
@@ -36,4 +44,4 @@ const nodeTypes: Record<string, NodeType> = {
     studioItems: 'collection',
 };
 
-seed(state, nodeTypes);
+seed(state, nodeTypes, destination);

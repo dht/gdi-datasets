@@ -2,8 +2,15 @@ import { appStateLeads } from '../nodes-seed/leads/node.appStateLeads';
 import { leads } from '../nodes-seed/leads/node.leads';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
+import { config } from 'dotenv-flow';
 
-initFirebase();
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     appStateLeads,
@@ -15,4 +22,4 @@ const nodeTypes: Record<string, NodeType> = {
     leads: 'groupedList',
 };
 
-seed(state, nodeTypes);
+seed(state, nodeTypes, destination);

@@ -5,7 +5,15 @@ import { coupons } from '../nodes-seed/orders/node.coupons';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
-initFirebase();
+import { config } from 'dotenv-flow';
+
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     appStateOrders,
@@ -21,4 +29,4 @@ const nodeTypes: Record<string, NodeType> = {
     coupons: 'groupedList',
 };
 
-seed(state, nodeTypes);
+seed(state, nodeTypes, destination);

@@ -4,7 +4,15 @@ import { stores } from '../nodes-seed/devtools/node.stores';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
-initFirebase();
+import { config } from 'dotenv-flow';
+
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     appStateDevtools,
@@ -18,4 +26,4 @@ const nodeTypes: Record<string, NodeType> = {
     nodes: 'collection',
 };
 
-seed(state, nodeTypes);
+seed(state, nodeTypes, destination);

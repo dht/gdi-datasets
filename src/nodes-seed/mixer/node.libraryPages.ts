@@ -21,7 +21,6 @@ export const libraryPages: IPages = {
         tags: [],
         dataTags: [],
         order: 2,
-        dealerId: 'dealer1',
         pageInstanceId: 'v1',
     },
     article: {
@@ -34,7 +33,6 @@ export const libraryPages: IPages = {
         tags: [],
         dataTags: [],
         order: 3,
-        dealerId: 'dealer1',
         pageInstanceId: 'v1',
     },
 };

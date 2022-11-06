@@ -3,7 +3,15 @@ import { campaigns } from '../nodes-seed/campaigns/node.campaigns';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
-initFirebase();
+import { config } from 'dotenv-flow';
+
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     appStateCampaigns,
@@ -15,4 +23,4 @@ const nodeTypes: Record<string, NodeType> = {
     campaigns: 'collection',
 };
 
-seed(state, nodeTypes);
+seed(state, nodeTypes, destination);

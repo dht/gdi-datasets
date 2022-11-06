@@ -4,8 +4,15 @@ import { roles } from '../nodes-seed/auth/node.roles';
 import { users } from '../nodes-seed/auth/node.users';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
+import { config } from 'dotenv-flow';
 
-initFirebase();
+config();
+
+const destination = process.env.DESTINATION || 'FIREBASE';
+
+if (destination === 'FIREBASE') {
+    initFirebase();
+}
 
 const state = {
     authState,
@@ -19,4 +26,4 @@ const nodeTypes: Record<string, NodeType> = {
     roles: 'collection',
 };
 
-seed(state, nodeTypes);
+seed(state, nodeTypes, destination);

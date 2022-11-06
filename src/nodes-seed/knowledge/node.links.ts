@@ -5,5 +5,6 @@ export const links = {
         category: 'search',
         description: 'Google',
         revisitDate: '2022-10-10',
+        tags: [],
     },
 };
