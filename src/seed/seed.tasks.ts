@@ -26,7 +26,7 @@ const state = {
     worklogs,
 };
 
-const nodeTypes: Record<String, NodeType> = {
+const nodeTypes: Record<string, NodeType> = {
     appStateTasks: 'single',
     worklogs: 'collection',
     recentSessions: 'collection',
