@@ -15,6 +15,8 @@ import { seed } from '@gdi/store-seeder';
 
 import { config } from 'dotenv-flow';
 
+const CLEAR = false;
+
 config();
 
 const destination = process.env.DESTINATION || 'FIREBASE';
@@ -52,4 +54,6 @@ const nodeTypes: Record<string, NodeType> = {
     instancesProps: 'collection',
 };
 
-seed(state, nodeTypes, destination);
+seed(state, nodeTypes, destination, {
+    clearNodes: CLEAR,
+});

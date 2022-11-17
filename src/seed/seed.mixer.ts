@@ -8,11 +8,14 @@ import { libraryPageInstances } from '../nodes-seed/mixer/node.libraryPageInstan
 import { libraryInstances } from '../nodes-seed/mixer/node.libraryInstances';
 import { libraryInstancesProps } from '../nodes-seed/mixer/node.libraryInstancesProps';
 import { libraryPages } from '../nodes-seed/mixer/node.libraryPages';
+import { datasets } from '../nodes-seed/mixer/node.datasets';
 import { packages } from '../nodes-seed/mixer/node.packages';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
 import { config } from 'dotenv-flow';
+
+const CLEAR = false;
 
 config();
 
@@ -33,6 +36,7 @@ const state = {
     libraryInstancesProps,
     libraryPageInstances,
     locales,
+    datasets,
     packages,
 };
 
@@ -47,7 +51,10 @@ const nodeTypes: Record<string, NodeType> = {
     libraryInstancesProps: 'collection',
     libraryPageInstances: 'collection',
     locales: 'collection',
+    datasets: 'single',
     packages: 'single',
 };
 
-seed(state, nodeTypes, destination);
+seed(state, nodeTypes, destination, {
+    clearNodes: CLEAR,
+});

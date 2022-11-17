@@ -582,7 +582,7 @@ export const initialData: Json = {
                         ctaButtonText: 'How to join?',
                         header: 'People who joined recently',
                         description:
-                            'With morning you are an effective team that gets things done, every minute, every hour, every day',
+                            'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
                     },
                     colors: {},
                     extra: {
@@ -1469,7 +1469,7 @@ export const initialData: Json = {
                         ctaButtonText: 'How to join?',
                         header: 'People who joined recently',
                         description:
-                            'With morning you are an effective team that gets things done, every minute, every hour, every day',
+                            'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
                     },
                     colors: {},
                     extra: {
@@ -2367,7 +2367,7 @@ export const initialData: Json = {
                         ctaButtonText: 'How to join?',
                         header: 'People who joined recently',
                         description:
-                            'With morning you are an effective team that gets things done, every minute, every hour, every day',
+                            'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
                     },
                     colors: {},
                     extra: {
@@ -3254,7 +3254,7 @@ export const initialData: Json = {
                         ctaButtonText: 'How to join?',
                         header: 'People who joined recently',
                         description:
-                            'With morning you are an effective team that gets things done, every minute, every hour, every day',
+                            'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
                     },
                     colors: {},
                     extra: {

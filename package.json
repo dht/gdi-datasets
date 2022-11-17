@@ -1,51 +1,59 @@
 {
-    "name": "@gdi/datasets",
-    "version": "0.0.22",
-    "scripts": {
-        "build": "tsc & vite build",
-        "test": "jest",
-        "coverage": "jest --coverage=true",
-        "firestore:reset:site": "npx ts-node seed/seed.site.ts",
-        "firestore:reset:mixer": "npx ts-node seed/seed.mixer.ts"
-    },
-    "dependencies": {
-        "@gdi/types": "^0.0.47",
-        "firebase": "^9.9.2",
-        "firestore-local": "^0.0.34",
-        "lodash": "^4.17.21",
-        "redux-connected": "^0.0.101",
-        "redux-store-generator": "^0.9.87",
-        "reselect": "^4.1.6"
-    },
-    "devDependencies": {
-        "@faker-js/faker": "^7.5.0",
-        "@gdi/store-seeder": "^0.0.44",
-        "@gdi/types": "^0.0.47",
-        "@types/jest": "^28.1.6",
-        "@types/node": "^18.8.3",
-        "chalk": "^4.1.2",
-        "dotenv-flow": "^3.2.0",
-        "globby": "^13.1.2",
-        "jest": "^28.1.3",
-        "jest-cli": "^28.1.3",
-        "prettier": "^2.7.1",
-        "rollup-plugin-analyzer": "^4.0.0",
-        "shared-base": "^0.0.20",
-        "ts-jest": "^28.0.7",
-        "typescript": "^4.7.4",
-        "vite": "^3.0.3",
-        "vite-plugin-dts": "^1.4.0"
-    },
-    "files": [
-        "dist"
-    ],
-    "main": "./dist/datasets.umd.js",
-    "module": "./dist/datasets.es.js",
-    "types": "./dist/index.d.ts",
-    "exports": {
-        ".": {
-            "import": "./dist/datasets.es.js",
-            "require": "./dist/datasets.umd.js"
-        }
+  "name": "@gdi/datasets",
+  "version": "0.0.22",
+  "scripts": {
+    "build": "tsc & vite build",
+    "test": "jest",
+    "coverage": "jest --coverage=true",
+    "firestore:reset:site": "npx ts-node seed/seed.site.ts",
+    "firestore:reset:mixer": "npx ts-node seed/seed.mixer.ts"
+  },
+  "dependencies": {
+    "@gdi/types": "^0.0.47",
+    "firebase": "^9.9.2",
+    "firestore-local": "^0.0.34",
+    "lodash": "^4.17.21",
+    "redux-connected": "^0.0.101",
+    "redux-store-generator": "^0.9.87",
+    "reselect": "^4.1.6"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "@gdi/store-seeder": "^0.0.44",
+    "@gdi/types": "^0.0.47",
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.8.3",
+    "chalk": "^4.1.2",
+    "dotenv-flow": "^3.2.0",
+    "firebase-admin": "^11.2.1",
+    "globby": "^13.1.2",
+    "jest": "^28.1.3",
+    "jest-cli": "^28.1.3",
+    "prettier": "^2.7.1",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "shared-base": "^0.0.20",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.3",
+    "vite-plugin-dts": "^1.4.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/datasets.umd.js",
+  "module": "./dist/datasets.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/datasets.es.js",
+      "require": "./dist/datasets.umd.js"
     }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

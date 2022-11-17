@@ -1,80 +1,74 @@
 export const libraryInstances = {
-    'home-userBar-basic-1': {
-        id: 'home-userBar-basic-1',
-        widgetId: 'com.usegdi.templates.starter.userBar-basic',
+    'instance-starter-1': {
+        id: 'instance-starter-1',
+        widgetId: 'com.usegdi.templates.starter.aboutMe-basic',
         pageInstanceId: 'i1',
         order: 1,
     },
-    'home-hero-basic-1': {
-        id: 'home-hero-basic-1',
-        widgetId: 'com.usegdi.templates.starter.hero-basic',
+    'instance-starter-2': {
+        id: 'instance-starter-2',
+        widgetId: 'com.usegdi.templates.starter.contactUs-basic',
         pageInstanceId: 'i1',
         order: 2,
     },
-    'home-sectionHeader-basic-1': {
-        id: 'home-sectionHeader-basic-1',
-        widgetId: 'com.usegdi.templates.starter.sectionHeader-basic',
+    'instance-starter-3': {
+        id: 'instance-starter-3',
+        widgetId: 'com.usegdi.templates.starter.ctaAction-basic',
         pageInstanceId: 'i1',
         order: 3,
     },
-    'home-installation-basic-1': {
-        id: 'home-installation-basic-1',
-        widgetId: 'com.usegdi.templates.starter.installation-basic',
+    'instance-starter-4': {
+        id: 'instance-starter-4',
+        widgetId: 'com.usegdi.templates.starter.footer-basic',
         pageInstanceId: 'i1',
         order: 4,
     },
-    'home-sectionHeader-basic-2': {
-        id: 'home-sectionHeader-basic-2',
-        widgetId: 'com.usegdi.templates.starter.sectionHeader-basic',
+    'instance-starter-5': {
+        id: 'instance-starter-5',
+        widgetId: 'com.usegdi.templates.starter.hero-basic',
         pageInstanceId: 'i1',
         order: 5,
     },
-    'home-feature-basic-1': {
-        id: 'home-feature-basic-1',
-        widgetId: 'com.usegdi.templates.starter.feature-basic',
+    'instance-starter-6': {
+        id: 'instance-starter-6',
+        widgetId: 'com.usegdi.templates.starter.myNumbers-basic',
         pageInstanceId: 'i1',
         order: 6,
     },
-    'home-feature-basic-2': {
-        id: 'home-feature-basic-2',
-        widgetId: 'com.usegdi.templates.starter.feature-basic',
+    'instance-starter-7': {
+        id: 'instance-starter-7',
+        widgetId: 'com.usegdi.templates.starter.myPortfolio-basic',
         pageInstanceId: 'i1',
         order: 7,
     },
-    'home-feature-basic-3': {
-        id: 'home-feature-basic-3',
-        widgetId: 'com.usegdi.templates.starter.feature-basic',
+    'instance-starter-8': {
+        id: 'instance-starter-8',
+        widgetId: 'com.usegdi.templates.starter.myResume-basic',
         pageInstanceId: 'i1',
         order: 8,
     },
-    'home-feature-basic-4': {
-        id: 'home-feature-basic-4',
-        widgetId: 'com.usegdi.templates.starter.feature-basic',
+    'instance-starter-9': {
+        id: 'instance-starter-9',
+        widgetId: 'com.usegdi.templates.starter.myServices-basic',
         pageInstanceId: 'i1',
         order: 9,
     },
-    'home-lineCta-basic-1': {
-        id: 'home-lineCta-basic-1',
-        widgetId: 'com.usegdi.templates.starter.lineCta-basic',
+    'instance-starter-10': {
+        id: 'instance-starter-10',
+        widgetId: 'com.usegdi.templates.starter.quotes-basic',
         pageInstanceId: 'i1',
         order: 10,
     },
-    'home-sectionHeader-basic-3': {
-        id: 'home-sectionHeader-basic-3',
-        widgetId: 'com.usegdi.templates.starter.sectionHeader-basic',
+    'instance-starter-11': {
+        id: 'instance-starter-11',
+        widgetId: 'com.usegdi.templates.starter.topHeader-basic',
         pageInstanceId: 'i1',
         order: 11,
     },
-    'home-imageAndText-basic-1': {
-        id: 'home-imageAndText-basic-1',
-        widgetId: 'com.usegdi.templates.starter.imageAndText-basic',
+    'instance-starter-12': {
+        id: 'instance-starter-12',
+        widgetId: 'com.usegdi.templates.starter.topMenu-basic',
         pageInstanceId: 'i1',
         order: 12,
-    },
-    'home-footer-basic-1': {
-        id: 'home-footer-basic-1',
-        widgetId: 'com.usegdi.templates.starter.footer-basic',
-        pageInstanceId: 'i1',
-        order: 13,
     },
 };

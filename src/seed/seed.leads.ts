@@ -4,6 +4,8 @@ import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 import { config } from 'dotenv-flow';
 
+const CLEAR = false;
+
 config();
 
 const destination = process.env.DESTINATION || 'FIREBASE';
@@ -22,4 +24,6 @@ const nodeTypes: Record<string, NodeType> = {
     leads: 'groupedList',
 };
 
-seed(state, nodeTypes, destination);
+seed(state, nodeTypes, destination, {
+    clearNodes: CLEAR,
+});
