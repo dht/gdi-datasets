@@ -4,5 +4,7 @@ export const currentIds = {
     selectedInstanceId: '',
     contentInstanceId: '',
     libraryInstanceId: '',
+    zoomWidgetId: '',
     fieldId: '',
+    resolution: '2k',
 };
