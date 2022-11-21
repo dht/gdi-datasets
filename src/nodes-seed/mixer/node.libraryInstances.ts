@@ -81,7 +81,7 @@ export const libraryInstances = {
     },
     'instance-gdi-3': {
         id: 'instance-gdi-3',
-        widgetId: 'com.usegdi.templates.gdi.twin-basic',
+        widgetId: 'com.usegdi.templates.gdi.twins-basic',
         pageInstanceId: 'i2',
         order: 3,
     },
@@ -111,13 +111,13 @@ export const libraryInstances = {
     },
     'instance-gdi-8': {
         id: 'instance-gdi-7',
-        widgetId: 'com.usegdi.templates.gdi.templatePage-basic',
+        widgetId: 'com.usegdi.templates.gdi.pageTemplate-basic',
         pageInstanceId: 'i5',
         order: 1,
     },
     'instance-gdi-9': {
         id: 'instance-gdi-9',
-        widgetId: 'com.usegdi.templates.gdi.appPage-basic',
+        widgetId: 'com.usegdi.templates.gdi.pageApp-basic',
         pageInstanceId: 'i6',
         order: 1,
     },
@@ -225,7 +225,7 @@ export const libraryInstances = {
     },
     'instance-tech-18': {
         id: 'instance-tech-18',
-        widgetId: 'com.usegdi.templates.tech.blogPage-basic',
+        widgetId: 'com.usegdi.templates.tech.pageBlog-basic',
         pageInstanceId: 'i4',
         order: 18,
     },
