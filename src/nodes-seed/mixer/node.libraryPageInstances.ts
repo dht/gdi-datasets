@@ -29,4 +29,9 @@ export const libraryPageInstances = {
         pageId: 'appPage',
         version: 'v1',
     },
+    i7: {
+        id: 'i7',
+        pageId: 'home',
+        version: 'v4',
+    },
 };

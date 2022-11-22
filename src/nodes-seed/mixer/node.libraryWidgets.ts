@@ -25,25 +25,8 @@ export const libraryWidgets: IWidgets = {
                         isRequired: true,
                         order: 3,
                     },
-                    imageCreditsTitle: {
-                        fieldType: 'text',
-                        order: 4,
-                    },
-                    imageCreditsDescription: {
-                        fieldType: 'text',
-                        order: 5,
-                    },
                 },
-                colors: {
-                    background: {
-                        fieldType: 'color',
-                        order: 0,
-                    },
-                    text: {
-                        fieldType: 'color',
-                        order: 1,
-                    },
-                },
+                colors: {},
                 extra: {
                     href: {
                         fieldType: 'url',
@@ -55,19 +38,6 @@ export const libraryWidgets: IWidgets = {
                         isRequired: true,
                         order: 1,
                     },
-                    hrefSecond: {
-                        fieldType: 'url',
-                        order: 2,
-                    },
-                    headerFontSize: {
-                        fieldType: 'number',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    showBeta: {
-                        fieldType: 'checkbox',
-                        order: 4,
-                    },
                 },
             },
         },
@@ -75,37 +45,15 @@ export const libraryWidgets: IWidgets = {
             normal: {
                 id: 'normal',
                 strings: {
-                    slogan: 'morning',
-                    header: 'Wake up each morning to do',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
+                    slogan: 'My name is David Frank',
+                    header: 'An experienced New York based photographer',
+                    description: '{lorem-43}',
+                    ctaButtonText: 'Contact me',
                 },
-                colors: {
-                    background: '#1a7870',
-                    text: '#aaef69',
-                },
+                colors: {},
                 extra: {
                     imageUrl: 'https://via.placeholder.com/350x150',
-                    href: '#',
-                },
-            },
-            blue: {
-                id: 'blue',
-                strings: {
-                    slogan: 'Try GDI',
-                    header: 'Open Source Web Presence',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: 'dodgerblue',
-                    text: 'pink',
-                },
-                extra: {
-                    imageUrl: 'https://picsum.photos/seed/10/400/280',
-                    href: '#',
+                    href: '#contactMe',
                 },
             },
         },
@@ -120,18 +68,6 @@ export const libraryWidgets: IWidgets = {
                     width: 500,
                     height: 1337,
                     ratio: 0.3739715781600598,
-                },
-            },
-            blue: {
-                desktop: {
-                    width: 1000,
-                    height: 400,
-                    ratio: 2.5,
-                },
-                mobile: {
-                    width: 500,
-                    height: 1383,
-                    ratio: 0.3615328994938539,
                 },
             },
         },
@@ -170,40 +106,6 @@ export const libraryWidgets: IWidgets = {
                     },
                 },
             },
-            blue: {
-                desktop: {
-                    large: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.about me-basic.blue.desktop.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.about me-basic.blue.desktop.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-                mobile: {
-                    large: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.about me-basic.blue.mobile.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.about me-basic.blue.mobile.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-            },
         },
         tags: ['type-aboutMe'],
         dataTags: [],
@@ -218,106 +120,29 @@ export const libraryWidgets: IWidgets = {
             id: 'com.usegdi.templates.starter.contactUs-basic',
             schema: {
                 strings: {
-                    slogan: {
-                        fieldType: 'text',
-                        order: 0,
-                    },
                     header: {
                         fieldType: 'text',
                         isRequired: true,
                         order: 1,
                     },
-                    description: {
-                        fieldType: 'longText',
+                    phoneNumber: {
+                        fieldType: 'text',
                         order: 2,
                     },
-                    ctaButtonText: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    imageCreditsTitle: {
-                        fieldType: 'text',
-                        order: 4,
-                    },
-                    imageCreditsDescription: {
-                        fieldType: 'text',
-                        order: 5,
-                    },
                 },
-                colors: {
-                    background: {
-                        fieldType: 'color',
-                        order: 0,
-                    },
-                    text: {
-                        fieldType: 'color',
-                        order: 1,
-                    },
-                },
-                extra: {
-                    href: {
-                        fieldType: 'url',
-                        isRequired: true,
-                        order: 0,
-                    },
-                    imageUrl: {
-                        fieldType: 'image',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    hrefSecond: {
-                        fieldType: 'url',
-                        order: 2,
-                    },
-                    headerFontSize: {
-                        fieldType: 'number',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    showBeta: {
-                        fieldType: 'checkbox',
-                        order: 4,
-                    },
-                },
+                colors: {},
+                extra: {},
             },
         },
         sampleData: {
             normal: {
                 id: 'normal',
                 strings: {
-                    slogan: 'morning',
-                    header: 'Wake up each morning to do',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
+                    header: 'Get a quote for your project',
+                    phoneNumber: '1234567890',
                 },
-                colors: {
-                    background: '#1a7870',
-                    text: '#aaef69',
-                },
-                extra: {
-                    imageUrl: 'https://via.placeholder.com/350x150',
-                    href: '#',
-                },
-            },
-            blue: {
-                id: 'blue',
-                strings: {
-                    slogan: 'Try GDI',
-                    header: 'Open Source Web Presence',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: 'dodgerblue',
-                    text: 'pink',
-                },
-                extra: {
-                    imageUrl: 'https://picsum.photos/seed/10/400/280',
-                    href: '#',
-                },
+                colors: {},
+                extra: {},
             },
         },
         dimensions: {
@@ -331,18 +156,6 @@ export const libraryWidgets: IWidgets = {
                     width: 500,
                     height: 1337,
                     ratio: 0.3739715781600598,
-                },
-            },
-            blue: {
-                desktop: {
-                    width: 1000,
-                    height: 400,
-                    ratio: 2.5,
-                },
-                mobile: {
-                    width: 500,
-                    height: 1383,
-                    ratio: 0.3615328994938539,
                 },
             },
         },
@@ -377,40 +190,6 @@ export const libraryWidgets: IWidgets = {
                         height: 1337,
                         ratio: 0.3739715781600598,
                         url: 'screenshot.gdi.contact us-basic.normal.mobile.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-            },
-            blue: {
-                desktop: {
-                    large: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.contact us-basic.blue.desktop.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.contact us-basic.blue.desktop.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-                mobile: {
-                    large: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.contact us-basic.blue.mobile.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.contact us-basic.blue.mobile.thumb.webp',
                         urlIsRemote: false,
                     },
                 },
@@ -512,24 +291,6 @@ export const libraryWidgets: IWidgets = {
                     href: '#',
                 },
             },
-            blue: {
-                id: 'blue',
-                strings: {
-                    slogan: 'Try GDI',
-                    header: 'Open Source Web Presence',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: 'dodgerblue',
-                    text: 'pink',
-                },
-                extra: {
-                    imageUrl: 'https://picsum.photos/seed/10/400/280',
-                    href: '#',
-                },
-            },
         },
         dimensions: {
             normal: {
@@ -542,18 +303,6 @@ export const libraryWidgets: IWidgets = {
                     width: 500,
                     height: 1337,
                     ratio: 0.3739715781600598,
-                },
-            },
-            blue: {
-                desktop: {
-                    width: 1000,
-                    height: 400,
-                    ratio: 2.5,
-                },
-                mobile: {
-                    width: 500,
-                    height: 1383,
-                    ratio: 0.3615328994938539,
                 },
             },
         },
@@ -592,40 +341,6 @@ export const libraryWidgets: IWidgets = {
                     },
                 },
             },
-            blue: {
-                desktop: {
-                    large: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.cta action-basic.blue.desktop.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.cta action-basic.blue.desktop.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-                mobile: {
-                    large: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.cta action-basic.blue.mobile.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.cta action-basic.blue.mobile.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-            },
         },
         tags: ['type-ctaAction'],
         dataTags: [],
@@ -640,106 +355,23 @@ export const libraryWidgets: IWidgets = {
             id: 'com.usegdi.templates.starter.footer-basic',
             schema: {
                 strings: {
-                    slogan: {
-                        fieldType: 'text',
-                        order: 0,
-                    },
-                    header: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    description: {
-                        fieldType: 'longText',
-                        order: 2,
-                    },
-                    ctaButtonText: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    imageCreditsTitle: {
-                        fieldType: 'text',
-                        order: 4,
-                    },
-                    imageCreditsDescription: {
-                        fieldType: 'text',
-                        order: 5,
-                    },
-                },
-                colors: {
-                    background: {
-                        fieldType: 'color',
-                        order: 0,
-                    },
                     text: {
-                        fieldType: 'color',
-                        order: 1,
-                    },
-                },
-                extra: {
-                    href: {
-                        fieldType: 'url',
-                        isRequired: true,
+                        fieldType: 'text',
                         order: 0,
                     },
-                    imageUrl: {
-                        fieldType: 'image',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    hrefSecond: {
-                        fieldType: 'url',
-                        order: 2,
-                    },
-                    headerFontSize: {
-                        fieldType: 'number',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    showBeta: {
-                        fieldType: 'checkbox',
-                        order: 4,
-                    },
                 },
+                colors: {},
+                extra: {},
             },
         },
         sampleData: {
             normal: {
                 id: 'normal',
                 strings: {
-                    slogan: 'morning',
-                    header: 'Wake up each morning to do',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
+                    text: 'Copyright &copy; 2022 David All Rights Reserved',
                 },
-                colors: {
-                    background: '#1a7870',
-                    text: '#aaef69',
-                },
-                extra: {
-                    imageUrl: 'https://via.placeholder.com/350x150',
-                    href: '#',
-                },
-            },
-            blue: {
-                id: 'blue',
-                strings: {
-                    slogan: 'Try GDI',
-                    header: 'Open Source Web Presence',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: 'dodgerblue',
-                    text: 'pink',
-                },
-                extra: {
-                    imageUrl: 'https://picsum.photos/seed/10/400/280',
-                    href: '#',
-                },
+                colors: {},
+                extra: {},
             },
         },
         dimensions: {
@@ -753,18 +385,6 @@ export const libraryWidgets: IWidgets = {
                     width: 500,
                     height: 1337,
                     ratio: 0.3739715781600598,
-                },
-            },
-            blue: {
-                desktop: {
-                    width: 1000,
-                    height: 400,
-                    ratio: 2.5,
-                },
-                mobile: {
-                    width: 500,
-                    height: 1383,
-                    ratio: 0.3615328994938539,
                 },
             },
         },
@@ -803,40 +423,6 @@ export const libraryWidgets: IWidgets = {
                     },
                 },
             },
-            blue: {
-                desktop: {
-                    large: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.footer-basic.blue.desktop.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.footer-basic.blue.desktop.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-                mobile: {
-                    large: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.footer-basic.blue.mobile.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.footer-basic.blue.mobile.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-            },
         },
         tags: ['type-footer'],
         dataTags: [],
@@ -864,53 +450,17 @@ export const libraryWidgets: IWidgets = {
                         fieldType: 'longText',
                         order: 2,
                     },
-                    ctaButtonText: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    imageCreditsTitle: {
-                        fieldType: 'text',
-                        order: 4,
-                    },
-                    imageCreditsDescription: {
-                        fieldType: 'text',
-                        order: 5,
-                    },
                 },
-                colors: {
-                    background: {
-                        fieldType: 'color',
-                        order: 0,
-                    },
-                    text: {
-                        fieldType: 'color',
-                        order: 1,
-                    },
-                },
+                colors: {},
                 extra: {
-                    href: {
-                        fieldType: 'url',
-                        isRequired: true,
-                        order: 0,
-                    },
                     imageUrl: {
                         fieldType: 'image',
                         isRequired: true,
                         order: 1,
                     },
-                    hrefSecond: {
-                        fieldType: 'url',
-                        order: 2,
-                    },
-                    headerFontSize: {
-                        fieldType: 'number',
-                        isRequired: true,
+                    socialDatasetId: {
+                        fieldType: 'dataset',
                         order: 3,
-                    },
-                    showBeta: {
-                        fieldType: 'checkbox',
-                        order: 4,
                     },
                 },
             },
@@ -919,37 +469,14 @@ export const libraryWidgets: IWidgets = {
             normal: {
                 id: 'normal',
                 strings: {
-                    slogan: 'morning',
-                    header: 'Wake up each morning to do',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
+                    slogan: 'The work of',
+                    header: 'David Frank',
+                    description: 'Portraits * landscapes * photography',
                 },
-                colors: {
-                    background: '#1a7870',
-                    text: '#aaef69',
-                },
+                colors: {},
                 extra: {
                     imageUrl: 'https://via.placeholder.com/350x150',
-                    href: '#',
-                },
-            },
-            blue: {
-                id: 'blue',
-                strings: {
-                    slogan: 'Try GDI',
-                    header: 'Open Source Web Presence',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: 'dodgerblue',
-                    text: 'pink',
-                },
-                extra: {
-                    imageUrl: 'https://picsum.photos/seed/10/400/280',
-                    href: '#',
+                    socialDatasetId: 'social',
                 },
             },
         },
@@ -964,18 +491,6 @@ export const libraryWidgets: IWidgets = {
                     width: 500,
                     height: 1337,
                     ratio: 0.3739715781600598,
-                },
-            },
-            blue: {
-                desktop: {
-                    width: 1000,
-                    height: 400,
-                    ratio: 2.5,
-                },
-                mobile: {
-                    width: 500,
-                    height: 1383,
-                    ratio: 0.3615328994938539,
                 },
             },
         },
@@ -1014,40 +529,6 @@ export const libraryWidgets: IWidgets = {
                     },
                 },
             },
-            blue: {
-                desktop: {
-                    large: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.hero-basic.blue.desktop.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.hero-basic.blue.desktop.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-                mobile: {
-                    large: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.hero-basic.blue.mobile.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.hero-basic.blue.mobile.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-            },
         },
         tags: ['type-hero'],
         dataTags: [],
@@ -1061,67 +542,12 @@ export const libraryWidgets: IWidgets = {
         params: {
             id: 'com.usegdi.templates.starter.myNumbers-basic',
             schema: {
-                strings: {
-                    slogan: {
-                        fieldType: 'text',
-                        order: 0,
-                    },
-                    header: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    description: {
-                        fieldType: 'longText',
-                        order: 2,
-                    },
-                    ctaButtonText: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    imageCreditsTitle: {
-                        fieldType: 'text',
-                        order: 4,
-                    },
-                    imageCreditsDescription: {
-                        fieldType: 'text',
-                        order: 5,
-                    },
-                },
-                colors: {
-                    background: {
-                        fieldType: 'color',
-                        order: 0,
-                    },
-                    text: {
-                        fieldType: 'color',
-                        order: 1,
-                    },
-                },
+                strings: {},
+                colors: {},
                 extra: {
-                    href: {
-                        fieldType: 'url',
-                        isRequired: true,
+                    numbersDatasetId: {
+                        fieldType: 'dataset',
                         order: 0,
-                    },
-                    imageUrl: {
-                        fieldType: 'image',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    hrefSecond: {
-                        fieldType: 'url',
-                        order: 2,
-                    },
-                    headerFontSize: {
-                        fieldType: 'number',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    showBeta: {
-                        fieldType: 'checkbox',
-                        order: 4,
                     },
                 },
             },
@@ -1129,38 +555,10 @@ export const libraryWidgets: IWidgets = {
         sampleData: {
             normal: {
                 id: 'normal',
-                strings: {
-                    slogan: 'morning',
-                    header: 'Wake up each morning to do',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: '#1a7870',
-                    text: '#aaef69',
-                },
+                strings: {},
+                colors: {},
                 extra: {
-                    imageUrl: 'https://via.placeholder.com/350x150',
-                    href: '#',
-                },
-            },
-            blue: {
-                id: 'blue',
-                strings: {
-                    slogan: 'Try GDI',
-                    header: 'Open Source Web Presence',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: 'dodgerblue',
-                    text: 'pink',
-                },
-                extra: {
-                    imageUrl: 'https://picsum.photos/seed/10/400/280',
-                    href: '#',
+                    numbersDatasetId: 'myNumbers',
                 },
             },
         },
@@ -1175,18 +573,6 @@ export const libraryWidgets: IWidgets = {
                     width: 500,
                     height: 1337,
                     ratio: 0.3739715781600598,
-                },
-            },
-            blue: {
-                desktop: {
-                    width: 1000,
-                    height: 400,
-                    ratio: 2.5,
-                },
-                mobile: {
-                    width: 500,
-                    height: 1383,
-                    ratio: 0.3615328994938539,
                 },
             },
         },
@@ -1225,40 +611,6 @@ export const libraryWidgets: IWidgets = {
                     },
                 },
             },
-            blue: {
-                desktop: {
-                    large: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.my numbers-basic.blue.desktop.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.my numbers-basic.blue.desktop.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-                mobile: {
-                    large: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.my numbers-basic.blue.mobile.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.my numbers-basic.blue.mobile.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-            },
         },
         tags: ['type-myNumbers'],
         dataTags: [],
@@ -1273,66 +625,21 @@ export const libraryWidgets: IWidgets = {
             id: 'com.usegdi.templates.starter.myPortfolio-basic',
             schema: {
                 strings: {
-                    slogan: {
-                        fieldType: 'text',
-                        order: 0,
-                    },
                     header: {
                         fieldType: 'text',
-                        isRequired: true,
-                        order: 1,
+                        order: 0,
                     },
                     description: {
                         fieldType: 'longText',
-                        order: 2,
-                    },
-                    ctaButtonText: {
-                        fieldType: 'text',
                         isRequired: true,
-                        order: 3,
-                    },
-                    imageCreditsTitle: {
-                        fieldType: 'text',
-                        order: 4,
-                    },
-                    imageCreditsDescription: {
-                        fieldType: 'text',
-                        order: 5,
-                    },
-                },
-                colors: {
-                    background: {
-                        fieldType: 'color',
-                        order: 0,
-                    },
-                    text: {
-                        fieldType: 'color',
                         order: 1,
                     },
                 },
+                colors: {},
                 extra: {
-                    href: {
-                        fieldType: 'url',
-                        isRequired: true,
-                        order: 0,
-                    },
-                    imageUrl: {
-                        fieldType: 'image',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    hrefSecond: {
-                        fieldType: 'url',
+                    portfolioDatasetId: {
+                        fieldType: 'dataset',
                         order: 2,
-                    },
-                    headerFontSize: {
-                        fieldType: 'number',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    showBeta: {
-                        fieldType: 'checkbox',
-                        order: 4,
                     },
                 },
             },
@@ -1341,37 +648,12 @@ export const libraryWidgets: IWidgets = {
             normal: {
                 id: 'normal',
                 strings: {
-                    slogan: 'morning',
-                    header: 'Wake up each morning to do',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
+                    header: 'My Portfolio',
+                    description: '{lorem-14}',
                 },
-                colors: {
-                    background: '#1a7870',
-                    text: '#aaef69',
-                },
+                colors: {},
                 extra: {
-                    imageUrl: 'https://via.placeholder.com/350x150',
-                    href: '#',
-                },
-            },
-            blue: {
-                id: 'blue',
-                strings: {
-                    slogan: 'Try GDI',
-                    header: 'Open Source Web Presence',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: 'dodgerblue',
-                    text: 'pink',
-                },
-                extra: {
-                    imageUrl: 'https://picsum.photos/seed/10/400/280',
-                    href: '#',
+                    portfolioDatasetId: 'myPortfolio',
                 },
             },
         },
@@ -1386,18 +668,6 @@ export const libraryWidgets: IWidgets = {
                     width: 500,
                     height: 1337,
                     ratio: 0.3739715781600598,
-                },
-            },
-            blue: {
-                desktop: {
-                    width: 1000,
-                    height: 400,
-                    ratio: 2.5,
-                },
-                mobile: {
-                    width: 500,
-                    height: 1383,
-                    ratio: 0.3615328994938539,
                 },
             },
         },
@@ -1436,40 +706,6 @@ export const libraryWidgets: IWidgets = {
                     },
                 },
             },
-            blue: {
-                desktop: {
-                    large: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.my portfolio-basic.blue.desktop.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.my portfolio-basic.blue.desktop.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-                mobile: {
-                    large: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.my portfolio-basic.blue.mobile.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.my portfolio-basic.blue.mobile.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-            },
         },
         tags: ['type-myPortfolio'],
         dataTags: [],
@@ -1484,10 +720,6 @@ export const libraryWidgets: IWidgets = {
             id: 'com.usegdi.templates.starter.myResume-basic',
             schema: {
                 strings: {
-                    slogan: {
-                        fieldType: 'text',
-                        order: 0,
-                    },
                     header: {
                         fieldType: 'text',
                         isRequired: true,
@@ -1497,53 +729,12 @@ export const libraryWidgets: IWidgets = {
                         fieldType: 'longText',
                         order: 2,
                     },
-                    ctaButtonText: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    imageCreditsTitle: {
-                        fieldType: 'text',
-                        order: 4,
-                    },
-                    imageCreditsDescription: {
-                        fieldType: 'text',
-                        order: 5,
-                    },
                 },
-                colors: {
-                    background: {
-                        fieldType: 'color',
-                        order: 0,
-                    },
-                    text: {
-                        fieldType: 'color',
-                        order: 1,
-                    },
-                },
+                colors: {},
                 extra: {
-                    href: {
-                        fieldType: 'url',
-                        isRequired: true,
+                    resumeDatasetId: {
+                        fieldType: 'dataset',
                         order: 0,
-                    },
-                    imageUrl: {
-                        fieldType: 'image',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    hrefSecond: {
-                        fieldType: 'url',
-                        order: 2,
-                    },
-                    headerFontSize: {
-                        fieldType: 'number',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    showBeta: {
-                        fieldType: 'checkbox',
-                        order: 4,
                     },
                 },
             },
@@ -1552,37 +743,12 @@ export const libraryWidgets: IWidgets = {
             normal: {
                 id: 'normal',
                 strings: {
-                    slogan: 'morning',
-                    header: 'Wake up each morning to do',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
+                    header: 'My Resume',
+                    description: '{lorem-14}',
                 },
-                colors: {
-                    background: '#1a7870',
-                    text: '#aaef69',
-                },
+                colors: {},
                 extra: {
-                    imageUrl: 'https://via.placeholder.com/350x150',
-                    href: '#',
-                },
-            },
-            blue: {
-                id: 'blue',
-                strings: {
-                    slogan: 'Try GDI',
-                    header: 'Open Source Web Presence',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: 'dodgerblue',
-                    text: 'pink',
-                },
-                extra: {
-                    imageUrl: 'https://picsum.photos/seed/10/400/280',
-                    href: '#',
+                    resumeDatasetId: 'myResume',
                 },
             },
         },
@@ -1597,18 +763,6 @@ export const libraryWidgets: IWidgets = {
                     width: 500,
                     height: 1337,
                     ratio: 0.3739715781600598,
-                },
-            },
-            blue: {
-                desktop: {
-                    width: 1000,
-                    height: 400,
-                    ratio: 2.5,
-                },
-                mobile: {
-                    width: 500,
-                    height: 1383,
-                    ratio: 0.3615328994938539,
                 },
             },
         },
@@ -1647,40 +801,6 @@ export const libraryWidgets: IWidgets = {
                     },
                 },
             },
-            blue: {
-                desktop: {
-                    large: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.my resume-basic.blue.desktop.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.my resume-basic.blue.desktop.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-                mobile: {
-                    large: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.my resume-basic.blue.mobile.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.my resume-basic.blue.mobile.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-            },
         },
         tags: ['type-myResume'],
         dataTags: [],
@@ -1695,66 +815,21 @@ export const libraryWidgets: IWidgets = {
             id: 'com.usegdi.templates.starter.myServices-basic',
             schema: {
                 strings: {
-                    slogan: {
-                        fieldType: 'text',
-                        order: 0,
-                    },
                     header: {
                         fieldType: 'text',
-                        isRequired: true,
-                        order: 1,
+                        order: 0,
                     },
                     description: {
                         fieldType: 'longText',
-                        order: 2,
-                    },
-                    ctaButtonText: {
-                        fieldType: 'text',
                         isRequired: true,
-                        order: 3,
-                    },
-                    imageCreditsTitle: {
-                        fieldType: 'text',
-                        order: 4,
-                    },
-                    imageCreditsDescription: {
-                        fieldType: 'text',
-                        order: 5,
-                    },
-                },
-                colors: {
-                    background: {
-                        fieldType: 'color',
-                        order: 0,
-                    },
-                    text: {
-                        fieldType: 'color',
                         order: 1,
                     },
                 },
+                colors: {},
                 extra: {
-                    href: {
-                        fieldType: 'url',
-                        isRequired: true,
-                        order: 0,
-                    },
-                    imageUrl: {
-                        fieldType: 'image',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    hrefSecond: {
-                        fieldType: 'url',
+                    servicesDatasetId: {
+                        fieldType: 'dataset',
                         order: 2,
-                    },
-                    headerFontSize: {
-                        fieldType: 'number',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    showBeta: {
-                        fieldType: 'checkbox',
-                        order: 4,
                     },
                 },
             },
@@ -1763,37 +838,12 @@ export const libraryWidgets: IWidgets = {
             normal: {
                 id: 'normal',
                 strings: {
-                    slogan: 'morning',
-                    header: 'Wake up each morning to do',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
+                    header: 'My Services',
+                    description: '{lorem-14}',
                 },
-                colors: {
-                    background: '#1a7870',
-                    text: '#aaef69',
-                },
+                colors: {},
                 extra: {
-                    imageUrl: 'https://via.placeholder.com/350x150',
-                    href: '#',
-                },
-            },
-            blue: {
-                id: 'blue',
-                strings: {
-                    slogan: 'Try GDI',
-                    header: 'Open Source Web Presence',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: 'dodgerblue',
-                    text: 'pink',
-                },
-                extra: {
-                    imageUrl: 'https://picsum.photos/seed/10/400/280',
-                    href: '#',
+                    servicesDatasetId: 'myServices',
                 },
             },
         },
@@ -1808,18 +858,6 @@ export const libraryWidgets: IWidgets = {
                     width: 500,
                     height: 1337,
                     ratio: 0.3739715781600598,
-                },
-            },
-            blue: {
-                desktop: {
-                    width: 1000,
-                    height: 400,
-                    ratio: 2.5,
-                },
-                mobile: {
-                    width: 500,
-                    height: 1383,
-                    ratio: 0.3615328994938539,
                 },
             },
         },
@@ -1858,40 +896,6 @@ export const libraryWidgets: IWidgets = {
                     },
                 },
             },
-            blue: {
-                desktop: {
-                    large: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.my services-basic.blue.desktop.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.my services-basic.blue.desktop.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-                mobile: {
-                    large: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.my services-basic.blue.mobile.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.my services-basic.blue.mobile.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-            },
         },
         tags: ['type-myServices'],
         dataTags: [],
@@ -1905,67 +909,12 @@ export const libraryWidgets: IWidgets = {
         params: {
             id: 'com.usegdi.templates.starter.quotes-basic',
             schema: {
-                strings: {
-                    slogan: {
-                        fieldType: 'text',
-                        order: 0,
-                    },
-                    header: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    description: {
-                        fieldType: 'longText',
-                        order: 2,
-                    },
-                    ctaButtonText: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    imageCreditsTitle: {
-                        fieldType: 'text',
-                        order: 4,
-                    },
-                    imageCreditsDescription: {
-                        fieldType: 'text',
-                        order: 5,
-                    },
-                },
-                colors: {
-                    background: {
-                        fieldType: 'color',
-                        order: 0,
-                    },
-                    text: {
-                        fieldType: 'color',
-                        order: 1,
-                    },
-                },
+                strings: {},
+                colors: {},
                 extra: {
-                    href: {
-                        fieldType: 'url',
-                        isRequired: true,
+                    quotesDatasetId: {
+                        fieldType: 'dataset',
                         order: 0,
-                    },
-                    imageUrl: {
-                        fieldType: 'image',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    hrefSecond: {
-                        fieldType: 'url',
-                        order: 2,
-                    },
-                    headerFontSize: {
-                        fieldType: 'number',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    showBeta: {
-                        fieldType: 'checkbox',
-                        order: 4,
                     },
                 },
             },
@@ -1973,38 +922,10 @@ export const libraryWidgets: IWidgets = {
         sampleData: {
             normal: {
                 id: 'normal',
-                strings: {
-                    slogan: 'morning',
-                    header: 'Wake up each morning to do',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: '#1a7870',
-                    text: '#aaef69',
-                },
+                strings: {},
+                colors: {},
                 extra: {
-                    imageUrl: 'https://via.placeholder.com/350x150',
-                    href: '#',
-                },
-            },
-            blue: {
-                id: 'blue',
-                strings: {
-                    slogan: 'Try GDI',
-                    header: 'Open Source Web Presence',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: 'dodgerblue',
-                    text: 'pink',
-                },
-                extra: {
-                    imageUrl: 'https://picsum.photos/seed/10/400/280',
-                    href: '#',
+                    servicesDatasetId: 'quotes',
                 },
             },
         },
@@ -2019,18 +940,6 @@ export const libraryWidgets: IWidgets = {
                     width: 500,
                     height: 1337,
                     ratio: 0.3739715781600598,
-                },
-            },
-            blue: {
-                desktop: {
-                    width: 1000,
-                    height: 400,
-                    ratio: 2.5,
-                },
-                mobile: {
-                    width: 500,
-                    height: 1383,
-                    ratio: 0.3615328994938539,
                 },
             },
         },
@@ -2065,40 +974,6 @@ export const libraryWidgets: IWidgets = {
                         height: 1337,
                         ratio: 0.3739715781600598,
                         url: 'screenshot.gdi.quotes-basic.normal.mobile.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-            },
-            blue: {
-                desktop: {
-                    large: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.quotes-basic.blue.desktop.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.quotes-basic.blue.desktop.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-                mobile: {
-                    large: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.quotes-basic.blue.mobile.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.quotes-basic.blue.mobile.thumb.webp',
                         urlIsRemote: false,
                     },
                 },
@@ -2200,24 +1075,6 @@ export const libraryWidgets: IWidgets = {
                     href: '#',
                 },
             },
-            blue: {
-                id: 'blue',
-                strings: {
-                    slogan: 'Try GDI',
-                    header: 'Open Source Web Presence',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: 'dodgerblue',
-                    text: 'pink',
-                },
-                extra: {
-                    imageUrl: 'https://picsum.photos/seed/10/400/280',
-                    href: '#',
-                },
-            },
         },
         dimensions: {
             normal: {
@@ -2230,18 +1087,6 @@ export const libraryWidgets: IWidgets = {
                     width: 500,
                     height: 1337,
                     ratio: 0.3739715781600598,
-                },
-            },
-            blue: {
-                desktop: {
-                    width: 1000,
-                    height: 400,
-                    ratio: 2.5,
-                },
-                mobile: {
-                    width: 500,
-                    height: 1383,
-                    ratio: 0.3615328994938539,
                 },
             },
         },
@@ -2280,36 +1125,763 @@ export const libraryWidgets: IWidgets = {
                     },
                 },
             },
-            blue: {
+        },
+        tags: ['type-topHeader'],
+        dataTags: [],
+        widgetType: 'topHeader',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.apps-basic': {
+        id: 'com.usegdi.templates.gdi.apps-basic',
+        name: 'apps-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.apps-basic',
+            schema: {
+                strings: {
+                    header: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 1,
+                    },
+                },
+                colors: {},
+                extra: {
+                    appsDatasetId: {
+                        fieldType: 'dataset',
+                        isRequired: true,
+                        order: 0,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    header: 'Apps',
+                },
+                colors: {},
+                extra: {
+                    appsDatasetId: 'apps',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
                 desktop: {
                     large: {
                         width: 1000,
                         height: 400,
                         ratio: 2.5,
-                        url: 'screenshot.gdi.top header-basic.blue.desktop.large.webp',
+                        url: 'screenshot.gdi.apps-basic.normal.desktop.large.webp',
                         urlIsRemote: false,
                     },
                     thumb: {
                         width: 1000,
                         height: 400,
                         ratio: 2.5,
-                        url: 'screenshot.gdi.top header-basic.blue.desktop.thumb.webp',
+                        url: 'screenshot.gdi.apps-basic.normal.desktop.thumb.webp',
                         urlIsRemote: false,
                     },
                 },
                 mobile: {
                     large: {
                         width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.top header-basic.blue.mobile.large.webp',
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.apps-basic.normal.mobile.large.webp',
                         urlIsRemote: false,
                     },
                     thumb: {
                         width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.top header-basic.blue.mobile.thumb.webp',
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.apps-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-apps'],
+        dataTags: [],
+        widgetType: 'apps',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.features-basic': {
+        id: 'com.usegdi.templates.gdi.features-basic',
+        name: 'features-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.features-basic',
+            schema: {
+                strings: {
+                    header: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 1,
+                    },
+                    version: {
+                        fieldType: 'text',
+                        order: 2,
+                    },
+                },
+                colors: {},
+                extra: {
+                    featuresDatasetId: {
+                        fieldType: 'dataset',
+                        isRequired: true,
+                        order: 0,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    header: 'Features',
+                    version: '0.9.1',
+                },
+                colors: {},
+                extra: {
+                    featuresDatasetId: 'features',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.features-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.features-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.features-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.features-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-features'],
+        dataTags: [],
+        widgetType: 'features',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.footer-basic': {
+        id: 'com.usegdi.templates.gdi.footer-basic',
+        name: 'footer-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.footer-basic',
+            schema: {
+                strings: {
+                    text: {
+                        fieldType: 'text',
+                        order: 0,
+                    },
+                },
+                colors: {},
+                extra: {
+                    linksDatasetId: {
+                        fieldType: 'dataset',
+                        order: 0,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    text: '&copy; gDI 2022',
+                },
+                colors: {},
+                extra: {
+                    linksDatasetId: 'footerLinks',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.footer-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.footer-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.footer-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.footer-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-footer'],
+        dataTags: [],
+        widgetType: 'footer',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.hero-basic': {
+        id: 'com.usegdi.templates.gdi.hero-basic',
+        name: 'hero-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.hero-basic',
+            schema: {
+                strings: {
+                    slogan: {
+                        fieldType: 'text',
+                        order: 0,
+                    },
+                    header: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 1,
+                    },
+                    installation: {
+                        fieldType: 'text',
+                        order: 2,
+                    },
+                    ctaButtonText: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 3,
+                    },
+                    secondaryButtonText: {
+                        fieldType: 'text',
+                        order: 4,
+                    },
+                },
+                colors: {},
+                extra: {
+                    href: {
+                        fieldType: 'url',
+                        isRequired: true,
+                        order: 0,
+                    },
+                    imageUrl: {
+                        fieldType: 'image',
+                        isRequired: true,
+                        order: 1,
+                    },
+                    hrefSecondary: {
+                        fieldType: 'url',
+                        order: 2,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    slogan: "There's a new CMS in town",
+                    header: 'gDI',
+                    installation: 'npm install -g @gdi/cli',
+                    ctaButtonText: 'Get started',
+                    secondaryButtonText: 'View demo',
+                },
+                colors: {},
+                extra: {
+                    href: '#',
+                    imageUrl: '',
+                    hrefSecondary: '#',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.hero-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.hero-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.hero-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.hero-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-hero'],
+        dataTags: [],
+        widgetType: 'hero',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.pageApp-basic': {
+        id: 'com.usegdi.templates.gdi.pageApp-basic',
+        name: 'pageApp-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.pageApp-basic',
+            schema: {
+                strings: {},
+                colors: {},
+                extra: {
+                    appsDatasetId: {
+                        fieldType: 'dataset',
+                        isRequired: true,
+                        order: 0,
+                    },
+                    contentUrl: {
+                        fieldType: 'url',
+                        isRequired: true,
+                        order: 1,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {},
+                colors: {},
+                extra: {
+                    appsDatasetId: 'apps',
+                    contentUrl: '#',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.page app-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.page app-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.page app-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.page app-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-pageApp'],
+        dataTags: [],
+        widgetType: 'pageApp',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.pageTemplate-basic': {
+        id: 'com.usegdi.templates.gdi.pageTemplate-basic',
+        name: 'pageTemplate-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.pageTemplate-basic',
+            schema: {
+                strings: {},
+                colors: {},
+                extra: {
+                    templatesDatasetId: {
+                        fieldType: 'dataset',
+                        isRequired: true,
+                        order: 0,
+                    },
+                    contentUrl: {
+                        fieldType: 'url',
+                        isRequired: true,
+                        order: 1,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {},
+                colors: {},
+                extra: {
+                    templatesDatasetId: 'apps',
+                    contentUrl: '#',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.page template-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.page template-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.page template-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.page template-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-pageTemplate'],
+        dataTags: [],
+        widgetType: 'pageTemplate',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.templates-basic': {
+        id: 'com.usegdi.templates.gdi.templates-basic',
+        name: 'templates-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.templates-basic',
+            schema: {
+                strings: {},
+                colors: {},
+                extra: {
+                    appsDatasetId: {
+                        fieldType: 'dataset',
+                        isRequired: true,
+                        order: 0,
+                    },
+                    contentUrl: {
+                        fieldType: 'url',
+                        isRequired: true,
+                        order: 1,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    header: 'Templates',
+                },
+                colors: {},
+                extra: {
+                    templatesDatasetId: 'templates',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.templates-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.templates-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.templates-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.templates-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-templates'],
+        dataTags: [],
+        widgetType: 'templates',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.topHeader-basic': {
+        id: 'com.usegdi.templates.gdi.topHeader-basic',
+        name: 'topHeader-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.topHeader-basic',
+            schema: {
+                strings: {},
+                colors: {},
+                extra: {
+                    logoImageUrl: {
+                        fieldType: 'image',
+                        isRequired: true,
+                        order: 0,
+                    },
+                    githubUrl: {
+                        fieldType: 'url',
+                        order: 1,
+                    },
+                    socialDatasetId: {
+                        fieldType: 'dataset',
+                        isRequired: true,
+                        order: 2,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {},
+                colors: {},
+                extra: {
+                    logoImageUrl: '',
+                    githubUrl: '#',
+                    socialDatasetId: '',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.top header-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.top header-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.top header-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.top header-basic.normal.mobile.thumb.webp',
                         urlIsRemote: false,
                     },
                 },
@@ -2320,12 +1892,611 @@ export const libraryWidgets: IWidgets = {
         widgetType: 'topHeader',
         isBlock: true,
     },
-    'com.usegdi.templates.starter.topMenu-basic': {
-        id: 'com.usegdi.templates.starter.topMenu-basic',
-        name: 'topMenu-basic',
+    'com.usegdi.templates.gdi.twins-basic': {
+        id: 'com.usegdi.templates.gdi.twins-basic',
+        name: 'twins-basic',
         description: '',
         params: {
-            id: 'com.usegdi.templates.starter.topMenu-basic',
+            id: 'com.usegdi.templates.gdi.twins-basic',
+            schema: {
+                strings: {
+                    header: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 0,
+                    },
+                    description: {
+                        fieldType: 'longText',
+                        isRequired: true,
+                        order: 1,
+                    },
+                    buttonText: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 3,
+                    },
+                    headerSecondary: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 2,
+                    },
+                    descriptionSecondary: {
+                        fieldType: 'longText',
+                        isRequired: true,
+                        order: 3,
+                    },
+                    buttonTextSecondary: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 3,
+                    },
+                },
+                colors: {},
+                extra: {
+                    href: {
+                        fieldType: 'url',
+                        isRequired: true,
+                        order: 0,
+                    },
+                    hrefSecondary: {
+                        fieldType: 'url',
+                        isRequired: true,
+                        order: 0,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    header: 'Build for [Firebase]',
+                    description:
+                        "Use Firebase to host your site, store your data and manage your users. You can do all that with Firebase's free Spark plan*",
+                    buttonText: 'See features',
+                    headerSecondary: 'Made with [React]',
+                    descriptionSecondary:
+                        "It's easy to extend the CMS with your React skills. Create new templates, apps or data stores. Use JSONs to import & export anything",
+                    buttonTextSecondary: 'Visit Github',
+                },
+                colors: {},
+                extra: {
+                    href: '#',
+                    hrefSecondary: '#',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.twins-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.twins-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.twins-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.twins-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-twins'],
+        dataTags: [],
+        widgetType: 'twins',
+        isBlock: true,
+    },
+    'com.usegdi.templates.tech.bigOne-basic': {
+        id: 'com.usegdi.templates.tech.bigOne-basic',
+        name: 'bigOne-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.tech.bigOne-basic',
+            schema: {
+                strings: {},
+                colors: {},
+                extra: {},
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {},
+                colors: {},
+                extra: {},
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.big one-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.big one-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.big one-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.big one-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-bigOne'],
+        dataTags: [],
+        widgetType: 'bigOne',
+        isBlock: true,
+    },
+    'com.usegdi.templates.tech.ctaLine-basic': {
+        id: 'com.usegdi.templates.tech.ctaLine-basic',
+        name: 'ctaLine-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.tech.ctaLine-basic',
+            schema: {
+                strings: {},
+                colors: {},
+                extra: {},
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {},
+                colors: {},
+                extra: {},
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.cta line-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.cta line-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.cta line-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.cta line-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-ctaLine'],
+        dataTags: [],
+        widgetType: 'ctaLine',
+        isBlock: true,
+    },
+    'com.usegdi.templates.tech.fourPack-basic': {
+        id: 'com.usegdi.templates.tech.fourPack-basic',
+        name: 'fourPack-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.tech.fourPack-basic',
+            schema: {
+                strings: {},
+                colors: {},
+                extra: {},
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {},
+                colors: {},
+                extra: {},
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.four pack-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.four pack-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.four pack-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.four pack-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-fourPack'],
+        dataTags: [],
+        widgetType: 'fourPack',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.pageBlog-basic': {
+        id: 'com.usegdi.templates.gdi.pageBlog-basic',
+        name: 'pageBlog-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.pageBlog-basic',
+            schema: {
+                strings: {},
+                colors: {},
+                extra: {},
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {},
+                colors: {},
+                extra: {},
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.page blog-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.page blog-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.page blog-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.page blog-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-pageBlog'],
+        dataTags: [],
+        widgetType: 'pageBlog',
+        isBlock: true,
+    },
+    'com.usegdi.templates.tech.sixPack-basic': {
+        id: 'com.usegdi.templates.tech.sixPack-basic',
+        name: 'sixPack-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.tech.sixPack-basic',
+            schema: {
+                strings: {},
+                colors: {},
+                extra: {},
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {},
+                colors: {},
+                extra: {},
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.six pack-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.six pack-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.six pack-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.six pack-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-sixPack'],
+        dataTags: [],
+        widgetType: 'sixPack',
+        isBlock: true,
+    },
+    'com.usegdi.templates.tech.topHeader-basic': {
+        id: 'com.usegdi.templates.tech.topHeader-basic',
+        name: 'topHeader-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.tech.topHeader-basic',
+            schema: {
+                strings: {
+                    slogan: {
+                        fieldType: 'text',
+                        order: 0,
+                    },
+                },
+                colors: {},
+                extra: {
+                    logoImageUrl: {
+                        fieldType: 'image',
+                        isRequired: true,
+                        order: 1,
+                    },
+                    hrefExtra: {
+                        fieldType: 'url',
+                        order: 2,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    slogan: 'come into focus',
+                },
+                colors: {},
+                extra: {
+                    logoImageUrl: '',
+                    hrefExtra: '#',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.top header-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.top header-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.top header-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.top header-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-topHeader'],
+        dataTags: [],
+        widgetType: 'topHeader',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.card-basic': {
+        id: 'com.usegdi.templates.gdi.card-basic',
+        name: 'card-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.card-basic',
             schema: {
                 strings: {
                     slogan: {
@@ -2399,7 +2570,7 @@ export const libraryWidgets: IWidgets = {
                     slogan: 'morning',
                     header: 'Wake up each morning to do',
                     description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
+                        'With morning you are an effective team that gets things done, every minute, every hour, every day',
                     ctaButtonText: 'Join free',
                 },
                 colors: {
@@ -2407,7 +2578,8 @@ export const libraryWidgets: IWidgets = {
                     text: '#aaef69',
                 },
                 extra: {
-                    imageUrl: 'https://via.placeholder.com/350x150',
+                    imageUrl:
+                        'https://cdn.greeninvoice.co.il/public-website/assets/1.0.473/img/d9a9eec.svg',
                     href: '#',
                 },
             },
@@ -2463,14 +2635,14 @@ export const libraryWidgets: IWidgets = {
                         width: 1000,
                         height: 400,
                         ratio: 2.5,
-                        url: 'screenshot.gdi.top menu-basic.normal.desktop.large.webp',
+                        url: 'screenshot.gdi.card-basic.normal.desktop.large.webp',
                         urlIsRemote: false,
                     },
                     thumb: {
                         width: 1000,
                         height: 400,
                         ratio: 2.5,
-                        url: 'screenshot.gdi.top menu-basic.normal.desktop.thumb.webp',
+                        url: 'screenshot.gdi.card-basic.normal.desktop.thumb.webp',
                         urlIsRemote: false,
                     },
                 },
@@ -2479,14 +2651,14 @@ export const libraryWidgets: IWidgets = {
                         width: 500,
                         height: 1337,
                         ratio: 0.3739715781600598,
-                        url: 'screenshot.gdi.top menu-basic.normal.mobile.large.webp',
+                        url: 'screenshot.gdi.card-basic.normal.mobile.large.webp',
                         urlIsRemote: false,
                     },
                     thumb: {
                         width: 500,
                         height: 1337,
                         ratio: 0.3739715781600598,
-                        url: 'screenshot.gdi.top menu-basic.normal.mobile.thumb.webp',
+                        url: 'screenshot.gdi.card-basic.normal.mobile.thumb.webp',
                         urlIsRemote: false,
                     },
                 },
@@ -2497,14 +2669,14 @@ export const libraryWidgets: IWidgets = {
                         width: 1000,
                         height: 400,
                         ratio: 2.5,
-                        url: 'screenshot.gdi.top menu-basic.blue.desktop.large.webp',
+                        url: 'screenshot.gdi.card-basic.blue.desktop.large.webp',
                         urlIsRemote: false,
                     },
                     thumb: {
                         width: 1000,
                         height: 400,
                         ratio: 2.5,
-                        url: 'screenshot.gdi.top menu-basic.blue.desktop.thumb.webp',
+                        url: 'screenshot.gdi.card-basic.blue.desktop.thumb.webp',
                         urlIsRemote: false,
                     },
                 },
@@ -2513,22 +2685,234 @@ export const libraryWidgets: IWidgets = {
                         width: 500,
                         height: 1383,
                         ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.top menu-basic.blue.mobile.large.webp',
+                        url: 'screenshot.gdi.card-basic.blue.mobile.large.webp',
                         urlIsRemote: false,
                     },
                     thumb: {
                         width: 500,
                         height: 1383,
                         ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.top menu-basic.blue.mobile.thumb.webp',
+                        url: 'screenshot.gdi.card-basic.blue.mobile.thumb.webp',
                         urlIsRemote: false,
                     },
                 },
             },
         },
-        tags: ['type-topMenu'],
+        tags: ['type-card'],
         dataTags: [],
-        widgetType: 'topMenu',
+        widgetType: 'card',
+        isBlock: true,
+    },
+    'com.usegdi.templates.card.card-basic': {
+        id: 'com.usegdi.templates.card.card-basic',
+        name: 'card-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.card.card-basic',
+            schema: {
+                strings: {
+                    slogan: {
+                        fieldType: 'text',
+                        order: 0,
+                    },
+                    header: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 1,
+                    },
+                    description: {
+                        fieldType: 'longText',
+                        order: 2,
+                    },
+                    ctaButtonText: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 3,
+                    },
+                    imageCreditsTitle: {
+                        fieldType: 'text',
+                        order: 4,
+                    },
+                    imageCreditsDescription: {
+                        fieldType: 'text',
+                        order: 5,
+                    },
+                },
+                colors: {
+                    background: {
+                        fieldType: 'color',
+                        order: 0,
+                    },
+                    text: {
+                        fieldType: 'color',
+                        order: 1,
+                    },
+                },
+                extra: {
+                    href: {
+                        fieldType: 'url',
+                        isRequired: true,
+                        order: 0,
+                    },
+                    imageUrl: {
+                        fieldType: 'image',
+                        isRequired: true,
+                        order: 1,
+                    },
+                    hrefSecond: {
+                        fieldType: 'url',
+                        order: 2,
+                    },
+                    headerFontSize: {
+                        fieldType: 'number',
+                        isRequired: true,
+                        order: 3,
+                    },
+                    showBeta: {
+                        fieldType: 'checkbox',
+                        order: 4,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    slogan: 'morning',
+                    header: 'Wake up each morning to do',
+                    description:
+                        'With morning you are an effective team that gets things done, every minute, every hour, every day',
+                    ctaButtonText: 'Join free',
+                },
+                colors: {
+                    background: '#1a7870',
+                    text: '#aaef69',
+                },
+                extra: {
+                    imageUrl:
+                        'https://cdn.greeninvoice.co.il/public-website/assets/1.0.473/img/d9a9eec.svg',
+                    href: '#',
+                },
+            },
+            blue: {
+                id: 'blue',
+                strings: {
+                    slogan: 'Try GDI',
+                    header: 'Open Source Web Presence',
+                    description:
+                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
+                    ctaButtonText: 'Join free',
+                },
+                colors: {
+                    background: 'dodgerblue',
+                    text: 'pink',
+                },
+                extra: {
+                    imageUrl: 'https://picsum.photos/seed/10/400/280',
+                    href: '#',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+            blue: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1383,
+                    ratio: 0.3615328994938539,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.card-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.card-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.card-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.card-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+            blue: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.card-basic.blue.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.card-basic.blue.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1383,
+                        ratio: 0.3615328994938539,
+                        url: 'screenshot.gdi.card-basic.blue.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1383,
+                        ratio: 0.3615328994938539,
+                        url: 'screenshot.gdi.card-basic.blue.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-card'],
+        dataTags: [],
+        widgetType: 'card',
         isBlock: true,
     },
 };

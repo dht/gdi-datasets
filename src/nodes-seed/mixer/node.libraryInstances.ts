@@ -229,4 +229,10 @@ export const libraryInstances = {
         pageInstanceId: 'i4',
         order: 18,
     },
+    'instance-card-1': {
+        id: 'instance-card-1',
+        widgetId: 'com.usegdi.templates.card.card-basic',
+        pageInstanceId: 'i7',
+        order: 18,
+    },
 };
