@@ -11,6 +11,11 @@ export const libraryInstancesProps = {
         extra_imageUrl: 'https://picsum.photos/seed/11/1557/882',
         extra_socialDatasetId: 'social',
     },
+    'instance-starter-3h': {
+        id: 'instance-starter-3h',
+        strings_text: 'About Me',
+        extra_id: 'about',
+    },
     'instance-starter-3': {
         id: 'instance-starter-3',
         strings_slogan: 'My name is David Baker',
@@ -21,11 +26,21 @@ export const libraryInstancesProps = {
         extra_imageUrl: 'https://static-b9ebe.web.app/by-.webp',
         extra_href: '#',
     },
+    'instance-starter-4h': {
+        id: 'instance-starter-4h',
+        strings_text: 'My services',
+        extra_id: 'services',
+    },
     'instance-starter-4': {
         id: 'instance-starter-4',
         strings_header: 'My Services',
         strings_description: '{lorem-15-20}',
         extra_servicesDatasetId: 'myServices',
+    },
+    'instance-starter-5h': {
+        id: 'instance-starter-5h',
+        strings_text: 'My Portfolio',
+        extra_id: 'portfolio',
     },
     'instance-starter-5': {
         id: 'instance-starter-5',
@@ -37,9 +52,14 @@ export const libraryInstancesProps = {
         id: 'instance-starter-6',
         extra_numbersDatasetId: 'myNumbers',
     },
+    'instance-starter-7h': {
+        id: 'instance-starter-7h',
+        strings_text: 'My Resume',
+        extra_id: 'resume',
+    },
     'instance-starter-7': {
         id: 'instance-starter-7',
-        strings_header: 'My Portfolio',
+        strings_header: 'My Resume',
         strings_description: '{lorem-10-20}',
         extra_resumeDatasetId: 'myResume',
     },
@@ -52,6 +72,11 @@ export const libraryInstancesProps = {
     'instance-starter-9': {
         id: 'instance-starter-9',
         extra_quotesDatasetId: 'quotes',
+    },
+    'instance-starter-10h': {
+        id: 'instance-starter-10h',
+        strings_text: 'Contact Me',
+        extra_id: 'contact',
     },
     'instance-starter-10': {
         id: 'instance-starter-10',

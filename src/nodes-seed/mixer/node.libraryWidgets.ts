@@ -212,62 +212,18 @@ export const libraryWidgets: IWidgets = {
                         fieldType: 'text',
                         order: 0,
                     },
-                    header: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    description: {
-                        fieldType: 'longText',
-                        order: 2,
-                    },
                     ctaButtonText: {
                         fieldType: 'text',
                         isRequired: true,
                         order: 3,
                     },
-                    imageCreditsTitle: {
-                        fieldType: 'text',
-                        order: 4,
-                    },
-                    imageCreditsDescription: {
-                        fieldType: 'text',
-                        order: 5,
-                    },
                 },
-                colors: {
-                    background: {
-                        fieldType: 'color',
-                        order: 0,
-                    },
-                    text: {
-                        fieldType: 'color',
-                        order: 1,
-                    },
-                },
+                colors: {},
                 extra: {
                     href: {
                         fieldType: 'url',
                         isRequired: true,
                         order: 0,
-                    },
-                    imageUrl: {
-                        fieldType: 'image',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    hrefSecond: {
-                        fieldType: 'url',
-                        order: 2,
-                    },
-                    headerFontSize: {
-                        fieldType: 'number',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    showBeta: {
-                        fieldType: 'checkbox',
-                        order: 4,
                     },
                 },
             },
@@ -275,9 +231,14 @@ export const libraryWidgets: IWidgets = {
         sampleData: {
             normal: {
                 id: 'normal',
-                strings: {},
+                strings: {
+                    slogan: 'Join my 15th October course',
+                    ctaButtonText: 'Join Course',
+                },
                 colors: {},
-                extra: {},
+                extra: {
+                    href: '#',
+                },
             },
         },
         dimensions: {
@@ -979,69 +940,9 @@ export const libraryWidgets: IWidgets = {
         params: {
             id: 'com.usegdi.templates.starter.topHeader-basic',
             schema: {
-                strings: {
-                    slogan: {
-                        fieldType: 'text',
-                        order: 0,
-                    },
-                    header: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    description: {
-                        fieldType: 'longText',
-                        order: 2,
-                    },
-                    ctaButtonText: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    imageCreditsTitle: {
-                        fieldType: 'text',
-                        order: 4,
-                    },
-                    imageCreditsDescription: {
-                        fieldType: 'text',
-                        order: 5,
-                    },
-                },
-                colors: {
-                    background: {
-                        fieldType: 'color',
-                        order: 0,
-                    },
-                    text: {
-                        fieldType: 'color',
-                        order: 1,
-                    },
-                },
-                extra: {
-                    href: {
-                        fieldType: 'url',
-                        isRequired: true,
-                        order: 0,
-                    },
-                    imageUrl: {
-                        fieldType: 'image',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    hrefSecond: {
-                        fieldType: 'url',
-                        order: 2,
-                    },
-                    headerFontSize: {
-                        fieldType: 'number',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    showBeta: {
-                        fieldType: 'checkbox',
-                        order: 4,
-                    },
-                },
+                strings: {},
+                colors: {},
+                extra: {},
             },
         },
         sampleData: {
@@ -2666,6 +2567,111 @@ export const libraryWidgets: IWidgets = {
         tags: ['type-card'],
         dataTags: [],
         widgetType: 'card',
+        isBlock: true,
+    },
+    'com.usegdi.templates.starter.sectionHeader-basic': {
+        id: 'com.usegdi.templates.starter.sectionHeader-basic',
+        name: 'sectionHeader-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.starter.sectionHeader-basic',
+            schema: {
+                strings: {
+                    text: {
+                        fieldType: 'text',
+                        order: 0,
+                    },
+                },
+                colors: {},
+                extra: {
+                    id: {
+                        fieldType: 'text',
+                        order: 0,
+                    },
+                    isHidden: {
+                        fieldType: 'checkbox',
+                        order: 1,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    text: 'Features',
+                },
+                colors: {},
+                extra: {
+                    id: 'features',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1337,
+                    ratio: 0.3739715781600598,
+                },
+            },
+            blue: {
+                desktop: {
+                    width: 1000,
+                    height: 400,
+                    ratio: 2.5,
+                },
+                mobile: {
+                    width: 500,
+                    height: 1383,
+                    ratio: 0.3615328994938539,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.section header-basic.normal.desktop.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 1000,
+                        height: 400,
+                        ratio: 2.5,
+                        url: 'screenshot.gdi.section header-basic.normal.desktop.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.section header-basic.normal.mobile.large.webp',
+                        urlIsRemote: false,
+                    },
+                    thumb: {
+                        width: 500,
+                        height: 1337,
+                        ratio: 0.3739715781600598,
+                        url: 'screenshot.gdi.section header-basic.normal.mobile.thumb.webp',
+                        urlIsRemote: false,
+                    },
+                },
+            },
+        },
+        tags: ['type-sectionHeader'],
+        dataTags: [],
+        widgetType: 'sectionHeader',
         isBlock: true,
     },
 };
