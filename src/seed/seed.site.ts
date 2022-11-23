@@ -1,4 +1,5 @@
 import { breakpoints } from '../nodes-seed/site/node.breakpoints';
+import { datasets } from '../nodes-seed/site/node.datasets';
 import { fonts } from '../nodes-seed/site/node.fonts';
 import { images } from '../nodes-seed/site/node.images';
 import { initFirebase } from '../utils/firestore';
@@ -14,6 +15,7 @@ import { widgets } from '../nodes-seed/site/node.widgets';
 import { seed } from '@gdi/store-seeder';
 
 import { config } from 'dotenv-flow';
+import { parseData } from '../utils/parseData';
 
 const CLEAR = false;
 
@@ -25,8 +27,9 @@ if (destination === 'FIREBASE') {
     initFirebase();
 }
 
-const state = {
+const state = parseData({
     breakpoints,
+    datasets,
     palette,
     fonts,
     images,
@@ -38,11 +41,12 @@ const state = {
     pageInstances,
     siteProperties,
     widgets,
-};
+});
 
 const nodeTypes: Record<string, NodeType> = {
     meta: 'single',
     palette: 'single',
+    datasets: 'single',
     fonts: 'single',
     siteProperties: 'single',
     instances: 'collection',

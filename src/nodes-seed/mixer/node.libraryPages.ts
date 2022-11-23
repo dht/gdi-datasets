@@ -47,4 +47,16 @@ export const libraryPages: IPages = {
         order: 4,
         pageInstanceId: 'i6',
     },
+    card: {
+        id: 'card',
+        title: 'Card page',
+        description: 'Card page',
+        iconName: 'ContactCard',
+        path: '/card',
+        status: 'draft',
+        tags: [],
+        dataTags: [],
+        order: 5,
+        pageInstanceId: 'i7',
+    },
 };

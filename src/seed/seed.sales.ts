@@ -4,6 +4,7 @@ import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
 import { config } from 'dotenv-flow';
+import { parseData } from '../utils/parseData';
 
 const CLEAR = false;
 
@@ -15,10 +16,10 @@ if (destination === 'FIREBASE') {
     initFirebase();
 }
 
-const state = {
+const state = parseData({
     appStateSales,
     sales,
-};
+});
 
 const nodeTypes: Record<string, NodeType> = {
     appStateSales: 'single',

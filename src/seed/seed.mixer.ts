@@ -8,12 +8,13 @@ import { libraryPageInstances } from '../nodes-seed/mixer/node.libraryPageInstan
 import { libraryInstances } from '../nodes-seed/mixer/node.libraryInstances';
 import { libraryInstancesProps } from '../nodes-seed/mixer/node.libraryInstancesProps';
 import { libraryPages } from '../nodes-seed/mixer/node.libraryPages';
-import { datasets } from '../nodes-seed/mixer/node.datasets';
+import { libraryDatasets } from '../nodes-seed/mixer/node.libraryDatasets';
 import { packages } from '../nodes-seed/mixer/node.packages';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
 import { config } from 'dotenv-flow';
+import { parseData } from '../utils/parseData';
 
 const CLEAR = false;
 
@@ -25,7 +26,7 @@ if (destination === 'FIREBASE') {
     initFirebase();
 }
 
-const state = {
+const state = parseData({
     appStateMixer,
     libraryImages,
     libraryWidgets,
@@ -35,10 +36,10 @@ const state = {
     libraryPages,
     libraryInstancesProps,
     libraryPageInstances,
+    libraryDatasets,
     locales,
-    datasets,
     packages,
-};
+});
 
 const nodeTypes: Record<string, NodeType> = {
     appStateMixer: 'single',
@@ -50,8 +51,8 @@ const nodeTypes: Record<string, NodeType> = {
     libraryPages: 'collection',
     libraryInstancesProps: 'collection',
     libraryPageInstances: 'collection',
+    libraryDatasets: 'single',
     locales: 'collection',
-    datasets: 'single',
     packages: 'single',
 };
 

@@ -7,6 +7,7 @@ import { initFirebase } from '../utils/firestore';
 import { seed } from '@gdi/store-seeder';
 
 import { config } from 'dotenv-flow';
+import { parseData } from '../utils/parseData';
 
 const CLEAR = false;
 
@@ -18,13 +19,13 @@ if (destination === 'FIREBASE') {
     initFirebase();
 }
 
-const state = {
+const state = parseData({
     currentIdsDashboard,
     appStateDashboard,
     stats,
     statsJourneys,
     inboxMessages,
-};
+});
 
 const nodeTypes: Record<string, NodeType> = {
     currentIdsDashboard: 'single',

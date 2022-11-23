@@ -45,7 +45,7 @@ export const libraryWidgets: IWidgets = {
             normal: {
                 id: 'normal',
                 strings: {
-                    slogan: 'My name is David Frank',
+                    slogan: 'My name is David Baker',
                     header: 'An experienced New York based photographer',
                     description: '{lorem-43}',
                     ctaButtonText: 'Contact me',
@@ -275,21 +275,9 @@ export const libraryWidgets: IWidgets = {
         sampleData: {
             normal: {
                 id: 'normal',
-                strings: {
-                    slogan: 'morning',
-                    header: 'Wake up each morning to do',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: '#1a7870',
-                    text: '#aaef69',
-                },
-                extra: {
-                    imageUrl: 'https://via.placeholder.com/350x150',
-                    href: '#',
-                },
+                strings: {},
+                colors: {},
+                extra: {},
             },
         },
         dimensions: {
@@ -470,7 +458,7 @@ export const libraryWidgets: IWidgets = {
                 id: 'normal',
                 strings: {
                     slogan: 'The work of',
-                    header: 'David Frank',
+                    header: 'David Baker',
                     description: 'Portraits * landscapes * photography',
                 },
                 colors: {},
@@ -1059,21 +1047,9 @@ export const libraryWidgets: IWidgets = {
         sampleData: {
             normal: {
                 id: 'normal',
-                strings: {
-                    slogan: 'morning',
-                    header: 'Wake up each morning to do',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: '#1a7870',
-                    text: '#aaef69',
-                },
-                extra: {
-                    imageUrl: 'https://via.placeholder.com/350x150',
-                    href: '#',
-                },
+                strings: {},
+                colors: {},
+                extra: {},
             },
         },
         dimensions: {
@@ -2491,12 +2467,12 @@ export const libraryWidgets: IWidgets = {
         widgetType: 'topHeader',
         isBlock: true,
     },
-    'com.usegdi.templates.gdi.card-basic': {
-        id: 'com.usegdi.templates.gdi.card-basic',
-        name: 'card-basic',
+    'com.usegdi.templates.gdi.card-1': {
+        id: 'com.usegdi.templates.gdi.card-1',
+        name: 'card-1',
         description: '',
         params: {
-            id: 'com.usegdi.templates.gdi.card-basic',
+            id: 'com.usegdi.templates.card.card-1',
             schema: {
                 strings: {
                     slogan: {
@@ -2566,20 +2542,9 @@ export const libraryWidgets: IWidgets = {
         sampleData: {
             normal: {
                 id: 'normal',
-                strings: {
-                    slogan: 'morning',
-                    header: 'Wake up each morning to do',
-                    description:
-                        'With morning you are an effective team that gets things done, every minute, every hour, every day',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: '#1a7870',
-                    text: '#aaef69',
-                },
+                strings: {},
+                colors: {},
                 extra: {
-                    imageUrl:
-                        'https://cdn.greeninvoice.co.il/public-website/assets/1.0.473/img/d9a9eec.svg',
                     href: '#',
                 },
             },
@@ -2635,14 +2600,14 @@ export const libraryWidgets: IWidgets = {
                         width: 1000,
                         height: 400,
                         ratio: 2.5,
-                        url: 'screenshot.gdi.card-basic.normal.desktop.large.webp',
+                        url: 'screenshot.card.card-1.normal.desktop.large.webp',
                         urlIsRemote: false,
                     },
                     thumb: {
                         width: 1000,
                         height: 400,
                         ratio: 2.5,
-                        url: 'screenshot.gdi.card-basic.normal.desktop.thumb.webp',
+                        url: 'screenshot.card.card-1.normal.desktop.thumb.webp',
                         urlIsRemote: false,
                     },
                 },
@@ -2651,14 +2616,14 @@ export const libraryWidgets: IWidgets = {
                         width: 500,
                         height: 1337,
                         ratio: 0.3739715781600598,
-                        url: 'screenshot.gdi.card-basic.normal.mobile.large.webp',
+                        url: 'screenshot.card.card-1.normal.mobile.large.webp',
                         urlIsRemote: false,
                     },
                     thumb: {
                         width: 500,
                         height: 1337,
                         ratio: 0.3739715781600598,
-                        url: 'screenshot.gdi.card-basic.normal.mobile.thumb.webp',
+                        url: 'screenshot.card.card-1.normal.mobile.thumb.webp',
                         urlIsRemote: false,
                     },
                 },
@@ -2669,14 +2634,14 @@ export const libraryWidgets: IWidgets = {
                         width: 1000,
                         height: 400,
                         ratio: 2.5,
-                        url: 'screenshot.gdi.card-basic.blue.desktop.large.webp',
+                        url: 'screenshot.card.card-1.blue.desktop.large.webp',
                         urlIsRemote: false,
                     },
                     thumb: {
                         width: 1000,
                         height: 400,
                         ratio: 2.5,
-                        url: 'screenshot.gdi.card-basic.blue.desktop.thumb.webp',
+                        url: 'screenshot.card.card-1.blue.desktop.thumb.webp',
                         urlIsRemote: false,
                     },
                 },
@@ -2685,226 +2650,14 @@ export const libraryWidgets: IWidgets = {
                         width: 500,
                         height: 1383,
                         ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.card-basic.blue.mobile.large.webp',
+                        url: 'screenshot.card.card-1.blue.mobile.large.webp',
                         urlIsRemote: false,
                     },
                     thumb: {
                         width: 500,
                         height: 1383,
                         ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.card-basic.blue.mobile.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-            },
-        },
-        tags: ['type-card'],
-        dataTags: [],
-        widgetType: 'card',
-        isBlock: true,
-    },
-    'com.usegdi.templates.card.card-basic': {
-        id: 'com.usegdi.templates.card.card-basic',
-        name: 'card-basic',
-        description: '',
-        params: {
-            id: 'com.usegdi.templates.card.card-basic',
-            schema: {
-                strings: {
-                    slogan: {
-                        fieldType: 'text',
-                        order: 0,
-                    },
-                    header: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    description: {
-                        fieldType: 'longText',
-                        order: 2,
-                    },
-                    ctaButtonText: {
-                        fieldType: 'text',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    imageCreditsTitle: {
-                        fieldType: 'text',
-                        order: 4,
-                    },
-                    imageCreditsDescription: {
-                        fieldType: 'text',
-                        order: 5,
-                    },
-                },
-                colors: {
-                    background: {
-                        fieldType: 'color',
-                        order: 0,
-                    },
-                    text: {
-                        fieldType: 'color',
-                        order: 1,
-                    },
-                },
-                extra: {
-                    href: {
-                        fieldType: 'url',
-                        isRequired: true,
-                        order: 0,
-                    },
-                    imageUrl: {
-                        fieldType: 'image',
-                        isRequired: true,
-                        order: 1,
-                    },
-                    hrefSecond: {
-                        fieldType: 'url',
-                        order: 2,
-                    },
-                    headerFontSize: {
-                        fieldType: 'number',
-                        isRequired: true,
-                        order: 3,
-                    },
-                    showBeta: {
-                        fieldType: 'checkbox',
-                        order: 4,
-                    },
-                },
-            },
-        },
-        sampleData: {
-            normal: {
-                id: 'normal',
-                strings: {
-                    slogan: 'morning',
-                    header: 'Wake up each morning to do',
-                    description:
-                        'With morning you are an effective team that gets things done, every minute, every hour, every day',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: '#1a7870',
-                    text: '#aaef69',
-                },
-                extra: {
-                    imageUrl:
-                        'https://cdn.greeninvoice.co.il/public-website/assets/1.0.473/img/d9a9eec.svg',
-                    href: '#',
-                },
-            },
-            blue: {
-                id: 'blue',
-                strings: {
-                    slogan: 'Try GDI',
-                    header: 'Open Source Web Presence',
-                    description:
-                        'With GDI you can unlock hundreds of custom designs made by people around the world with a passion for elegant, beautiful UI',
-                    ctaButtonText: 'Join free',
-                },
-                colors: {
-                    background: 'dodgerblue',
-                    text: 'pink',
-                },
-                extra: {
-                    imageUrl: 'https://picsum.photos/seed/10/400/280',
-                    href: '#',
-                },
-            },
-        },
-        dimensions: {
-            normal: {
-                desktop: {
-                    width: 1000,
-                    height: 400,
-                    ratio: 2.5,
-                },
-                mobile: {
-                    width: 500,
-                    height: 1337,
-                    ratio: 0.3739715781600598,
-                },
-            },
-            blue: {
-                desktop: {
-                    width: 1000,
-                    height: 400,
-                    ratio: 2.5,
-                },
-                mobile: {
-                    width: 500,
-                    height: 1383,
-                    ratio: 0.3615328994938539,
-                },
-            },
-        },
-        screenshots: {
-            normal: {
-                desktop: {
-                    large: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.card-basic.normal.desktop.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.card-basic.normal.desktop.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-                mobile: {
-                    large: {
-                        width: 500,
-                        height: 1337,
-                        ratio: 0.3739715781600598,
-                        url: 'screenshot.gdi.card-basic.normal.mobile.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 500,
-                        height: 1337,
-                        ratio: 0.3739715781600598,
-                        url: 'screenshot.gdi.card-basic.normal.mobile.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-            },
-            blue: {
-                desktop: {
-                    large: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.card-basic.blue.desktop.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 1000,
-                        height: 400,
-                        ratio: 2.5,
-                        url: 'screenshot.gdi.card-basic.blue.desktop.thumb.webp',
-                        urlIsRemote: false,
-                    },
-                },
-                mobile: {
-                    large: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.card-basic.blue.mobile.large.webp',
-                        urlIsRemote: false,
-                    },
-                    thumb: {
-                        width: 500,
-                        height: 1383,
-                        ratio: 0.3615328994938539,
-                        url: 'screenshot.gdi.card-basic.blue.mobile.thumb.webp',
+                        url: 'screenshot.card.card-1.blue.mobile.thumb.webp',
                         urlIsRemote: false,
                     },
                 },

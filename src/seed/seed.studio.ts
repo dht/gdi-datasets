@@ -11,6 +11,7 @@ import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
 import { config } from 'dotenv-flow';
+import { parseData } from '../utils/parseData';
 
 const CLEAR = false;
 
@@ -22,7 +23,7 @@ if (destination === 'FIREBASE') {
     initFirebase();
 }
 
-const state = {
+const state = parseData({
     appStateStudio,
     assets,
     boards,
@@ -32,7 +33,7 @@ const state = {
     lights,
     particles,
     studioItems,
-};
+});
 
 const nodeTypes: Record<string, NodeType> = {
     appStateStudio: 'single',
