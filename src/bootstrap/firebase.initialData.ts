@@ -54,7 +54,6 @@ export const initialData: Json = {
     },
     currentIds: {
         pageInstanceId: 'home',
-        pageInstanceId: '1',
         selectedInstanceId: '',
         contentInstanceId: '',
         libraryInstanceId: '',
@@ -131,21 +130,6 @@ export const initialData: Json = {
                         animated: false,
                     },
                 },
-                blue: {
-                    id: 'blue',
-                    strings: {
-                        slogan: 'Find new blocks',
-                        header: 'Extendable',
-                        description:
-                            'Add new NPM packages which contain new blocks & templates. Easily switch between blocks to keep block data //',
-                    },
-                    colors: {},
-                    extra: {
-                        href: '#',
-                        imageUrl: 'https://appofthebox.web.app/s2.webp',
-                        animated: false,
-                    },
-                },
             },
             dimensions: {
                 simple: {
@@ -158,18 +142,6 @@ export const initialData: Json = {
                         width: 500,
                         height: 197,
                         ratio: 2.5380710659898478,
-                    },
-                },
-                blue: {
-                    desktop: {
-                        width: 1000,
-                        height: 520,
-                        ratio: 1.9230769230769231,
-                    },
-                    mobile: {
-                        width: 500,
-                        height: 367,
-                        ratio: 1.3623978201634876,
                     },
                 },
             },
@@ -205,32 +177,6 @@ export const initialData: Json = {
                             ratio: 2.5380710659898478,
                             url: 'https://storage.googleapis.com/download/storage/v1/b/usegdi-a56c4.appspot.com/o/screenshots%2Fscreenshot.basic.feature-simple.simple.mobile.thumb.webp?alt=media',
                             urlIsRemote: true,
-                        },
-                    },
-                },
-                blue: {
-                    desktop: {
-                        large: {
-                            width: 1000,
-                            height: 520,
-                            ratio: 1.9230769230769231,
-                        },
-                        thumb: {
-                            width: 1000,
-                            height: 520,
-                            ratio: 1.9230769230769231,
-                        },
-                    },
-                    mobile: {
-                        large: {
-                            width: 500,
-                            height: 367,
-                            ratio: 1.3623978201634876,
-                        },
-                        thumb: {
-                            width: 500,
-                            height: 367,
-                            ratio: 1.3623978201634876,
                         },
                     },
                 },
@@ -414,24 +360,6 @@ export const initialData: Json = {
                         headerFontSize: 70,
                     },
                 },
-                blue: {
-                    id: 'blue',
-                    strings: {
-                        ctaButtonText: 'Join',
-                        secondButtonText: 'Pricing',
-                        header: 'SuperCharger',
-                        description: '',
-                    },
-                    colors: {
-                        text: '#fff',
-                    },
-                    extra: {
-                        href: 'https://github.com/dht/gdi/docs',
-                        hrefSecond: 'https://github.com/dht/gdi',
-                        imageUrl: 'https://appofthebox.web.app/7.webp',
-                        headerFontSize: 70,
-                    },
-                },
             },
             dimensions: {
                 simple: {
@@ -444,18 +372,6 @@ export const initialData: Json = {
                         width: 500,
                         height: 200,
                         ratio: 2.5,
-                    },
-                },
-                blue: {
-                    desktop: {
-                        width: 1000,
-                        height: 749,
-                        ratio: 1.335113484646195,
-                    },
-                    mobile: {
-                        width: 500,
-                        height: 150,
-                        ratio: 3.3333333333333335,
                     },
                 },
             },
@@ -491,32 +407,6 @@ export const initialData: Json = {
                             ratio: 2.5,
                             url: 'https://storage.googleapis.com/download/storage/v1/b/usegdi-a56c4.appspot.com/o/screenshots%2Fscreenshot.basic.hero-simple.simple.mobile.thumb.webp?alt=media',
                             urlIsRemote: true,
-                        },
-                    },
-                },
-                blue: {
-                    desktop: {
-                        large: {
-                            width: 1000,
-                            height: 749,
-                            ratio: 1.335113484646195,
-                        },
-                        thumb: {
-                            width: 1000,
-                            height: 749,
-                            ratio: 1.335113484646195,
-                        },
-                    },
-                    mobile: {
-                        large: {
-                            width: 500,
-                            height: 150,
-                            ratio: 3.3333333333333335,
-                        },
-                        thumb: {
-                            width: 500,
-                            height: 150,
-                            ratio: 3.3333333333333335,
                         },
                     },
                 },
@@ -1919,21 +1809,6 @@ export const initialData: Json = {
                         animated: false,
                     },
                 },
-                blue: {
-                    id: 'blue',
-                    strings: {
-                        slogan: 'Find new blocks',
-                        header: 'Extendable',
-                        description:
-                            'Add new NPM packages which contain new blocks & templates. Easily switch between blocks to keep block data //',
-                    },
-                    colors: {},
-                    extra: {
-                        href: '#',
-                        imageUrl: 'https://appofthebox.web.app/s2.webp',
-                        animated: false,
-                    },
-                },
             },
             dimensions: {
                 simple: {
@@ -1946,18 +1821,6 @@ export const initialData: Json = {
                         width: 500,
                         height: 197,
                         ratio: 2.5380710659898478,
-                    },
-                },
-                blue: {
-                    desktop: {
-                        width: 1000,
-                        height: 520,
-                        ratio: 1.9230769230769231,
-                    },
-                    mobile: {
-                        width: 500,
-                        height: 367,
-                        ratio: 1.3623978201634876,
                     },
                 },
             },
@@ -1993,32 +1856,6 @@ export const initialData: Json = {
                             ratio: 2.5380710659898478,
                             url: 'https://storage.googleapis.com/download/storage/v1/b/usegdi-a56c4.appspot.com/o/screenshots%2Fscreenshot.basic.feature-simple.simple.mobile.thumb.webp?alt=media',
                             urlIsRemote: true,
-                        },
-                    },
-                },
-                blue: {
-                    desktop: {
-                        large: {
-                            width: 1000,
-                            height: 520,
-                            ratio: 1.9230769230769231,
-                        },
-                        thumb: {
-                            width: 1000,
-                            height: 520,
-                            ratio: 1.9230769230769231,
-                        },
-                    },
-                    mobile: {
-                        large: {
-                            width: 500,
-                            height: 367,
-                            ratio: 1.3623978201634876,
-                        },
-                        thumb: {
-                            width: 500,
-                            height: 367,
-                            ratio: 1.3623978201634876,
                         },
                     },
                 },
@@ -2200,24 +2037,6 @@ export const initialData: Json = {
                         headerFontSize: 70,
                     },
                 },
-                blue: {
-                    id: 'blue',
-                    strings: {
-                        ctaButtonText: 'Join',
-                        secondButtonText: 'Pricing',
-                        header: 'SuperCharger',
-                        description: '',
-                    },
-                    colors: {
-                        text: '#fff',
-                    },
-                    extra: {
-                        href: 'https://github.com/dht/gdi/docs',
-                        hrefSecond: 'https://github.com/dht/gdi',
-                        imageUrl: 'https://appofthebox.web.app/7.webp',
-                        headerFontSize: 70,
-                    },
-                },
             },
             dimensions: {
                 simple: {
@@ -2230,18 +2049,6 @@ export const initialData: Json = {
                         width: 500,
                         height: 200,
                         ratio: 2.5,
-                    },
-                },
-                blue: {
-                    desktop: {
-                        width: 1000,
-                        height: 749,
-                        ratio: 1.335113484646195,
-                    },
-                    mobile: {
-                        width: 500,
-                        height: 150,
-                        ratio: 3.3333333333333335,
                     },
                 },
             },
@@ -2277,32 +2084,6 @@ export const initialData: Json = {
                             ratio: 2.5,
                             url: 'https://storage.googleapis.com/download/storage/v1/b/usegdi-a56c4.appspot.com/o/screenshots%2Fscreenshot.basic.hero-simple.simple.mobile.thumb.webp?alt=media',
                             urlIsRemote: true,
-                        },
-                    },
-                },
-                blue: {
-                    desktop: {
-                        large: {
-                            width: 1000,
-                            height: 749,
-                            ratio: 1.335113484646195,
-                        },
-                        thumb: {
-                            width: 1000,
-                            height: 749,
-                            ratio: 1.335113484646195,
-                        },
-                    },
-                    mobile: {
-                        large: {
-                            width: 500,
-                            height: 150,
-                            ratio: 3.3333333333333335,
-                        },
-                        thumb: {
-                            width: 500,
-                            height: 150,
-                            ratio: 3.3333333333333335,
                         },
                     },
                 },
