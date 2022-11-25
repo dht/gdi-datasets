@@ -1072,6 +1072,11 @@ export const libraryWidgets: IWidgets = {
                         isRequired: true,
                         order: 1,
                     },
+                    backgroundImageUrl: {
+                        fieldType: 'image',
+                        isRequired: true,
+                        order: 2,
+                    },
                 },
             },
         },
