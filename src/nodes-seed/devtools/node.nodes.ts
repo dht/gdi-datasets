@@ -451,7 +451,7 @@ export const nodes = {
         fieldTypes: {
             stateKey: 'string',
             mode: 'string',
-            selectedToolId: 'string',
+            panelLibraryFlavour: 'string',
             paletteId: 'string',
             showImageUploadModal: 'boolean',
             showPlayModeMessage: 'boolean',
@@ -545,7 +545,7 @@ export const nodes = {
         fieldTypes: {
             stateKey: 'string',
             mode: 'string',
-            selectedToolId: 'string',
+            panelLibraryFlavour: 'string',
             search: 'string',
             tag: 'string',
             showTools: 'boolean',

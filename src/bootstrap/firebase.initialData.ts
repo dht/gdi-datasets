@@ -28,7 +28,7 @@ export const initialData: Json = {
     appStateMixer: {
         stateKey: 'mixer',
         mode: 'structure',
-        selectedToolId: 'browse',
+        panelLibraryFlavour: 'images',
         paletteId: 'green',
         showImageUploadModal: false,
         showPlayModeMessage: false,
@@ -36,7 +36,7 @@ export const initialData: Json = {
     galleryState: {
         stateKey: 'galleryState',
         mode: 'full',
-        selectedToolId: 'select',
+        panelLibraryFlavour: 'select',
         showTools: true,
         showTagModal: false,
         search: '',

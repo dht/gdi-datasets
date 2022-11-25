@@ -23,7 +23,7 @@ export const libraryInstancesProps = {
         strings_description: '{lorem-30}',
         strings_ctaButtonText: 'Contact me',
         colors_text: 'gold',
-        extra_imageUrl: 'https://static-b9ebe.web.app/by-.webp',
+        extra_imageUrl: 'https://static-b9ebe.web.app/ny-me.webp',
         extra_href: '#',
     },
     'instance-starter-4h': {
@@ -81,7 +81,8 @@ export const libraryInstancesProps = {
     'instance-starter-10': {
         id: 'instance-starter-10',
         strings_header: 'Get a quote for your project',
-        strings_phoneNumber: '12345678',
+        strings_phoneNumber: '123456789',
+        extra_imageUrl: 'https://static-b9ebe.web.app/ny1.webp',
     },
     'instance-starter-11': {
         id: 'instance-starter-11',

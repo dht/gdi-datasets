@@ -28,7 +28,7 @@
     "appStateMixer": {
         "stateKey": "mixer",
         "mode": "structure",
-        "selectedToolId": "browse",
+        "panelLibraryFlavour": "browse",
         "paletteId": "green",
         "showImageUploadModal": false,
         "showPlayModeMessage": false
@@ -36,7 +36,7 @@
     "galleryState": {
         "stateKey": "galleryState",
         "mode": "full",
-        "selectedToolId": "select",
+        "panelLibraryFlavour": "select",
         "showTools": true,
         "showTagModal": false,
         "search": "",
