@@ -1163,7 +1163,9 @@ export const libraryWidgets: IWidgets = {
             schema: {
                 strings: {},
                 colors: {},
-                extra: {},
+                extra: {
+                    logoUrl: { fieldType: 'image', isRequired: true, order: 1 },
+                },
             },
         },
         sampleData: {
@@ -1171,7 +1173,10 @@ export const libraryWidgets: IWidgets = {
                 id: 'normal',
                 strings: {},
                 colors: {},
-                extra: {},
+                extra: {
+                    logoUrl:
+                        'https://static-b9ebe.web.app/logo-blake3-black.svg',
+                },
             },
         },
         dimensions: {

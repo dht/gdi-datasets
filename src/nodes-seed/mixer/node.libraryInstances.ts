@@ -95,12 +95,6 @@ export const libraryInstances = {
         pageInstanceId: 'i1',
         order: 11,
     },
-    'instance-starter-12': {
-        id: 'instance-starter-12',
-        widgetId: 'com.usegdi.templates.starter.tester-basic',
-        pageInstanceId: 'i1',
-        order: 12,
-    },
     'instance-gdi-1': {
         id: 'instance-gdi-1',
         widgetId: 'com.usegdi.templates.gdi.topHeader-basic',

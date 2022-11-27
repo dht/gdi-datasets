@@ -1,6 +1,7 @@
 export const libraryInstancesProps = {
     'instance-starter-1': {
         id: 'instance-starter-1',
+        extra_logoUrl: 'https://static-b9ebe.web.app/logo-blake3-black.svg',
     },
     'instance-starter-2': {
         id: 'instance-starter-2',
@@ -28,7 +29,7 @@ export const libraryInstancesProps = {
     },
     'instance-starter-4h': {
         id: 'instance-starter-4h',
-        strings_text: 'My services',
+        strings_text: 'My Services',
         extra_id: 'services',
     },
     'instance-starter-4': {
@@ -87,14 +88,5 @@ export const libraryInstancesProps = {
     'instance-starter-11': {
         id: 'instance-starter-11',
         strings_text: '2022 David All Rights Reserved',
-    },
-    'instance-starter-12': {
-        id: 'instance-starter-12',
-        strings_header: 'Get a quote for your project',
-        strings_ctaButtonText: 'Click',
-        colors_background: '#223',
-        colors_text: '#fff',
-        extra_imageUrl: 'https://static-b9ebe.web.app/ny2.webp',
-        extra_backgroundImageUrl: 'https://static-b9ebe.web.app/ny1.webp',
     },
 };
