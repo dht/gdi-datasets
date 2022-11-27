@@ -486,28 +486,6 @@ export const libraryWidgets: IWidgets = {
                     },
                 },
             },
-            blue: {
-                desktop: {
-                    large: {
-                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.starter.hero-basic.blue.desktop.large.webp?alt=media',
-                        urlIsRemote: true,
-                    },
-                    thumb: {
-                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.starter.hero-basic.blue.desktop.thumb.webp?alt=media',
-                        urlIsRemote: true,
-                    },
-                },
-                mobile: {
-                    large: {
-                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.starter.hero-basic.blue.mobile.large.webp?alt=media',
-                        urlIsRemote: true,
-                    },
-                    thumb: {
-                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.starter.hero-basic.blue.mobile.thumb.webp?alt=media',
-                        urlIsRemote: true,
-                    },
-                },
-            },
         },
         tags: ['type-hero'],
         dataTags: [],
@@ -735,8 +713,8 @@ export const libraryWidgets: IWidgets = {
             normal: {
                 desktop: {
                     width: 1000,
-                    height: 853.1792534722222,
-                    ratio: 1.1720866347022092,
+                    height: 833.0403645833334,
+                    ratio: 1.2004220233675902,
                 },
                 mobile: {
                     width: 500,
@@ -750,15 +728,15 @@ export const libraryWidgets: IWidgets = {
                 desktop: {
                     large: {
                         width: 1000,
-                        height: 853.1792534722222,
-                        ratio: 1.1720866347022092,
+                        height: 833.0403645833334,
+                        ratio: 1.2004220233675902,
                         url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.starter.myResume-basic.normal.desktop.large.webp?alt=media',
                         urlIsRemote: true,
                     },
                     thumb: {
                         width: 400,
-                        height: 341.27170138888886,
-                        ratio: 1.1720866347022092,
+                        height: 333.2161458333333,
+                        ratio: 1.2004220233675902,
                         url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.starter.myResume-basic.normal.desktop.thumb.webp?alt=media',
                         urlIsRemote: true,
                     },
@@ -830,8 +808,8 @@ export const libraryWidgets: IWidgets = {
             normal: {
                 desktop: {
                     width: 1000,
-                    height: 501.4865451388889,
-                    ratio: 1.9940714455719757,
+                    height: 507.04210069444446,
+                    ratio: 1.97222281666631,
                 },
                 mobile: {
                     width: 500,
@@ -845,15 +823,15 @@ export const libraryWidgets: IWidgets = {
                 desktop: {
                     large: {
                         width: 1000,
-                        height: 501.4865451388889,
-                        ratio: 1.9940714455719757,
+                        height: 507.04210069444446,
+                        ratio: 1.97222281666631,
                         url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.starter.myServices-basic.normal.desktop.large.webp?alt=media',
                         urlIsRemote: true,
                     },
                     thumb: {
                         width: 400,
-                        height: 200.59461805555554,
-                        ratio: 1.9940714455719757,
+                        height: 202.81684027777777,
+                        ratio: 1.97222281666631,
                         url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.starter.myServices-basic.normal.desktop.thumb.webp?alt=media',
                         urlIsRemote: true,
                     },
