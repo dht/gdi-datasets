@@ -6,5 +6,6 @@ export const appStateMixer = {
     showImageUploadModal: false,
     showPlayModeMessage: false,
     showMixerTree: false,
+    showConsoleLogs: false,
     mobileMode: false,
 };
