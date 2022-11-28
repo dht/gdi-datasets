@@ -4,7 +4,7 @@ export const carts = {
         name: 'Recycled Plastic Soap',
         startDate: '2022-10-26 04:32:32',
         endDate: '2022-10-25 20:31:44',
-        userId: 8,
+        userId: '8',
         status: 'draft',
         items: [
             {
@@ -27,7 +27,7 @@ export const carts = {
         name: 'Gorgeous Rubber Shoes',
         startDate: '2022-10-25 22:50:38',
         endDate: '2022-10-26 13:08:15',
-        userId: 8,
+        userId: '8',
         status: 'abandoned',
         items: [
             {
@@ -66,7 +66,7 @@ export const carts = {
         name: 'Generic Bronze Soap',
         startDate: '2022-10-25 22:48:39',
         endDate: '2022-10-25 19:22:59',
-        userId: 6,
+        userId: '6',
         status: 'abandoned',
         items: [
             {

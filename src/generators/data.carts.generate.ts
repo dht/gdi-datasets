@@ -34,7 +34,7 @@ export const generateOne = (index: number) => {
     const name = faker.commerce.productName();
     const startDate = formatDateWithTime(faker.date.recent());
     const endDate = randomClear(formatDateWithTime(faker.date.recent()), 0.5);
-    const userId = faker.datatype.number({ max: 10 });
+    const userId = String(faker.datatype.number({ max: 10 }));
     const numberOfLines = faker.datatype.number({ min: 1, max: 6 });
 
     const items = generateManyArr(numberOfLines, generateProductLine);
