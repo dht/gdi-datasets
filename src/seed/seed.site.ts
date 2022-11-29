@@ -49,13 +49,13 @@ const nodeTypes: Record<string, NodeType> = {
     datasets: 'single',
     fonts: 'single',
     siteProperties: 'single',
-    instances: 'collection',
     breakpoints: 'collection',
-    widgets: 'collection',
     images: 'collection',
+    instances: 'collection',
+    instancesProps: 'collection',
     pages: 'collection',
     pageInstances: 'collection',
-    instancesProps: 'collection',
+    widgets: 'collection',
 };
 
 seed(state, nodeTypes, destination, {
