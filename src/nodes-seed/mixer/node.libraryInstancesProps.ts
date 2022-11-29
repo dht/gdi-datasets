@@ -1,7 +1,7 @@
 export const libraryInstancesProps = {
     'instance-starter-1': {
         id: 'instance-starter-1',
-        extra_logoUrl: 'https://static-b9ebe.web.app/logo-blake6a.svg',
+        extra_logoUrl: 'https://static-b9ebe.web.app/logo-blake6b.svg',
     },
     'instance-starter-2': {
         id: 'instance-starter-2',

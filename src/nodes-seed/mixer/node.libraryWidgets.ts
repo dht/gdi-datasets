@@ -1174,7 +1174,7 @@ export const libraryWidgets: IWidgets = {
                 strings: {},
                 colors: {},
                 extra: {
-                    logoUrl: 'https://static-b9ebe.web.app/logo-blake6a.svg',
+                    logoUrl: 'https://static-b9ebe.web.app/logo-blake6b.svg',
                 },
             },
         },
