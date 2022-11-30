@@ -946,7 +946,7 @@ export const libraryWidgets: IWidgets = {
         name: 'sectionHeader-basic',
         description: '',
         params: {
-            id: 'com.usegdi.templates.starter.sectionHeader-basic',
+            id: 'com.usegdi.templates.gdi.sectionHeader-basic',
             schema: {
                 strings: {
                     text: {
@@ -960,9 +960,13 @@ export const libraryWidgets: IWidgets = {
                         fieldType: 'text',
                         order: 0,
                     },
+                    href: {
+                        fieldType: 'text',
+                        order: 1,
+                    },
                     isHidden: {
                         fieldType: 'checkbox',
-                        order: 1,
+                        order: 2,
                     },
                 },
             },
@@ -976,6 +980,7 @@ export const libraryWidgets: IWidgets = {
                 colors: {},
                 extra: {
                     id: 'features',
+                    href: '',
                 },
             },
         },
@@ -1231,6 +1236,828 @@ export const libraryWidgets: IWidgets = {
         tags: ['type-topHeader'],
         dataTags: [],
         widgetType: 'topHeader',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.apps-basic': {
+        id: 'com.usegdi.templates.gdi.apps-basic',
+        name: 'apps-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.apps-basic',
+            schema: {
+                strings: {
+                    header: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 1,
+                    },
+                },
+                colors: {},
+                extra: {
+                    appsDatasetId: {
+                        fieldType: 'dataset',
+                        isRequired: true,
+                        order: 0,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    header: 'Apps',
+                },
+                colors: {},
+                extra: {
+                    appsDatasetId: 'apps',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 1097.3958333333333,
+                    ratio: 0.9112482202183199,
+                },
+                mobile: {
+                    width: 500,
+                    height: 877.9166666666667,
+                    ratio: 0.5695301376364499,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 1097.3958333333333,
+                        ratio: 0.9112482202183199,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.apps-basic.normal.desktop.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 400,
+                        height: 438.95833333333337,
+                        ratio: 0.9112482202183199,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.apps-basic.normal.desktop.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 877.9166666666667,
+                        ratio: 0.5695301376364499,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.apps-basic.normal.mobile.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 200,
+                        height: 351.1666666666667,
+                        ratio: 0.5695301376364499,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.apps-basic.normal.mobile.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+            },
+        },
+        tags: ['type-apps'],
+        dataTags: [],
+        widgetType: 'apps',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.features-basic': {
+        id: 'com.usegdi.templates.gdi.features-basic',
+        name: 'features-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.features-basic',
+            schema: {
+                strings: {
+                    header: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 1,
+                    },
+                    version: {
+                        fieldType: 'text',
+                        order: 2,
+                    },
+                },
+                colors: {},
+                extra: {
+                    featuresDatasetId: {
+                        fieldType: 'dataset',
+                        isRequired: true,
+                        order: 0,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    header: 'Features',
+                    version: 'v0.16.0',
+                },
+                colors: {},
+                extra: {
+                    featuresDatasetId: 'features',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 378.21044921875,
+                    ratio: 2.644030597424394,
+                },
+                mobile: {
+                    width: 500,
+                    height: 302.568359375,
+                    ratio: 1.6525191233902463,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 378.21044921875,
+                        ratio: 2.644030597424394,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.features-basic.normal.desktop.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 400,
+                        height: 151.2841796875,
+                        ratio: 2.644030597424394,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.features-basic.normal.desktop.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 302.568359375,
+                        ratio: 1.6525191233902463,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.features-basic.normal.mobile.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 200,
+                        height: 121.02734375,
+                        ratio: 1.6525191233902463,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.features-basic.normal.mobile.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+            },
+        },
+        tags: ['type-features'],
+        dataTags: [],
+        widgetType: 'features',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.footer-basic': {
+        id: 'com.usegdi.templates.gdi.footer-basic',
+        name: 'footer-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.footer-basic',
+            schema: {
+                strings: {
+                    text: {
+                        fieldType: 'text',
+                        order: 0,
+                    },
+                },
+                colors: {},
+                extra: {
+                    linksDatasetId: {
+                        fieldType: 'dataset',
+                        order: 0,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    text: 'gDI 2022',
+                },
+                colors: {},
+                extra: {
+                    linksDatasetId: 'footerLinks',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 62.862141927083336,
+                    ratio: 15.907825749239432,
+                },
+                mobile: {
+                    width: 500,
+                    height: 50.289713541666664,
+                    ratio: 9.942391093274646,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 62.862141927083336,
+                        ratio: 15.907825749239432,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.footer-basic.normal.desktop.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 400,
+                        height: 25.144856770833336,
+                        ratio: 15.907825749239432,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.footer-basic.normal.desktop.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 50.289713541666664,
+                        ratio: 9.942391093274646,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.footer-basic.normal.mobile.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 200,
+                        height: 20.115885416666668,
+                        ratio: 9.942391093274646,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.footer-basic.normal.mobile.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+            },
+        },
+        tags: ['type-footer'],
+        dataTags: [],
+        widgetType: 'footer',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.hero-basic': {
+        id: 'com.usegdi.templates.gdi.hero-basic',
+        name: 'hero-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.hero-basic',
+            schema: {
+                strings: {
+                    slogan: {
+                        fieldType: 'text',
+                        order: 0,
+                    },
+                    header: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 1,
+                    },
+                    installation: {
+                        fieldType: 'text',
+                        order: 2,
+                    },
+                    ctaButtonText: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 3,
+                    },
+                    secondaryButtonText: {
+                        fieldType: 'text',
+                        order: 4,
+                    },
+                },
+                colors: {},
+                extra: {
+                    href: {
+                        fieldType: 'url',
+                        isRequired: true,
+                        order: 0,
+                    },
+                    imageUrl: {
+                        fieldType: 'image',
+                        isRequired: true,
+                        order: 1,
+                    },
+                    hrefSecondary: {
+                        fieldType: 'url',
+                        order: 2,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    slogan: "There's a new CMS in town",
+                    header: 'gDI',
+                    ctaButtonText: 'Get started',
+                    secondaryButtonText: 'Visit Github',
+                },
+                colors: {},
+                extra: {
+                    installation: 'npm install -g @gdi/cli',
+                    href: 'https://usegdi.com/docs/docs/getting-started/installation',
+                    hrefSecondary: 'https://github.com/dht/gdi',
+                    imageUrl: 'https://static-b9ebe.web.app/gdi-hero.jpg',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 260.4166666666667,
+                    ratio: 3.84,
+                },
+                mobile: {
+                    width: 500,
+                    height: 208.33323160807294,
+                    ratio: 2.400001171875572,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 260.4166666666667,
+                        ratio: 3.84,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.hero-basic.normal.desktop.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 400,
+                        height: 104.16666666666667,
+                        ratio: 3.84,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.hero-basic.normal.desktop.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 208.33323160807294,
+                        ratio: 2.400001171875572,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.hero-basic.normal.mobile.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 200,
+                        height: 83.33329264322917,
+                        ratio: 2.400001171875572,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.hero-basic.normal.mobile.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+            },
+        },
+        tags: ['type-hero'],
+        dataTags: [],
+        widgetType: 'hero',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.templates-basic': {
+        id: 'com.usegdi.templates.gdi.templates-basic',
+        name: 'templates-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.templates-basic',
+            schema: {
+                strings: {},
+                colors: {},
+                extra: {
+                    appsDatasetId: {
+                        fieldType: 'dataset',
+                        isRequired: true,
+                        order: 0,
+                    },
+                    contentUrl: {
+                        fieldType: 'url',
+                        isRequired: true,
+                        order: 1,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    header: 'Templates',
+                },
+                colors: {},
+                extra: {
+                    templatesDatasetId: 'templates',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 381.25000000000006,
+                    ratio: 2.622950819672131,
+                },
+                mobile: {
+                    width: 500,
+                    height: 305,
+                    ratio: 1.639344262295082,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 381.25000000000006,
+                        ratio: 2.622950819672131,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.templates-basic.normal.desktop.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 400,
+                        height: 152.5,
+                        ratio: 2.622950819672131,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.templates-basic.normal.desktop.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 305,
+                        ratio: 1.639344262295082,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.templates-basic.normal.mobile.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 200,
+                        height: 122,
+                        ratio: 1.639344262295082,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.templates-basic.normal.mobile.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+            },
+        },
+        tags: ['type-templates'],
+        dataTags: [],
+        widgetType: 'templates',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.topHeader-basic': {
+        id: 'com.usegdi.templates.gdi.topHeader-basic',
+        name: 'topHeader-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.topHeader-basic',
+            schema: {
+                strings: {},
+                colors: {},
+                extra: {
+                    logoImageUrl: {
+                        fieldType: 'image',
+                        isRequired: true,
+                        order: 0,
+                    },
+                    githubUrl: {
+                        fieldType: 'url',
+                        order: 1,
+                    },
+                    socialDatasetId: {
+                        fieldType: 'dataset',
+                        isRequired: true,
+                        order: 2,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {},
+                colors: {},
+                extra: {
+                    logoImageUrl: '',
+                    githubUrl: '#',
+                    socialDatasetId: '',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 50.61848958333333,
+                    ratio: 19.755627009646304,
+                },
+                mobile: {
+                    width: 500,
+                    height: 32.955729166666664,
+                    ratio: 15.17186882655077,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 50.61848958333333,
+                        ratio: 19.755627009646304,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.topHeader-basic.normal.desktop.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 400,
+                        height: 20.247395833333332,
+                        ratio: 19.755627009646304,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.topHeader-basic.normal.desktop.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 32.955729166666664,
+                        ratio: 15.17186882655077,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.topHeader-basic.normal.mobile.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 200,
+                        height: 13.182291666666666,
+                        ratio: 15.17186882655077,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.topHeader-basic.normal.mobile.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+            },
+        },
+        tags: ['type-topHeader'],
+        dataTags: [],
+        widgetType: 'topHeader',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.twins-basic': {
+        id: 'com.usegdi.templates.gdi.twins-basic',
+        name: 'twins-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.twins-basic',
+            schema: {
+                strings: {
+                    header: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 0,
+                    },
+                    description: {
+                        fieldType: 'longText',
+                        isRequired: true,
+                        order: 1,
+                    },
+                    buttonText: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 3,
+                    },
+                    headerSecondary: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 2,
+                    },
+                    descriptionSecondary: {
+                        fieldType: 'longText',
+                        isRequired: true,
+                        order: 3,
+                    },
+                    buttonTextSecondary: {
+                        fieldType: 'text',
+                        isRequired: true,
+                        order: 3,
+                    },
+                    notes: {
+                        fieldType: 'longText',
+                        isRequired: false,
+                        order: 4,
+                    },
+                },
+                colors: {},
+                extra: {
+                    href: {
+                        fieldType: 'url',
+                        isRequired: true,
+                        order: 0,
+                    },
+                    hrefSecondary: {
+                        fieldType: 'url',
+                        isRequired: true,
+                        order: 1,
+                    },
+                    rotation: {
+                        fieldType: 'number',
+                        isRequired: false,
+                        order: 2,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    header: 'Build for [Firebase]',
+                    description:
+                        "Use Firebase to host your site, store your data and manage your users. You can do all that with Firebase's free Spark plan*",
+                    buttonText: 'See features',
+                    headerSecondary: 'Made with [React]',
+                    descriptionSecondary:
+                        "It's easy to extend the CMS with your React skills. Create new templates, apps or data stores. Use JSONs to import & export anything",
+                    buttonTextSecondary: 'Visit Github',
+                    notes: '* The Blaze plan is required for Image Uploading. Thumbnail resizing is done via Cloud Functions. It can still be free for low usage.',
+                },
+                colors: {},
+                extra: {
+                    href: '#features',
+                    hrefSecondary: 'https://github.com/dht/gdi',
+                    rotation: 0,
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 390.625,
+                    ratio: 2.56,
+                },
+                mobile: {
+                    width: 500,
+                    height: 312.5,
+                    ratio: 1.6,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 390.625,
+                        ratio: 2.56,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.twins-basic.normal.desktop.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 400,
+                        height: 156.25,
+                        ratio: 2.56,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.twins-basic.normal.desktop.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 312.5,
+                        ratio: 1.6,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.twins-basic.normal.mobile.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 200,
+                        height: 125,
+                        ratio: 1.6,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.gdi.twins-basic.normal.mobile.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+            },
+        },
+        tags: ['type-twins'],
+        dataTags: [],
+        widgetType: 'twins',
+        isBlock: true,
+    },
+    'com.usegdi.templates.gdi.sectionHeader-basic': {
+        id: 'com.usegdi.templates.gdi.sectionHeader-basic',
+        name: 'sectionHeader-basic',
+        description: '',
+        params: {
+            id: 'com.usegdi.templates.gdi.sectionHeader-basic',
+            schema: {
+                strings: {
+                    text: {
+                        fieldType: 'text',
+                        order: 0,
+                    },
+                },
+                colors: {},
+                extra: {
+                    id: {
+                        fieldType: 'text',
+                        order: 0,
+                    },
+                    href: {
+                        fieldType: 'text',
+                        order: 1,
+                    },
+                    isHidden: {
+                        fieldType: 'checkbox',
+                        order: 2,
+                    },
+                },
+            },
+        },
+        sampleData: {
+            normal: {
+                id: 'normal',
+                strings: {
+                    text: 'Features',
+                },
+                colors: {},
+                extra: {
+                    id: 'features',
+                    href: '',
+                },
+            },
+        },
+        dimensions: {
+            normal: {
+                desktop: {
+                    width: 1000,
+                    height: 69.44444444444444,
+                    ratio: 14.4,
+                },
+                mobile: {
+                    width: 500,
+                    height: 33.78394874366554,
+                    ratio: 14.799927734727857,
+                },
+            },
+        },
+        screenshots: {
+            normal: {
+                desktop: {
+                    large: {
+                        width: 1000,
+                        height: 69.44444444444444,
+                        ratio: 14.4,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.starter.sectionHeader-basic.normal.desktop.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 400,
+                        height: 27.77777777777778,
+                        ratio: 14.4,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.starter.sectionHeader-basic.normal.desktop.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+                mobile: {
+                    large: {
+                        width: 500,
+                        height: 33.78394874366554,
+                        ratio: 14.799927734727857,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.starter.sectionHeader-basic.normal.mobile.large.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                    thumb: {
+                        width: 200,
+                        height: 13.513579497466216,
+                        ratio: 14.799927734727857,
+                        url: 'https://storage.googleapis.com/download/storage/v1/b/life-b033c.appspot.com/o/screenshots%2Fscreenshot.starter.sectionHeader-basic.normal.mobile.thumb.webp?alt=media',
+                        urlIsRemote: true,
+                    },
+                },
+            },
+        },
+        tags: ['type-sectionHeader'],
+        dataTags: [],
+        widgetType: 'sectionHeader',
         isBlock: true,
     },
 };

@@ -420,7 +420,7 @@ export const libraryDatasets: Json = {
             href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-voice',
         },
     },
-    links: {
+    topLinks: {
         '1': {
             id: '1',
             iconName: 'https://static-b9ebe.web.app/stack.svg',

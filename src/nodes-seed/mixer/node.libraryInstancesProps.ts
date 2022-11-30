@@ -89,4 +89,73 @@ export const libraryInstancesProps = {
         id: 'instance-starter-11',
         strings_text: '2022 David All Rights Reserved',
     },
+    'instance-gdi-1': {
+        id: 'instance-gdi-1',
+        extra_logoUrl: 'https://static-b9ebe.web.app/logo-gdi.svg',
+        extra_githubUrl: 'https://github.com/dht/gdi',
+        extra_socialDatasetId: 'topLinks',
+    },
+    'instance-gdi-2': {
+        id: 'instance-gdi-2',
+        strings_slogan: "There's a new CMS in town",
+        strings_header: 'gDI',
+        strings_ctaButtonText: 'Get started',
+        strings_secondaryButtonText: 'Visit Github',
+        extra_installation: 'npm install -g @gdi/cli',
+        extra_href: 'https://usegdi.com/docs/docs/getting-started/installation',
+        extra_hrefSecondary: 'https://github.com/dht/gdi',
+        extra_imageUrl: 'https://static-b9ebe.web.app/gdi-hero.jpg',
+    },
+    'instance-gdi-3': {
+        id: 'instance-gdi-3',
+        strings_header: 'Build for [Firebase]',
+        strings_description:
+            "Use Firebase to host your site, store your data and manage your users. You can do all that with Firebase's free Spark plan*",
+        strings_buttonText: 'See features',
+        strings_headerSecondary: 'Made with [React]',
+        strings_descriptionSecondary:
+            "It's easy to extend the CMS with your React skills. Create new templates, apps or data stores. Use JSONs to import & export anything",
+        strings_buttonTextSecondary: 'Visit Github',
+        strings_notes:
+            '* The Blaze plan is required for Image Uploading. Thumbnail resizing is done via Cloud Functions. It can still be free for low usage.',
+        extra_href: '#features',
+        extra_hrefSecondary: 'https://github.com/dht/gdi',
+        extra_rotation: -3,
+    },
+    'instance-gdi-4h': {
+        id: 'instance-gdi-4h',
+        strings_text: 'Templates',
+        extra_id: 'templates',
+    },
+    'instance-gdi-4': {
+        id: 'instance-gdi-4',
+        strings_header: 'Templates',
+        extra_templatesDatasetId: 'templates',
+    },
+    'instance-gdi-5h': {
+        id: 'instance-gdi-5h',
+        strings_text: 'Apps',
+        extra_id: 'apps',
+    },
+    'instance-gdi-5': {
+        id: 'instance-gdi-5',
+        strings_header: 'Apps',
+        extra_appsDatasetId: 'apps',
+    },
+    'instance-gdi-6h': {
+        id: 'instance-gdi-6h',
+        strings_text: 'Features',
+        extra_id: 'Features',
+    },
+    'instance-gdi-6': {
+        id: 'instance-gdi-6',
+        strings_header: 'Features',
+        strings_version: 'v0.16.0',
+        extra_featuresDatasetId: 'features',
+    },
+    'instance-gdi-7': {
+        id: 'instance-gdi-7',
+        strings_text: 'gDI 2022',
+        extra_linksDatasetId: 'footerLinks',
+    },
 };
