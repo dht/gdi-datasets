@@ -481,7 +481,7 @@ export const datasets: Json = {
         '8': {
             id: '8',
             title: 'Google Analytics',
-            tag: 'v0.17',
+            isSupported: true,
         },
         '9': {
             id: '9',
