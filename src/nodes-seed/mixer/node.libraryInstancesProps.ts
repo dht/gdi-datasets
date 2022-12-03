@@ -69,6 +69,7 @@ export const libraryInstancesProps = {
         strings_slogan: 'Join my 15th October course',
         strings_ctaButtonText: 'Join Course',
         extra_href: '/join',
+        extra_imageUrl: 'https://static-b9ebe.web.app/ny2.webp',
     },
     'instance-starter-9': {
         id: 'instance-starter-9',

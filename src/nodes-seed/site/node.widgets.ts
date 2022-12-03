@@ -228,10 +228,15 @@ export const widgets: IWidgets = {
                 },
                 colors: {},
                 extra: {
+                    imageUrl: {
+                        fieldType: 'image',
+                        isRequired: true,
+                        order: 0,
+                    },
                     href: {
                         fieldType: 'url',
                         isRequired: true,
-                        order: 0,
+                        order: 1,
                     },
                 },
             },
@@ -245,6 +250,7 @@ export const widgets: IWidgets = {
                 },
                 colors: {},
                 extra: {
+                    imageUrl: 'https://static-b9ebe.web.app/ny2.webp',
                     href: '#',
                 },
             },
