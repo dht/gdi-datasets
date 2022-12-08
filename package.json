@@ -9,6 +9,7 @@
         "firestore:reset:mixer": "npx ts-node seed/seed.mixer.ts"
     },
     "dependencies": {
+        "shared-base": "^0.0.32",
         "@gdi/types": "^0.0.49",
         "firebase": "^9.9.2",
         "firestore-local": "^0.0.34",
@@ -30,7 +31,6 @@
         "jest-cli": "^28.1.3",
         "prettier": "^2.7.1",
         "rollup-plugin-analyzer": "^4.0.0",
-        "shared-base": "^0.0.27",
         "ts-jest": "^28.0.7",
         "typescript": "^4.7.4",
         "vite": "^3.0.3",
