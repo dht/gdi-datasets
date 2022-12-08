@@ -12,7 +12,7 @@
         "@gdi/types": "^0.0.49",
         "firebase": "^9.9.2",
         "firestore-local": "^0.0.34",
-        "redux-connected": "^0.0.103",
+        "redux-connected": "^0.0.105",
         "redux-store-generator": "^0.9.89",
         "reselect": "^4.1.6"
     },
