@@ -71,7 +71,7 @@ export const carts = {
         items: [
             {
                 id: '1',
-                productId: 5,
+                productId: '5',
                 price: 1006,
                 quantity: 10,
                 notes: 'Consequuntur sint in unde.',
@@ -79,7 +79,7 @@ export const carts = {
             },
             {
                 id: '2',
-                productId: 1,
+                productId: '1',
                 price: 277,
                 quantity: 8,
                 notes: 'Vitae est neque consectetur fugiat aspernatur.',
@@ -87,7 +87,7 @@ export const carts = {
             },
             {
                 id: '3',
-                productId: 7,
+                productId: '7',
                 price: 29,
                 quantity: 1,
                 notes: 'Aut tempore exercitationem labore consectetur est nihil nemo.',
@@ -95,7 +95,7 @@ export const carts = {
             },
             {
                 id: '4',
-                productId: 9,
+                productId: '9',
                 price: 895,
                 quantity: 7,
                 notes: 'Id quae ipsa.',
@@ -103,7 +103,7 @@ export const carts = {
             },
             {
                 id: '5',
-                productId: 7,
+                productId: '7',
                 price: 1191,
                 quantity: 9,
                 notes: 'Porro asperiores dolor vero.',
@@ -111,7 +111,7 @@ export const carts = {
             },
             {
                 id: '6',
-                productId: 8,
+                productId: '8',
                 price: 192,
                 quantity: 3,
                 notes: 'Dolores rerum quos voluptas impedit autem.',

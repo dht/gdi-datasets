@@ -301,11 +301,11 @@ export const datasets: Json = {
         },
         '9': {
             id: '9',
-            title: 'Dashboard3D',
+            title: 'BusinessVille',
             imageUrl: 'https://static-b9ebe.web.app/app.png',
             description: '3D dashboard with Babylon.js',
             tags: ['Draft'],
-            href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-dashboard3d',
+            href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-ville',
         },
         '10': {
             id: '10',
@@ -389,30 +389,22 @@ export const datasets: Json = {
         },
         '20': {
             id: '20',
-            title: 'Studio',
-            imageUrl: 'https://static-b9ebe.web.app/app.png',
-            description: '3D micro-rooms for VR',
-            tags: ['Draft'],
-            href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-studio',
-        },
-        '21': {
-            id: '21',
             title: 'Tasks',
             imageUrl: 'https://static-b9ebe.web.app/app.png',
             description: 'Manage tasks and projects',
             tags: ['Draft'],
             href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-tasks',
         },
-        '22': {
-            id: '22',
+        '21': {
+            id: '21',
             title: 'Things',
             imageUrl: 'https://static-b9ebe.web.app/app.png',
             description: 'Manage past-time activities',
             tags: ['Draft'],
             href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-things',
         },
-        '23': {
-            id: '23',
+        '22': {
+            id: '22',
             title: 'Voice',
             imageUrl: 'https://static-b9ebe.web.app/app.png',
             description: 'Voice control & assistance',
