@@ -305,7 +305,7 @@ export const libraryDatasets: Json = {
             imageUrl: 'https://static-b9ebe.web.app/app.png',
             description: '3D dashboard with Babylon.js',
             tags: ['Draft'],
-            href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-ville',
+            href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-studio',
         },
         '10': {
             id: '10',
