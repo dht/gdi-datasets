@@ -5,3 +5,4 @@ dist
 coverage
 src/nodes-seed/ppl/transient
 db/db.json
+logs
