@@ -19,7 +19,7 @@ const state = parseData({
     settings,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     settings: 'single',
 };
 

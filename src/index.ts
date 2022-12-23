@@ -19,7 +19,7 @@ export { articleCategories } from './nodes-seed/factory/node.articleCategories';
 export { articles } from './nodes-seed/factory/node.articles';
 export { assets } from './nodes-seed/studio/node.assets';
 export { authState } from './nodes-seed/auth/node.authState';
-export { boards } from './nodes-seed/studio/node.boards';
+export { boards } from './nodes-seed/studio/node.studioBoards';
 export { breakpoints } from './nodes-seed/site/node.breakpoints';
 export { buildings } from './nodes-seed/studio/node.buildings';
 export { cameras } from './nodes-seed/studio/node.cameras';

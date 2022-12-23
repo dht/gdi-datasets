@@ -1,12 +1,15 @@
 import { appStateStudio } from '../nodes-seed/studio/node.appStateStudio';
-import { assets } from '../nodes-seed/studio/node.assets';
-import { boards } from '../nodes-seed/studio/node.boards';
-import { buildings } from '../nodes-seed/studio/node.buildings';
-import { cameras } from '../nodes-seed/studio/node.cameras';
-import { grounds } from '../nodes-seed/studio/node.grounds';
-import { lights } from '../nodes-seed/studio/node.lights';
-import { particles } from '../nodes-seed/studio/node.particles';
-import { studioItems } from '../nodes-seed/studio/node.studioItems';
+import { currentIdsStudio } from '../nodes-seed/studio/node.currentIdsStudio';
+import { studioBoards } from '../nodes-seed/studio/node.studioBoards';
+import { studioCameras } from '../nodes-seed/studio/node.studioCameras';
+import { studioExternals } from '../nodes-seed/studio/node.studioExternals';
+import { studioGrounds } from '../nodes-seed/studio/node.studioGrounds';
+import { studioLights } from '../nodes-seed/studio/node.studioLights';
+import { studioMicroAnimations } from '../nodes-seed/studio/node.studioMicroAnimations';
+import { studioPacks } from '../nodes-seed/studio/node.studioPacks';
+import { studioParticles } from '../nodes-seed/studio/node.studioParticles';
+import { studioSounds } from '../nodes-seed/studio/node.studioSounds';
+import { studioSprites } from '../nodes-seed/studio/node.studioSprites';
 import { seed } from '@gdi/store-seeder';
 import { initFirebase } from '../utils/firestore';
 
@@ -25,26 +28,32 @@ if (destination === 'FIREBASE') {
 
 const state = parseData({
     appStateStudio,
-    assets,
-    boards,
-    buildings,
-    cameras,
-    grounds,
-    lights,
-    particles,
-    studioItems,
+    currentIdsStudio,
+    studioBoards,
+    studioCameras,
+    studioExternals,
+    studioGrounds,
+    studioLights,
+    studioMicroAnimations,
+    studioPacks,
+    studioParticles,
+    studioSounds,
+    studioSprites,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateStudio: 'single',
-    boards: 'collection',
-    buildings: 'collection',
-    assets: 'collection',
-    cameras: 'collection',
-    grounds: 'collection',
-    lights: 'collection',
-    particles: 'collection',
-    studioItems: 'collection',
+    currentIdsStudio: 'single',
+    studioBoards: 'collection',
+    studioCameras: 'collection',
+    studioExternals: 'collection',
+    studioGrounds: 'collection',
+    studioLights: 'collection',
+    studioMicroAnimations: 'collection',
+    studioPacks: 'collection',
+    studioParticles: 'collection',
+    studioSounds: 'collection',
+    studioSprites: 'collection',
 };
 
 seed(state, nodeTypes, destination, {

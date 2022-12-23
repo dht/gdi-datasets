@@ -23,7 +23,7 @@ const state = parseData({
     weatherLocations,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     weatherLocations: 'collection',
     weatherHourlyItems: 'collection',
     weatherDailyItems: 'collection',

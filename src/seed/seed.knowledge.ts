@@ -23,7 +23,7 @@ const state = parseData({
     links,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateKnowledge: 'single',
     linkCategories: 'collection',
     links: 'collection',

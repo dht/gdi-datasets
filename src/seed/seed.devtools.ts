@@ -23,7 +23,7 @@ const state = parseData({
     stores,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateDevtools: 'single',
     stores: 'collection',
     nodes: 'collection',

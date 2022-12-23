@@ -1,0 +1,48 @@
+export const studioCameras = {
+    c1: {
+        id: 'c1',
+        boardId: 'ville',
+        identifier: 'arc-camera-1',
+        type: 'arc',
+        values: {
+            radius: 25,
+            alpha: 1,
+            beta: 1,
+            target: [0, 0, 0],
+            lowerRadiusLimit: 10,
+            upperRadiusLimit: 30,
+            lowerBetaLimit: 30,
+            upperBetaLimit: 80,
+        },
+    },
+    c2: {
+        id: 'c2',
+        boardId: 'earth',
+        identifier: 'arc-camera-2',
+        type: 'arc',
+        values: {
+            alpha: 0.5,
+            beta: 1,
+            radius: 5,
+            target: [0, 0, 0],
+            lowerRadiusLimit: 5,
+            upperRadiusLimit: 20,
+        },
+    },
+    c3: {
+        id: 'c3',
+        boardId: 'planet',
+        identifier: 'arc-camera-3',
+        type: 'arc',
+        values: {
+            alpha: 0.5,
+            beta: 1,
+            radius: 33,
+            target: [0, 0, 0],
+            lowerRadiusLimit: 10,
+            upperRadiusLimit: 30,
+            lowerBetaLimit: 30,
+            upperBetaLimit: 80,
+        },
+    },
+};

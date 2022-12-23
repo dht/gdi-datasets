@@ -23,7 +23,7 @@ const state = parseData({
     carts,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateCarts: 'single',
     cartJournals: 'collection',
     carts: 'collection',

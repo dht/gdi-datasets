@@ -20,7 +20,7 @@ const state = parseData({
     leads,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateLeads: 'single',
     leads: 'groupedList',
 };

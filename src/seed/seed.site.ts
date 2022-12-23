@@ -43,7 +43,7 @@ const state = parseData({
     widgets,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     meta: 'single',
     palette: 'single',
     datasets: 'single',

@@ -41,7 +41,7 @@ const state = parseData({
     packages,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateMixer: 'single',
     libraryImages: 'collection',
     libraryWidgets: 'collection',

@@ -26,7 +26,7 @@ const state = parseData({
     layouts,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateFactory: 'single',
     layouts: 'groupedList',
     articles: 'collection',

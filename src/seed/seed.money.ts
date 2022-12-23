@@ -23,7 +23,7 @@ const state = parseData({
     moneyLines,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateMoney: 'single',
     moneyLines: 'collection',
     moneyBehaviors: 'collection',

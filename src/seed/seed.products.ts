@@ -21,7 +21,7 @@ const state = parseData({
     products,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateProducts: 'single',
     products: 'collection',
 };

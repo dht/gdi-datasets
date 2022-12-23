@@ -23,7 +23,7 @@ const state = parseData({
     readCategories,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateBiblo: 'single',
     interestingReads: 'collection',
     readCategories: 'collection',

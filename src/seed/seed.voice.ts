@@ -19,7 +19,7 @@ const state = parseData({
     appStateVoice,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateVoice: 'single',
 };
 

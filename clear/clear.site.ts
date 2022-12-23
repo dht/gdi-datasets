@@ -1,6 +1,6 @@
 import { clear } from './_base';
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     meta: 'single',
     palette: 'single',
     fonts: 'single',

@@ -25,7 +25,7 @@ const state = parseData({
     coupons,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateOrders: 'single',
     orderJournals: 'collection',
     orders: 'collection',

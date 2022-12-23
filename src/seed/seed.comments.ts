@@ -23,7 +23,7 @@ const state = parseData({
     pendingComments,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateComments: 'single',
     comments: 'groupedList',
     pendingComments: 'groupedList',

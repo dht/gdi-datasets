@@ -24,7 +24,7 @@ const state = parseData({
     users,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     users: 'collection',
     roles: 'collection',
 };

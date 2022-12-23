@@ -23,7 +23,7 @@ const state = parseData({
     reminders,
 });
 
-const nodeTypes: Record<string, NodeType> = {
+const nodeTypes: Record<string, any> = {
     appStateEvents: 'single',
     events: 'collection',
     reminders: 'collection',
