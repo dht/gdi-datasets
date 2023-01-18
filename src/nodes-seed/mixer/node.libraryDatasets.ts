@@ -371,6 +371,14 @@ export const libraryDatasets: Json = {
             tags: ['Draft'],
             href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-products',
         },
+        '17a': {
+            id: '17a',
+            title: 'Ray of Logic',
+            imageUrl: 'https://static-b9ebe.web.app/app.png',
+            description: 'Analyze videos for logical fallacies',
+            tags: ['Draft'],
+            href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-rayl',
+        },
         '18': {
             id: '18',
             title: 'Sales',
@@ -386,6 +394,14 @@ export const libraryDatasets: Json = {
             description: 'Manage your attention',
             tags: ['Draft'],
             href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-soundboard',
+        },
+        '19a': {
+            id: '19a',
+            title: 'Source',
+            imageUrl: 'https://static-b9ebe.web.app/app.png',
+            description: 'Import data from sources',
+            tags: ['Draft'],
+            href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-source',
         },
         '20': {
             id: '20',

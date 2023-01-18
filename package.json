@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "shared-base": "^0.4.2",
-        "@gdi/types": "^0.4.2",
+        "@gdi/types": "^0.4.6",
         "firebase": "^9.9.2",
         "firestore-local": "^0.0.34",
         "redux-connected": "^0.4.2",
@@ -20,7 +20,7 @@
     "devDependencies": {
         "@faker-js/faker": "^7.5.0",
         "@gdi/store-seeder": "^0.0.46",
-        "@gdi/types": "^0.4.2",
+        "@gdi/types": "^0.4.6",
         "@types/jest": "^28.1.6",
         "@types/node": "^18.8.3",
         "chalk": "^4.1.2",
