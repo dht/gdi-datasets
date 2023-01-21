@@ -307,6 +307,14 @@ export const libraryDatasets: Json = {
             tags: ['Draft'],
             href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-studio',
         },
+        '9a': {
+            id: '9a',
+            title: 'Deals',
+            imageUrl: 'https://static-b9ebe.web.app/app.png',
+            description: 'Track deals',
+            tags: ['Draft'],
+            href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-deals',
+        },
         '10': {
             id: '10',
             title: 'Devtools',
@@ -371,21 +379,13 @@ export const libraryDatasets: Json = {
             tags: ['Draft'],
             href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-products',
         },
-        '17a': {
-            id: '17a',
+        '18': {
+            id: '18',
             title: 'Ray of Logic',
             imageUrl: 'https://static-b9ebe.web.app/app.png',
             description: 'Analyze videos for logical fallacies',
             tags: ['Draft'],
             href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-rayl',
-        },
-        '18': {
-            id: '18',
-            title: 'Sales',
-            imageUrl: 'https://static-b9ebe.web.app/app.png',
-            description: 'Track sales',
-            tags: ['Draft'],
-            href: 'https://github.com/dht/gdi/tree/main/extra/apps/app-sales',
         },
         '19': {
             id: '19',

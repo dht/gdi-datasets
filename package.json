@@ -9,7 +9,7 @@
         "firestore:reset:mixer": "npx ts-node seed/seed.mixer.ts"
     },
     "dependencies": {
-        "shared-base": "^0.4.2",
+        "shared-base": "^0.4.8",
         "@gdi/types": "^0.4.6",
         "firebase": "^9.9.2",
         "firestore-local": "^0.0.34",
